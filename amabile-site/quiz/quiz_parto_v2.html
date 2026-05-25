@@ -1,0 +1,293 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+#qw{font-family:var(--font-sans);max-width:600px;margin:0 auto;padding:12px}
+.screen{display:none}.screen.active{display:block}
+
+/* INTRO */
+.intro-card{background:linear-gradient(145deg,#6B1F4E 0%,#9B2D6F 50%,#C4406A 100%);border-radius:20px;padding:36px 28px;text-align:center;position:relative;overflow:hidden}
+.intro-card::before{content:'';position:absolute;top:-40px;right:-40px;width:180px;height:180px;background:rgba(255,255,255,0.06);border-radius:50%}
+.intro-card::after{content:'';position:absolute;bottom:-60px;left:-30px;width:220px;height:220px;background:rgba(255,255,255,0.04);border-radius:50%}
+.intro-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.15);color:#fff;font-size:12px;padding:5px 14px;border-radius:20px;margin-bottom:20px;backdrop-filter:blur(4px)}
+.intro-h1{color:#fff;font-size:24px;font-weight:500;line-height:1.35;margin-bottom:14px;position:relative}
+.intro-h1 em{color:#FAC775;font-style:normal}
+.intro-p{color:rgba(255,255,255,0.8);font-size:14px;line-height:1.7;margin-bottom:28px;position:relative}
+.intro-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:28px;position:relative}
+.stat-box{background:rgba(255,255,255,0.12);border-radius:12px;padding:12px 8px;text-align:center}
+.stat-num{color:#fff;font-size:18px;font-weight:500;display:block}
+.stat-lbl{color:rgba(255,255,255,0.7);font-size:11px;display:block;margin-top:2px}
+.btn-inicio{background:#fff;color:#7B2D5E;border:none;padding:16px 32px;border-radius:50px;font-size:15px;font-weight:500;cursor:pointer;width:100%;position:relative;transition:transform .15s,box-shadow .15s}
+.btn-inicio:hover{transform:translateY(-1px)}
+.intro-note{color:rgba(255,255,255,0.6);font-size:12px;margin-top:14px;position:relative}
+
+/* QUIZ */
+.prog-wrap{margin-bottom:18px}
+.prog-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.prog-label{font-size:13px;color:var(--color-text-secondary)}
+.prog-pct{font-size:13px;font-weight:500;color:#9B2D6F}
+.prog-track{height:6px;background:var(--color-border-tertiary);border-radius:3px;overflow:hidden}
+.prog-bar{height:100%;background:linear-gradient(90deg,#9B2D6F,#C4406A);border-radius:3px;transition:width .45s cubic-bezier(.4,0,.2,1)}
+
+.q-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:20px;overflow:hidden}
+.q-header{background:linear-gradient(135deg,#6B1F4E,#9B2D6F);padding:22px 24px}
+.q-num{font-size:11px;color:rgba(255,255,255,0.7);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
+.q-text{color:#fff;font-size:16px;font-weight:500;line-height:1.5}
+.q-body{padding:20px}
+.opt{width:100%;background:var(--color-background-secondary);border:1.5px solid var(--color-border-tertiary);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--color-text-primary);cursor:pointer;text-align:left;margin-bottom:10px;transition:all .2s;line-height:1.5;display:flex;align-items:center;gap:12px}
+.opt:last-child{margin-bottom:0}
+.opt-dot{width:20px;height:20px;border-radius:50%;border:1.5px solid var(--color-border-secondary);flex-shrink:0;transition:all .2s;background:var(--color-background-primary)}
+.opt:hover{border-color:#C4406A;background:#FBEAF0}
+.opt:hover .opt-dot{border-color:#C4406A}
+.opt.sel{border-color:#9B2D6F;background:#FBEAF0}
+.opt.sel .opt-dot{background:#9B2D6F;border-color:#9B2D6F}
+
+/* RESULTADO */
+.res-hero{border-radius:20px;padding:28px 24px;text-align:center;margin-bottom:14px}
+.res-hero.low{background:linear-gradient(135deg,#6B1F4E,#9B2D6F)}
+.res-hero.mid{background:linear-gradient(135deg,#7B3A10,#C4406A)}
+.res-hero.high{background:linear-gradient(135deg,#1A5C3A,#2D9E75)}
+.res-badge{display:inline-block;background:rgba(255,255,255,0.2);color:#fff;font-size:11px;padding:4px 12px;border-radius:20px;margin-bottom:14px}
+.res-pct-wrap{width:80px;height:80px;border-radius:50%;background:rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;border:2px solid rgba(255,255,255,0.3)}
+.res-pct{color:#fff;font-size:26px;font-weight:500}
+.res-title{color:#fff;font-size:19px;font-weight:500;line-height:1.4;margin-bottom:8px}
+.res-sub{color:rgba(255,255,255,0.85);font-size:13px;line-height:1.7}
+
+.insights-title{font-size:13px;font-weight:500;color:var(--color-text-secondary);margin-bottom:10px;text-transform:uppercase;letter-spacing:.4px}
+.insight{display:flex;gap:12px;align-items:flex-start;background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:14px;margin-bottom:10px}
+.ins-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:17px}
+.ins-icon.pink{background:#FBEAF0;color:#9B2D6F}
+.ins-icon.amber{background:#FAEEDA;color:#854F0B}
+.ins-icon.green{background:#EAF3DE;color:#3B6D11}
+.ins-txt{font-size:13px;color:var(--color-text-secondary);line-height:1.6}
+.ins-txt strong{color:var(--color-text-primary);font-weight:500}
+
+.video-wrap{background:var(--color-background-secondary);border-radius:16px;overflow:hidden;margin-bottom:14px}
+.video-top{padding:14px 16px 10px;display:flex;align-items:center;gap:8px}
+.video-top-icon{width:30px;height:30px;background:#FBEAF0;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#9B2D6F;font-size:15px}
+.video-top-txt{font-size:13px;font-weight:500;color:var(--color-text-primary)}
+.video-top-sub{font-size:11px;color:var(--color-text-secondary)}
+.video-ratio{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:0 0 16px 16px}
+.video-ratio iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:none}
+
+.offer-card{border-radius:20px;overflow:hidden;margin-bottom:14px;border:2px solid #F4C0D1}
+.offer-top{background:linear-gradient(135deg,#6B1F4E,#9B2D6F);padding:20px 24px;text-align:center}
+.offer-tag{display:inline-block;background:rgba(255,255,255,0.2);color:#fff;font-size:11px;padding:3px 12px;border-radius:20px;margin-bottom:10px}
+.offer-name{color:#fff;font-size:18px;font-weight:500;margin-bottom:4px}
+.offer-desc{color:rgba(255,255,255,0.8);font-size:13px;line-height:1.5}
+.offer-body{background:var(--color-background-primary);padding:20px 24px}
+.offer-items{margin-bottom:16px}
+.offer-item{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--color-text-secondary);padding:6px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.offer-item:last-child{border-bottom:none}
+.offer-item i{color:#9B2D6F;font-size:16px;flex-shrink:0}
+.price-row{text-align:center;margin-bottom:16px}
+.price-de{font-size:13px;color:var(--color-text-secondary);text-decoration:line-through;margin-bottom:2px}
+.price-por{font-size:32px;font-weight:500;color:#6B1F4E;line-height:1}
+.price-por span{font-size:14px;font-weight:400;color:var(--color-text-secondary)}
+.price-note{font-size:12px;color:var(--color-text-secondary);margin-top:4px}
+.btn-cta{display:block;background:linear-gradient(135deg,#9B2D6F,#C4406A);color:#fff;border:none;padding:17px;border-radius:50px;font-size:15px;font-weight:500;cursor:pointer;text-decoration:none;text-align:center;width:100%;margin-bottom:12px;transition:transform .15s}
+.btn-cta:hover{transform:translateY(-1px)}
+.security-row{display:flex;align-items:center;justify-content:center;gap:16px;font-size:12px;color:var(--color-text-secondary)}
+.security-row span{display:flex;align-items:center;gap:4px}
+.guarantee-strip{background:#EAF3DE;border-radius:12px;padding:12px 16px;display:flex;align-items:center;gap:10px;margin-top:12px}
+.guarantee-strip i{color:#3B6D11;font-size:20px;flex-shrink:0}
+.guarantee-strip-txt{font-size:12px;color:#27500A;line-height:1.5}
+</style>
+
+<div id="qw">
+
+<!-- INTRO -->
+<div id="s0" class="screen active">
+  <div class="intro-card">
+    <div class="intro-badge"><i class="ti ti-clipboard-check" style="font-size:13px" aria-hidden="true"></i> Teste gratuito</div>
+    <h1 class="intro-h1">Você está <em>realmente</em> preparada para o seu parto?</h1>
+    <p class="intro-p">Responda 7 perguntas e descubra seu nível de preparo — e o que fazer para chegar ao grande dia com tranquilidade, confiança e sem medo.</p>
+    <div class="intro-stats">
+      <div class="stat-box"><span class="stat-num">7</span><span class="stat-lbl">perguntas</span></div>
+      <div class="stat-box"><span class="stat-num">2 min</span><span class="stat-lbl">duração</span></div>
+      <div class="stat-box"><span class="stat-num">100%</span><span class="stat-lbl">gratuito</span></div>
+    </div>
+    <button class="btn-inicio" onclick="start()"><i class="ti ti-arrow-right" style="font-size:15px;vertical-align:-2px" aria-hidden="true"></i> Começar o teste agora</button>
+    <p class="intro-note">Sem cadastro. Resultado imediato.</p>
+  </div>
+</div>
+
+<!-- QUIZ -->
+<div id="s1" class="screen">
+  <div class="prog-wrap">
+    <div class="prog-top">
+      <span class="prog-label" id="prog-lbl">Pergunta 1 de 7</span>
+      <span class="prog-pct" id="prog-pct">14%</span>
+    </div>
+    <div class="prog-track"><div class="prog-bar" id="prog-bar" style="width:14%"></div></div>
+  </div>
+  <div class="q-card">
+    <div class="q-header">
+      <div class="q-num" id="q-num">Pergunta 1</div>
+      <div class="q-text" id="q-text"></div>
+    </div>
+    <div class="q-body" id="q-opts"></div>
+  </div>
+</div>
+
+<!-- RESULTADO -->
+<div id="s2" class="screen">
+  <div class="res-hero" id="res-hero">
+    <div class="res-badge" id="res-badge">Seu resultado</div>
+    <div class="res-pct-wrap"><div class="res-pct" id="res-pct"></div></div>
+    <div class="res-title" id="res-title"></div>
+    <div class="res-sub" id="res-sub"></div>
+  </div>
+
+  <div style="margin-bottom:14px">
+    <div class="insights-title">O que o teste identificou em você</div>
+    <div id="res-insights"></div>
+  </div>
+
+  <div class="video-wrap">
+    <div class="video-top">
+      <div class="video-top-icon"><i class="ti ti-player-play" aria-hidden="true"></i></div>
+      <div><div class="video-top-txt">Veja o que o curso faz por você</div><div class="video-top-sub">Assista antes de decidir</div></div>
+    </div>
+    <div class="video-ratio">
+      <iframe src="https://www.youtube.com/embed/Wv43sYHFjsc" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="offer-card">
+    <div class="offer-top">
+      <div class="offer-tag">Oferta especial</div>
+      <div class="offer-name">Curso Preparação para o Parto</div>
+      <div class="offer-desc" id="offer-desc"></div>
+    </div>
+    <div class="offer-body">
+      <div class="offer-items">
+        <div class="offer-item"><i class="ti ti-check" aria-hidden="true"></i> Módulos completos sobre trabalho de parto</div>
+        <div class="offer-item"><i class="ti ti-check" aria-hidden="true"></i> Técnicas de respiração e posicionamento</div>
+        <div class="offer-item"><i class="ti ti-check" aria-hidden="true"></i> Como envolver e preparar seu acompanhante</div>
+        <div class="offer-item"><i class="ti ti-check" aria-hidden="true"></i> Seus direitos no parto — o que ninguém te conta</div>
+        <div class="offer-item"><i class="ti ti-check" aria-hidden="true"></i> Preparo emocional para o grande dia</div>
+      </div>
+      <div class="price-row">
+        <div class="price-de">De R$ 197,00</div>
+        <div class="price-por">R$ 97<span>,00 à vista</span></div>
+        <div class="price-note">ou em parcelas no cartão</div>
+      </div>
+      <a class="btn-cta" href="https://pay.cakto.com.br/36cw2yy_874088" target="_blank">Quero chegar ao parto preparada <i class="ti ti-arrow-right" style="font-size:14px;vertical-align:-2px" aria-hidden="true"></i></a>
+      <div class="security-row">
+        <span><i class="ti ti-lock" style="font-size:14px" aria-hidden="true"></i> Pagamento seguro</span>
+        <span><i class="ti ti-credit-card" style="font-size:14px" aria-hidden="true"></i> Cartão ou Pix</span>
+        <span><i class="ti ti-device-mobile" style="font-size:14px" aria-hidden="true"></i> Acesso imediato</span>
+      </div>
+      <div class="guarantee-strip">
+        <i class="ti ti-shield-check" aria-hidden="true"></i>
+        <div class="guarantee-strip-txt"><strong>Garantia incondicional de 14 dias.</strong> Se não gostar por qualquer motivo, devolvemos 100% do seu dinheiro. Risco zero.</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+const Qs=[
+  {t:"Quantas semanas de gestação você está?",os:[{l:"Menos de 20 semanas",p:1},{l:"Entre 20 e 30 semanas",p:2},{l:"Entre 30 e 36 semanas",p:3},{l:"37 semanas ou mais",p:4}]},
+  {t:"Como você se sente quando pensa no dia do parto?",os:[{l:"Muito ansiosa e com bastante medo",p:0},{l:"Nervosa — ainda não sei o que esperar",p:1},{l:"Um pouco insegura, mas tentando me informar",p:2},{l:"Tranquila e confiante",p:3}]},
+  {t:"Você já estudou ou se preparou de alguma forma para o parto?",os:[{l:"Não, ainda não fiz nada",p:0},{l:"Li algumas coisas no Google ou redes sociais",p:1},{l:"Conversei com minha médica e busquei informações",p:2},{l:"Fiz curso, li livros e me preparo ativamente",p:3}]},
+  {t:"Você sabe o que fazer quando as contrações começam?",os:[{l:"Não faço ideia",p:0},{l:"Tenho uma vaga ideia, mas não me sinto segura",p:1},{l:"Sei o básico, mas ainda tenho dúvidas",p:2},{l:"Sei exatamente o que fazer em cada fase",p:3}]},
+  {t:"Como você se sente em relação à dor do parto?",os:[{l:"Aterrorizada — é meu maior medo",p:0},{l:"Muito preocupada, não sei se vou aguentar",p:1},{l:"Preocupada, mas buscando formas de lidar",p:2},{l:"Preparada — conheço técnicas para manejar a dor",p:3}]},
+  {t:"Você já conversou com seu acompanhante sobre o papel dele no parto?",os:[{l:"Não, ele não sabe o que fazer",p:0},{l:"Falamos superficialmente",p:1},{l:"Ele sabe o básico e está disposto a ajudar",p:2},{l:"Sim, ele está preparado e engajado",p:3}]},
+  {t:"Você sabe quais são seus direitos durante o trabalho de parto?",os:[{l:"Não sei nada sobre isso",p:0},{l:"Ouvi falar, mas não conheço bem",p:1},{l:"Conheço alguns direitos básicos",p:2},{l:"Conheço meus direitos e sei como exercê-los",p:3}]}
+];
+
+let cur=0,pts=0;
+
+function start(){
+  cur=0;pts=0;
+  show('s1');renderQ();
+}
+
+function show(id){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+function renderQ(){
+  const q=Qs[cur];
+  const p=Math.round(((cur+1)/Qs.length)*100);
+  document.getElementById('prog-lbl').textContent='Pergunta '+(cur+1)+' de '+Qs.length;
+  document.getElementById('prog-pct').textContent=p+'%';
+  document.getElementById('prog-bar').style.width=p+'%';
+  document.getElementById('q-num').textContent='Pergunta '+(cur+1);
+  document.getElementById('q-text').textContent=q.t;
+  const el=document.getElementById('q-opts');
+  el.innerHTML='';
+  q.os.forEach(o=>{
+    const b=document.createElement('button');
+    b.className='opt';
+    b.innerHTML='<div class="opt-dot"></div>'+o.l;
+    b.onclick=()=>pick(o.p,b);
+    el.appendChild(b);
+  });
+}
+
+function pick(p,btn){
+  document.querySelectorAll('.opt').forEach(b=>b.classList.remove('sel'));
+  btn.classList.add('sel');
+  setTimeout(()=>{
+    pts+=p;cur++;
+    cur<Qs.length?renderQ():result();
+  },320);
+}
+
+function result(){
+  const max=Qs.length*3;
+  const pct=Math.round((pts/max)*100);
+  const hero=document.getElementById('res-hero');
+  let title,sub,desc,insights,cls;
+
+  if(pct<=33){
+    cls='low';
+    title='Você ainda não está preparada para o parto.';
+    sub='Mas não se preocupe — a maioria das mamães começa exatamente assim. O importante é agir agora, antes do grande dia chegar.';
+    desc='Feito para quem está no início: você vai sair do zero e chegar ao parto sabendo exatamente o que fazer em cada contração.';
+    insights=[
+      {ic:'ti-alert-circle',cl:'pink',t:'Nível de preparo baixo',d:'Você ainda tem muitas lacunas que podem te deixar perdida na hora H. Isso tem solução — e o curso foi feito para isso.'},
+      {ic:'ti-heart',cl:'pink',t:'O medo é normal, mas tem cura',d:'O medo some quando você entende o que seu corpo está fazendo. Conhecimento transforma ansiedade em confiança.'},
+      {ic:'ti-clock',cl:'amber',t:'Comece agora',d:'Quanto antes você se preparar, mais tranquila e segura você vai se sentir ao longo da gestação.'}
+    ];
+  } else if(pct<=66){
+    cls='mid';
+    title='Você está no caminho certo, mas ainda faltam peças.';
+    sub='Você já deu alguns passos, mas ainda há lacunas que podem te deixar insegura na hora H. Vale preencher esses pontos antes do parto.';
+    desc='O curso vai preencher exatamente as lacunas que o teste identificou — e te dar a confiança que ainda está faltando.';
+    insights=[
+      {ic:'ti-chart-bar',cl:'pink',t:'Preparo intermediário',d:'Você já tem alguma base, mas existem áreas importantes que ainda precisam de atenção antes do grande dia.'},
+      {ic:'ti-bulb',cl:'amber',t:'Técnicas práticas fazem diferença',d:'Saber o que fazer nas contrações e como manejar a dor transforma completamente a experiência do parto.'},
+      {ic:'ti-users',cl:'pink',t:'Prepare seu acompanhante também',d:'Um acompanhante bem preparado pode ser a diferença entre um parto tranquilo e um parto caótico.'}
+    ];
+  } else {
+    cls='high';
+    title='Você está bem preparada — parabéns!';
+    sub='Você já fez muito. Mas o detalhe que separa um bom parto de um parto incrível está nas técnicas avançadas e no preparo emocional profundo.';
+    desc='Para quem já tem base como você, o curso oferece técnicas avançadas de respiração, posicionamento e preparo emocional que elevam ainda mais sua experiência.';
+    insights=[
+      {ic:'ti-star',cl:'green',t:'Nível de preparo alto',d:'Parabéns! Você está acima da média — isso já faz diferença real na qualidade do seu parto.'},
+      {ic:'ti-award',cl:'green',t:'Mães preparadas têm partos melhores',d:'Menos intervenções desnecessárias, mais controle e mais satisfação com a experiência. Você está no caminho certo.'},
+      {ic:'ti-arrow-up',cl:'amber',t:'Ainda dá para ir mais longe',d:'Técnicas específicas de respiração e posicionamento podem elevar ainda mais a sua experiência — e o curso traz isso em detalhes.'}
+    ];
+  }
+
+  hero.className='res-hero '+cls;
+  document.getElementById('res-pct').textContent=pct+'%';
+  document.getElementById('res-title').textContent=title;
+  document.getElementById('res-sub').textContent=sub;
+  document.getElementById('offer-desc').textContent=desc;
+
+  const el=document.getElementById('res-insights');
+  el.innerHTML='';
+  insights.forEach(i=>{
+    el.innerHTML+=`<div class="insight"><div class="ins-icon ${i.cl}"><i class="ti ${i.ic}" aria-hidden="true"></i></div><div class="ins-txt"><strong>${i.t}.</strong> ${i.d}</div></div>`;
+  });
+
+  show('s2');
+}
+</script>
