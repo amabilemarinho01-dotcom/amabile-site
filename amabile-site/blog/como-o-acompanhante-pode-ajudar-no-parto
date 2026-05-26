@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Como o acompanhante pode ajudar no parto? Guia prático</title>
+  <meta name="description" content="Veja como o acompanhante pode ajudar no parto com atitudes práticas, apoio emocional, presença acolhedora e suporte durante as contrações." />
+  <link rel="canonical" href="https://amabilemarinho.com.br/blog/como-o-acompanhante-pode-ajudar-no-parto/" />
+
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Como o acompanhante pode ajudar no parto? Guia prático" />
+  <meta property="og:description" content="Atitudes simples do acompanhante podem transformar a experiência da gestante no parto. Veja como ajudar de verdade." />
+  <meta property="og:url" content="https://amabilemarinho.com.br/blog/como-o-acompanhante-pode-ajudar-no-parto/" />
+  <meta property="og:site_name" content="Amábile Marinho" />
+  <meta property="og:image" content="https://amabilemarinho.com.br/assets/Untitled_design__1_-removebg-preview.png" />
+
+  <link rel="icon" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/favicon.svg">
+
+  <meta name="google-adsense-account" content="ca-pub-9085628749129517" />
+
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WZLSB55C');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"Como o acompanhante pode ajudar no parto?",
+    "description":"Veja atitudes práticas que fazem diferença na experiência da gestante durante o parto.",
+    "author":{"@type":"Person","name":"Amábile Marinho"},
+    "publisher":{"@type":"Organization","name":"Amábile Marinho"},
+    "mainEntityOfPage":"https://amabilemarinho.com.br/blog/como-o-acompanhante-pode-ajudar-no-parto/",
+    "image":"https://amabilemarinho.com.br/assets/Untitled_design__1_-removebg-preview.png",
+    "inLanguage":"pt-BR"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"O acompanhante pode ficar durante todo o parto?","acceptedAnswer":{"@type":"Answer","text":"Em muitos locais, a gestante tem direito a um acompanhante durante o trabalho de parto, parto e pós-parto imediato, mas é importante confirmar as regras da maternidade."}},
+      {"@type":"Question","name":"O que o acompanhante deve fazer durante as contrações?","acceptedAnswer":{"@type":"Answer","text":"O acompanhante pode ajudar com respiração, massagens, apoio físico, palavras de incentivo, hidratação e presença calma."}},
+      {"@type":"Question","name":"O acompanhante precisa fazer curso de preparação?","acceptedAnswer":{"@type":"Answer","text":"Não é obrigatório, mas a preparação ajuda muito. Um acompanhante informado tende a oferecer apoio mais seguro, calmo e eficiente."}},
+      {"@type":"Question","name":"O acompanhante pode ajudar nas decisões do parto?","acceptedAnswer":{"@type":"Answer","text":"Sim, desde que respeite os desejos da gestante. Ele pode ajudar a lembrar preferências, fazer perguntas e apoiar a comunicação com a equipe."}},
+      {"@type":"Question","name":"Quem deve ser o acompanhante no parto?","acceptedAnswer":{"@type":"Answer","text":"O ideal é escolher alguém que transmita segurança, respeite a gestante, mantenha a calma e esteja disposto a oferecer apoio real durante o processo."}}
+    ]
+  }
+  </script>
+
+  <style>
+    :root{--bg:#fff7f7;--surface:#fff;--surface-soft:#fdeaf1;--text:#3b1831;--muted:#5f6f83;--brand:#a01363;--brand-dark:#6f0f4f;--brand-soft:#f7cfe1;--line:#ead6df;--shadow:0 18px 50px rgba(111,15,79,.10);--radius:22px;--max:1120px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:linear-gradient(180deg,#fff7f7 0%,#fff 42%,#fff7f7 100%);line-height:1.72}
+    img{max-width:100%;display:block}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--max);margin:0 auto;padding:0 22px}
+    .skip{position:absolute;left:-999px;top:auto}
+    .skip:focus{left:16px;top:16px;background:#fff;padding:10px 14px;border-radius:10px;z-index:9999}
+    header.site-header{position:sticky;top:0;z-index:10;background:rgba(255,247,247,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(234,214,223,.8)}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{font-weight:850;letter-spacing:-.03em;font-size:1.15rem;color:var(--brand-dark)}
+    .menu{display:flex;align-items:center;gap:18px;font-size:.95rem}
+    .menu a{color:var(--muted)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:999px;border:1px solid transparent;background:var(--brand);color:#fff!important;font-weight:800;line-height:1.1;box-shadow:0 10px 24px rgba(160,19,99,.18)}
+    .btn:hover{text-decoration:none;background:var(--brand-dark)}
+    .btn.secondary{background:#fff;color:var(--brand)!important;border-color:var(--line);box-shadow:none}
+    .hero{padding:58px 0 28px}
+    .breadcrumb{font-size:.9rem;color:var(--muted);margin-bottom:18px}
+    .article-kicker{display:inline-flex;background:var(--surface-soft);color:var(--brand);padding:7px 12px;border-radius:999px;font-weight:850;font-size:.82rem;margin-bottom:18px}
+    h1,h2,h3{line-height:1.16;letter-spacing:-.035em;margin:0 0 18px}
+    h1{font-size:clamp(2.15rem,5vw,4.2rem);max-width:900px;color:var(--brand-dark)}
+    .lead{font-size:clamp(1.12rem,2vw,1.35rem);color:var(--muted);max-width:820px;margin:0 0 28px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 0}
+    .content-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:36px;align-items:start;padding:26px 0 70px}
+    article{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,44px)}
+    article h2{font-size:clamp(1.65rem,3vw,2.25rem);margin-top:44px;color:var(--brand-dark)}
+    article h3{font-size:1.25rem;margin-top:28px;color:var(--brand-dark)}
+    article p{margin:0 0 18px;color:#46333f}
+    article ul{padding-left:22px;margin:0 0 22px;color:#46333f}
+    article li{margin:8px 0}
+    .notice{background:#fff7fb;border:1px solid var(--line);border-radius:18px;padding:18px 20px;color:var(--muted);margin:28px 0}
+    .toc{background:#fff7fb;border:1px solid var(--line);border-radius:18px;padding:20px;margin:28px 0}
+    .toc strong{display:block;margin-bottom:10px;color:var(--brand-dark)}
+    .toc a{display:block;padding:5px 0;color:var(--muted)}
+    .cta-box{background:linear-gradient(135deg,#fdeaf1,#fff);border:1px solid var(--brand-soft);border-radius:22px;padding:24px;margin:34px 0;box-shadow:0 12px 30px rgba(160,19,99,.10)}
+    .cta-box .label{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:900;margin-bottom:8px}
+    .course-card{display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:center}
+    .course-card img{filter:drop-shadow(0 18px 28px rgba(59,24,49,.15))}
+    .ad-placeholder{border:1px dashed #d6adbf;border-radius:18px;background:#fff7fb;color:var(--muted);padding:22px;text-align:center;font-size:.92rem;margin:34px 0}
+    .faq details{border-bottom:1px solid var(--line);padding:18px 0}
+    .faq summary{cursor:pointer;font-weight:850;color:var(--brand-dark)}
+    .faq p{margin-top:10px;color:var(--muted)}
+    aside{position:sticky;top:96px}
+    .sidebar-card{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:22px;margin-bottom:18px}
+    .sidebar-card h3{font-size:1.15rem;margin-bottom:10px;color:var(--brand-dark)}
+    .sidebar-card p{color:var(--muted);margin:0 0 16px;font-size:.96rem}
+    .related-card{border:1px solid var(--line);border-radius:22px;padding:22px;background:#fff;margin:14px 0}
+    .related-card .tag{display:inline-flex;background:var(--surface-soft);color:var(--brand);padding:6px 10px;border-radius:999px;font-size:.78rem;font-weight:800}
+    footer{border-top:1px solid var(--line);background:#fff7f7;padding:34px 0;color:var(--muted)}
+    .footer-grid{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    .footer-links{display:flex;gap:14px;flex-wrap:wrap}
+    @media (max-width:900px){.menu{display:none}.content-layout{grid-template-columns:1fr}.hero{padding-top:38px}aside{position:static}.sidebar-card.ad{display:none}.course-card{grid-template-columns:1fr}.course-card img{max-width:260px;margin:auto}}
+  </style>
+</head>
+
+<body>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZLSB55C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="https://amabilemarinho.com.br">Amábile Marinho</a>
+
+<nav class="menu" aria-label="Menu principal">
+<a href="https://amabilemarinho.com.br/quiz/">Quiz</a>
+<a href="https://amabilemarinho.com.br/parto-sem-medo">Curso</a>
+<a href="https://www.instagram.com/amabilemarinho/" target="_blank" rel="noopener">Instagram</a>
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a>
+</nav>
+</div>
+</header>
+
+<main>
+
+<section class="hero">
+<div class="container">
+
+<div class="breadcrumb">
+<a href="https://amabilemarinho.com.br">Início</a> /
+<a href="https://amabilemarinho.com.br/blog/">Blog</a> /
+Acompanhante
+</div>
+
+<span class="article-kicker">Acompanhante</span>
+
+<h1>Como o acompanhante pode ajudar no parto?</h1>
+
+<p class="lead">
+Veja atitudes práticas que fazem diferença na experiência da gestante durante o trabalho de parto, nascimento e pós-parto imediato.
+</p>
+
+<div class="hero-actions">
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a>
+<a class="btn secondary" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o curso</a>
+</div>
+
+</div>
+</section>
+
+<div class="container content-layout">
+
+<article id="conteudo">
+
+<div class="notice">
+<strong>Aviso importante:</strong>
+este conteúdo é informativo e não substitui orientação médica, diagnóstico profissional ou acompanhamento da equipe de saúde durante a gestação, parto ou pós-parto.
+</div>
+
+<p>
+O acompanhante pode fazer uma diferença enorme na experiência da gestante durante o parto.
+</p>
+
+<p>
+Mais do que apenas estar presente, o acompanhante pode oferecer segurança, apoio emocional, conforto físico e ajudar a gestante a se sentir respeitada em um momento tão intenso.
+</p>
+
+<p>
+Quando essa pessoa entende seu papel e se prepara com antecedência, ela deixa de ser apenas observadora e passa a ser uma presença ativa, calma e acolhedora.
+</p>
+
+<div class="cta-box">
+<div class="label">Comece por aqui</div>
+
+<h2>Quer se preparar melhor para o parto?</h2>
+
+<p>
+Faça o quiz gratuito da Amábile Marinho e entenda como está sua preparação emocional e prática para viver esse momento com mais segurança.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a>
+</div>
+
+<nav class="toc" aria-label="Índice do artigo">
+<strong>Neste artigo você verá:</strong>
+
+<a href="#papel">Qual é o papel do acompanhante no parto?</a>
+<a href="#antes">Como o acompanhante pode ajudar antes do parto</a>
+<a href="#contracoes">Como ajudar durante as contrações</a>
+<a href="#emocional">Apoio emocional: o que dizer e o que evitar</a>
+<a href="#equipe">Como ajudar na comunicação com a equipe</a>
+<a href="#pos-parto">Como apoiar no pós-parto imediato</a>
+<a href="#faq">Perguntas frequentes</a>
+</nav>
+
+<div class="ad-placeholder">
+Espaço para AdSense — sugestão: anúncio display responsivo após a introdução.
+</div>
+
+<h2 id="papel">Qual é o papel do acompanhante no parto?</h2>
+
+<p>
+O papel do acompanhante é oferecer presença, proteção emocional, apoio prático e segurança para a gestante.
+</p>
+
+<p>
+Ele não precisa saber tudo, nem tentar controlar o parto. O mais importante é estar atento, calmo e disponível para ajudar a mulher de acordo com as necessidades dela.
+</p>
+
+<h3>Presença calma vale muito</h3>
+
+<p>
+Durante o trabalho de parto, a gestante pode ficar mais sensível, concentrada e vulnerável. Uma presença tranquila pode ajudar o corpo e a mente a relaxarem.
+</p>
+
+<p>
+Às vezes, segurar a mão, lembrar de respirar ou apenas ficar em silêncio ao lado já faz muita diferença.
+</p>
+
+<h2 id="antes">Como o acompanhante pode ajudar antes do parto</h2>
+
+<p>
+O apoio do acompanhante começa antes do nascimento. A preparação durante a gestação ajuda a reduzir inseguranças e fortalece a parceria entre o casal ou entre a gestante e a pessoa escolhida.
+</p>
+
+<ul>
+<li>Participar das consultas, quando possível</li>
+<li>Conhecer o plano de parto</li>
+<li>Entender os sinais do trabalho de parto</li>
+<li>Ajudar a organizar a mala da maternidade</li>
+<li>Conversar sobre medos e expectativas</li>
+<li>Estudar técnicas de apoio e alívio da dor</li>
+</ul>
+
+<h3>O acompanhante precisa conhecer as preferências da gestante</h3>
+
+<p>
+É importante que o acompanhante saiba o que a gestante deseja, o que ela teme, quais escolhas são importantes e como ela gostaria de ser apoiada.
+</p>
+
+<p>
+Essa conversa antes do parto evita confusão e ajuda o acompanhante a agir com mais segurança no momento certo.
+</p>
+
+<div class="ad-placeholder">
+Espaço para AdSense — sugestão: anúncio display responsivo após a preparação do acompanhante.
+</div>
+
+<h2 id="contracoes">Como ajudar durante as contrações</h2>
+
+<p>
+Durante as contrações, o acompanhante pode oferecer apoio físico e emocional de forma simples e muito eficiente.
+</p>
+
+<h3>Ajude na respiração</h3>
+
+<p>
+O acompanhante pode respirar junto com a gestante, lembrando-a de soltar o ar devagar e evitar prender a respiração.
+</p>
+
+<ul>
+<li>Fale com voz calma</li>
+<li>Respire junto, sem pressionar</li>
+<li>Evite frases que aumentem a tensão</li>
+<li>Lembre a gestante de relaxar ombros e mandíbula</li>
+</ul>
+
+<h3>Ofereça apoio físico</h3>
+
+<p>
+Pequenas atitudes podem trazer muito conforto durante o trabalho de parto.
+</p>
+
+<ul>
+<li>Fazer massagem na lombar</li>
+<li>Ajudar nas mudanças de posição</li>
+<li>Oferecer água, se permitido</li>
+<li>Apoiar a gestante durante caminhadas</li>
+<li>Ajudar no uso da bola de pilates</li>
+<li>Aplicar compressas, se orientado pela equipe</li>
+</ul>
+
+<div class="cta-box">
+<div class="label">Descubra seu momento</div>
+
+<h2>Faça o quiz gratuito da Amábile Marinho</h2>
+
+<p>
+Entenda como está sua preparação para o parto e descubra quais pontos podem trazer mais confiança para você e seu acompanhante.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a>
+</div>
+
+<h2 id="emocional">Apoio emocional: o que dizer e o que evitar</h2>
+
+<p>
+As palavras do acompanhante podem acalmar ou aumentar a ansiedade. Por isso, o tom de voz e a postura importam muito.
+</p>
+
+<h3>Frases que podem ajudar</h3>
+
+<ul>
+<li>“Você está indo muito bem.”</li>
+<li>“Estou aqui com você.”</li>
+<li>“Vamos respirar juntas.”</li>
+<li>“Uma contração de cada vez.”</li>
+<li>“Você está segura.”</li>
+</ul>
+
+<h3>Frases que é melhor evitar</h3>
+
+<ul>
+<li>“Calma”, dito de forma impaciente</li>
+<li>“Não precisa chorar”</li>
+<li>“Está demorando demais”</li>
+<li>“Você não vai aguentar”</li>
+<li>Comparações com outros partos</li>
+</ul>
+
+<p>
+O acompanhante não precisa encontrar frases perfeitas. Ele precisa transmitir presença, respeito e confiança.
+</p>
+
+<h2 id="equipe">Como ajudar na comunicação com a equipe</h2>
+
+<p>
+Durante o parto, a gestante pode estar muito concentrada nas contrações. O acompanhante pode ajudar a lembrar preferências, fazer perguntas e apoiar a comunicação com a equipe.
+</p>
+
+<ul>
+<li>Levar o plano de parto</li>
+<li>Perguntar o motivo de procedimentos, quando necessário</li>
+<li>Ajudar a gestante a entender as orientações</li>
+<li>Garantir que ela seja ouvida com respeito</li>
+<li>Evitar confrontos e manter diálogo calmo</li>
+</ul>
+
+<h3>O acompanhante deve respeitar a voz da gestante</h3>
+
+<p>
+A função do acompanhante não é decidir pela mulher, mas apoiar suas escolhas e ajudá-la a se comunicar quando precisar.
+</p>
+
+<p>
+O protagonismo continua sendo da gestante.
+</p>
+
+<div class="ad-placeholder">
+Espaço para AdSense — sugestão: anúncio display responsivo antes da seção de pós-parto.
+</div>
+
+<h2 id="pos-parto">Como apoiar no pós-parto imediato</h2>
+
+<p>
+Depois do nascimento, a gestante pode estar emocionada, cansada e vivendo muitas sensações ao mesmo tempo.
+</p>
+
+<p>
+O acompanhante pode ajudar oferecendo presença, proteção emocional e suporte prático.
+</p>
+
+<ul>
+<li>Ajudar com os primeiros contatos com o bebê</li>
+<li>Organizar itens da mala</li>
+<li>Acompanhar orientações da equipe</li>
+<li>Controlar visitas e excesso de estímulos</li>
+<li>Oferecer água e conforto</li>
+<li>Reforçar palavras de acolhimento</li>
+</ul>
+
+<h3>O apoio continua depois do nascimento</h3>
+
+<p>
+O parto não termina no nascimento. O pós-parto imediato também exige cuidado, presença e acolhimento.
+</p>
+
+<p>
+Um acompanhante preparado entende que a gestante precisa ser cuidada enquanto começa a cuidar do bebê.
+</p>
+
+<h2>O acompanhante também precisa se preparar emocionalmente</h2>
+
+<p>
+Ver alguém que ama em trabalho de parto pode ser intenso. Por isso, o acompanhante também precisa buscar informação, entender o processo e aprender como agir sem entrar em pânico.
+</p>
+
+<p>
+Quanto mais preparado ele estiver, mais segurança conseguirá transmitir.
+</p>
+
+<div class="cta-box course-card">
+
+<img
+src="/assets/Untitled_design__1_-removebg-preview.png"
+alt="Curso Preparação para o Parto da Amábile Marinho"
+loading="lazy"
+/>
+
+<div>
+<div class="label">Próximo passo</div>
+
+<h2>Conheça o curso Parto Sem Medo</h2>
+
+<p>
+Um preparo acolhedor para ajudar gestante e acompanhante a entenderem o parto, reduzirem medos e viverem esse momento com mais segurança.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o curso</a>
+</div>
+
+</div>
+
+<div class="ad-placeholder">
+Espaço para AdSense — sugestão: anúncio display responsivo antes do FAQ.
+</div>
+
+<h2 id="faq">Perguntas frequentes sobre acompanhante no parto</h2>
+
+<div class="faq">
+
+<details>
+<summary>O acompanhante pode ficar durante todo o parto?</summary>
+<p>
+Em muitos locais, a gestante tem direito a um acompanhante durante o trabalho de parto, parto e pós-parto imediato, mas é importante confirmar as regras da maternidade.
+</p>
+</details>
+
+<details>
+<summary>O que o acompanhante deve fazer durante as contrações?</summary>
+<p>
+Ele pode ajudar com respiração, massagens, apoio físico, palavras de incentivo, hidratação e presença calma.
+</p>
+</details>
+
+<details>
+<summary>O acompanhante precisa fazer curso de preparação?</summary>
+<p>
+Não é obrigatório, mas a preparação ajuda muito. Um acompanhante informado tende a oferecer apoio mais seguro, calmo e eficiente.
+</p>
+</details>
+
+<details>
+<summary>O acompanhante pode ajudar nas decisões do parto?</summary>
+<p>
+Sim, desde que respeite os desejos da gestante. Ele pode ajudar a lembrar preferências, fazer perguntas e apoiar a comunicação com a equipe.
+</p>
+</details>
+
+<details>
+<summary>Quem deve ser o acompanhante no parto?</summary>
+<p>
+O ideal é escolher alguém que transmita segurança, respeite a gestante, mantenha a calma e esteja disposto a oferecer apoio real durante o processo.
+</p>
+</details>
+
+</div>
+
+<div class="cta-box">
+
+<div class="label">Prepare-se com mais tranquilidade</div>
+
+<h2>O parto pode ser vivido com mais apoio, segurança e acolhimento</h2>
+
+<p>
+Quando o acompanhante entende seu papel, a gestante se sente mais segura, amparada e confiante para atravessar cada fase do parto.
+</p>
+
+<p>
+Conheça o curso Preparação para o Parto da Amábile Marinho e prepare-se para esse momento com informação, acolhimento e consciência.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">
+Acessar o Curso Parto Sem Medo
+</a>
+
+<a class="btn secondary" href="https://amabilemarinho.com.br/quiz/">
+Fazer quiz gratuito
+</a>
+
+</div>
+
+</article>
+
+<aside aria-label="Conteúdo complementar">
+
+<div class="sidebar-card">
+<h3>Faça o quiz gratuito</h3>
+
+<p>
+Descubra como está sua preparação emocional para o parto.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Começar agora</a>
+</div>
+
+<div class="sidebar-card">
+
+<img
+src="/assets/Untitled_design__1_-removebg-preview.png"
+alt="Curso Preparação para o Parto da Amábile Marinho"
+loading="lazy"
+/>
+
+<h3>Preparação para o Parto</h3>
+
+<p>
+Um caminho acolhedor para chegar ao parto com mais segurança, consciência e tranquilidade.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o curso</a>
+
+</div>
+
+<div class="sidebar-card ad">
+<h3>Publicidade</h3>
+
+<div class="ad-placeholder">
+Espaço para AdSense lateral.
+</div>
+</div>
+
+<div class="related-card">
+<span class="tag">Acompanhante</span>
+
+<h3>Como fazer um plano de parto?</h3>
+
+<p>
+Conteúdo relacionado ideal para fortalecer SEO interno futuramente.
+</p>
+</div>
+
+</aside>
+
+</div>
+
+</main>
+
+<footer>
+
+<div class="container footer-grid">
+
+<div>
+© Amábile Marinho — Conteúdo informativo para gestantes.
+</div>
+
+<div class="footer-links">
+
+<a href="https://amabilemarinho.com.br/quiz/">Quiz</a>
+<a href="https://amabilemarinho.com.br/parto-sem-medo">Curso</a>
+<a href="https://www.instagram.com/amabilemarinho/" target="_blank" rel="noopener">Instagram</a>
+
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
