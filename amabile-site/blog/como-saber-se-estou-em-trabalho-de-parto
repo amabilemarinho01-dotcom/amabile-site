@@ -476,11 +476,9 @@ footer {
   <main>
    <section class="hero">
     <div class="container">
-     <div class="breadcrumb">
-      <a href="https://amabilemarinho.com.br">
-       In&iacute;cio
-      </a>
-      <a href="https://amabilemarinho.com.br/blog/">Blog</a>
+    <div class="breadcrumb">
+      <a href="https://amabilemarinho.com.br">Início</a> /
+      <a href="https://amabilemarinho.com.br/blog/">Blog</a> /
      </div>
      <span class="article-kicker">
       Trabalho de parto
