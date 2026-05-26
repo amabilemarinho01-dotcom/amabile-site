@@ -1,53 +1,830 @@
 <!doctype html>
 <html lang="pt-BR">
-<head>
-  <link rel="icon" href="/assets/favicon.svg">
-<link rel="apple-touch-icon" href="/assets/favicon.svg">
-  <meta charset="utf-8" />
-<link rel="apple-touch-icon" href="assets/favicon.svg">
-  <title>Como Saber se Estou em Trabalho de Parto? Entenda os Sinais Reais</title>
-  <meta name="description" content="Saiba identificar os sinais reais do trabalho de parto, entenda as contrações e descubra quando procurar atendimento com mais segurança e tranquilidade." />
-  <link rel="canonical" href="https://amabilemarinho.com.br/blog/como-saber-se-estou-em-trabalho-de-parto/" />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="Como Saber se Estou em Trabalho de Parto? Entenda os Sinais Reais" />
-  <meta property="og:description" content="Saiba identificar os sinais reais do trabalho de parto, entenda as contrações e descubra quando procurar atendimento com mais segurança e tranquilidade." />
-  <meta property="og:url" content="https://amabilemarinho.com.br/blog/como-saber-se-estou-em-trabalho-de-parto/" />
-  <meta property="og:site_name" content="Amábile Marinho" />
-  <meta property="og:image" content="https://amabilemarinho.com.br/assets/img/curso_parto_sem_medo.png" />
-  <meta name="google-adsense-account" content="ca-pub-9085628749129517" />
-  <script>
+ <head>
+  <link href="/assets/favicon.svg" rel="icon"/>
+  <link href="/assets/favicon.svg" rel="apple-touch-icon"/>
+  <meta charset="utf-8"/>
+  <link href="assets/favicon.svg" rel="apple-touch-icon"/>
+  <title>
+   Como Saber se Estou em Trabalho de Parto? Entenda os Sinais Reais
+  </title>
+  <meta content="Saiba identificar os sinais reais do trabalho de parto, entenda as contra&ccedil;&otilde;es e descubra quando procurar atendimento com mais seguran&ccedil;a e tranquilidade." name="description"/>
+  <link href="https://amabilemarinho.com.br/blog/como-saber-se-estou-em-trabalho-de-parto/" rel="canonical">
+   <meta content="index, follow, max-image-preview:large" name="robots"/>
+   <meta content="article" property="og:type"/>
+   <meta content="Como Saber se Estou em Trabalho de Parto? Entenda os Sinais Reais" property="og:title"/>
+   <meta content="Saiba identificar os sinais reais do trabalho de parto, entenda as contra&ccedil;&otilde;es e descubra quando procurar atendimento com mais seguran&ccedil;a e tranquilidade." property="og:description"/>
+   <meta content="https://amabilemarinho.com.br/blog/como-saber-se-estou-em-trabalho-de-parto/" property="og:url"/>
+   <meta content="Am&aacute;bile Marinho" property="og:site_name"/>
+   <meta content="https://amabilemarinho.com.br/assets/img/curso_parto_sem_medo.png" property="og:image"/>
+   <meta content="ca-pub-9085628749129517" name="google-adsense-account"/>
+   <script>
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WZLSB55C');
-  </script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Como Saber se Estou em Trabalho de Parto?","description":"Saiba identificar os sinais reais do trabalho de parto, entenda as contrações e descubra quando procurar atendimento com mais segurança e tranquilidade.","author":{"@type":"Person","name":"Amábile Marinho"},"publisher":{"@type":"Organization","name":"Amábile Marinho"},"mainEntityOfPage":"https://amabilemarinho.com.br/blog/como-saber-se-estou-em-trabalho-de-parto/","image":"https://amabilemarinho.com.br/assets/img/curso_parto_sem_medo.png","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Como saber se a contração é real?","acceptedAnswer":{"@type":"Answer","text":"As contrações reais costumam ficar mais frequentes, intensas e ritmadas ao longo do tempo. Elas geralmente não melhoram com repouso ou mudança de posição."}},{"@type":"Question","name":"Posso perder o tampão e ainda demorar para entrar em trabalho de parto?","acceptedAnswer":{"@type":"Answer","text":"Sim. A perda do tampão mucoso pode acontecer horas, dias ou até semanas antes do parto. Isoladamente, não significa que o bebê nascerá imediatamente."}},{"@type":"Question","name":"Toda bolsa rompe antes do parto?","acceptedAnswer":{"@type":"Answer","text":"Não. Algumas mulheres entram em trabalho de parto antes do rompimento da bolsa. Em outros casos, a bolsa pode romper antes das contrações regulares."}},{"@type":"Question","name":"Dor lombar pode ser sinal de parto?","acceptedAnswer":{"@type":"Answer","text":"Sim. Em muitas gestantes, a dor lombar pode aparecer junto com contrações, pressão na pelve e outros sinais de evolução do trabalho de parto."}},{"@type":"Question","name":"Quando devo procurar ajuda médica?","acceptedAnswer":{"@type":"Answer","text":"Procure atendimento se houver contrações regulares e intensas, rompimento da bolsa, sangramento importante, diminuição dos movimentos do bebê, dor intensa ou qualquer sintoma que gere preocupação."}}]}</script>
-  <style>
-    :root{--bg:#fff7f7;--surface:#fff;--surface-soft:#fdeaf1;--text:#3b1831;--muted:#5f6f83;--brand:#a01363;--brand-dark:#6f0f4f;--brand-soft:#f7cfe1;--line:#ead6df;--shadow:0 18px 50px rgba(111,15,79,.10);--radius:22px;--max:1120px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:linear-gradient(180deg,#fff7f7 0%,#fff 42%,#fff7f7 100%);line-height:1.72}img{max-width:100%;display:block}a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}.container{max-width:var(--max);margin:0 auto;padding:0 22px}.skip{position:absolute;left:-999px;top:auto}.skip:focus{left:16px;top:16px;background:#fff;padding:10px 14px;border-radius:10px;z-index:9999}header.site-header{position:sticky;top:0;z-index:10;background:rgba(255,247,247,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(234,214,223,.8)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:850;letter-spacing:-.03em;font-size:1.15rem;color:var(--brand-dark)}.menu{display:flex;align-items:center;gap:18px;font-size:.95rem}.menu a{color:var(--muted)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:999px;border:1px solid transparent;background:var(--brand);color:#fff!important;font-weight:800;line-height:1.1;box-shadow:0 10px 24px rgba(160,19,99,.18)}.btn:hover{text-decoration:none;background:var(--brand-dark)}.btn.secondary{background:#fff;color:var(--brand)!important;border-color:var(--line);box-shadow:none}.hero{padding:58px 0 28px}.breadcrumb{font-size:.9rem;color:var(--muted);margin-bottom:18px}.article-kicker{display:inline-flex;background:var(--surface-soft);color:var(--brand);padding:7px 12px;border-radius:999px;font-weight:850;font-size:.82rem;margin-bottom:18px}h1,h2,h3{line-height:1.16;letter-spacing:-.035em;margin:0 0 18px}h1{font-size:clamp(2.15rem,5vw,4.2rem);max-width:900px;color:var(--brand-dark)}.lead{font-size:clamp(1.12rem,2vw,1.35rem);color:var(--muted);max-width:820px;margin:0 0 28px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 0}.content-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:36px;align-items:start;padding:26px 0 70px}article{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,44px)}article h2{font-size:clamp(1.65rem,3vw,2.25rem);margin-top:44px;color:var(--brand-dark)}article h3{font-size:1.25rem;margin-top:28px;color:var(--brand-dark)}article p{margin:0 0 18px;color:#46333f}article ul,article ol{padding-left:22px;margin:0 0 22px;color:#46333f}article li{margin:8px 0}.notice{background:#fff7fb;border:1px solid var(--line);border-radius:18px;padding:18px 20px;color:var(--muted);margin:28px 0}.toc{background:#fff7fb;border:1px solid var(--line);border-radius:18px;padding:20px;margin:28px 0}.toc strong{display:block;margin-bottom:10px;color:var(--brand-dark)}.toc a{display:block;padding:5px 0;color:var(--muted)}.cta-box{background:linear-gradient(135deg,#fdeaf1,#fff);border:1px solid var(--brand-soft);border-radius:22px;padding:24px;margin:34px 0;box-shadow:0 12px 30px rgba(160,19,99,.10)}.cta-box .label{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:900;margin-bottom:8px}.cta-box h2,.cta-box h3{margin-top:0}.course-card{display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:center}.course-card img{filter:drop-shadow(0 18px 28px rgba(59,24,49,.15))}.ad-placeholder{border:1px dashed #d6adbf;border-radius:18px;background:#fff7fb;color:var(--muted);padding:22px;text-align:center;font-size:.92rem;margin:34px 0}.faq details{border-bottom:1px solid var(--line);padding:18px 0}.faq summary{cursor:pointer;font-weight:850;color:var(--brand-dark)}.faq p{margin-top:10px;color:var(--muted)}aside{position:sticky;top:96px}.sidebar-card{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:22px;margin-bottom:18px}.sidebar-card h3{font-size:1.15rem;margin-bottom:10px;color:var(--brand-dark)}.sidebar-card p{color:var(--muted);margin:0 0 16px;font-size:.96rem}.related-card{border:1px solid var(--line);border-radius:22px;padding:22px;background:#fff;margin:14px 0}.related-card .tag{display:inline-flex;background:var(--surface-soft);color:var(--brand);padding:6px 10px;border-radius:999px;font-size:.78rem;font-weight:800}.related-card h3{margin-top:12px;margin-bottom:8px}.related-card p{color:var(--muted)}footer{border-top:1px solid var(--line);background:#fff7f7;padding:34px 0;color:var(--muted)}.footer-grid{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer-links{display:flex;gap:14px;flex-wrap:wrap}@media (max-width:900px){.menu{display:none}.content-layout{grid-template-columns:1fr}.hero{padding-top:38px}aside{position:static}.sidebar-card.ad{display:none}.course-card{grid-template-columns:1fr}.course-card img{max-width:260px;margin:auto}}
-  </style>
-</head>
-<body>
-<a class="skip" href="#conteudo">Pular para o conteúdo</a><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZLSB55C" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<header class="site-header"><div class="container nav"><a class="brand" href="https://amabilemarinho.com.br">Amábile Marinho</a><nav class="menu" aria-label="Menu principal"><a href="https://amabilemarinho.com.br/quiz/">Quiz</a><a href="https://amabilemarinho.com.br/parto-sem-medo">Curso</a><a href="https://www.instagram.com/amabilemarinho/" target="_blank" rel="noopener">Instagram</a><a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a></nav></div></header>
-<main><section class="hero"><div class="container"><div class="breadcrumb"><a href="https://amabilemarinho.com.br">Início</a> / Blog / Trabalho de parto</div><span class="article-kicker">Trabalho de parto</span><h1>Como saber se estou em trabalho de parto?</h1><p class="lead">Entenda os sinais reais, como observar as contrações e quando procurar atendimento com mais segurança e tranquilidade.</p><div class="hero-actions"><a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a><a class="btn secondary" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o curso</a></div></div></section>
-<div class="container content-layout"><article id="conteudo"><div class="notice"><strong>Aviso importante:</strong> este conteúdo é informativo e não substitui orientação médica, diagnóstico profissional ou acompanhamento da sua equipe de saúde durante a gestação e o parto.</div>
-<p>Descobrir se o trabalho de parto realmente começou é uma das maiores dúvidas das gestantes, principalmente nas últimas semanas da gravidez. Muitas mulheres sentem medo de ir cedo demais para a maternidade ou de não reconhecer os sinais corretos.</p><p>A verdade é que o corpo costuma dar vários sinais importantes antes e durante o trabalho de parto. Entender esses sinais pode trazer muito mais tranquilidade, consciência e confiança nesse momento tão especial.</p>
-<div class="cta-box"><div class="label">Comece por aqui</div><h2>Quer entender melhor seu momento na gestação?</h2><p>Faça o quiz gratuito da Amábile Marinho e descubra qual pode ser o próximo passo na sua preparação para o parto.</p><a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a></div>
-<nav class="toc" aria-label="Índice do artigo"><strong>Neste artigo você verá:</strong><a href="#primeiros-sinais">Quais são os primeiros sinais do trabalho de parto?</a><a href="#contracoes">Como são as contrações do trabalho de parto?</a><a href="#tampao">A perda do tampão mucoso significa que o parto começou?</a><a href="#bolsa">Bolsa estourada: o que fazer?</a><a href="#maternidade">Quando devo ir para a maternidade?</a><a href="#preparo">Como se sentir mais segura e preparada para o parto?</a><a href="#faq">Perguntas frequentes</a></nav>
-<div class="ad-placeholder">Espaço para AdSense — sugestão: anúncio display responsivo após a introdução.</div>
-<h2 id="primeiros-sinais">Quais são os primeiros sinais do trabalho de parto?</h2><p>Nem toda gestante apresenta os mesmos sintomas, mas alguns sinais costumam indicar que o corpo está se preparando para o nascimento do bebê.</p><ul><li>contrações regulares;</li><li>endurecimento da barriga;</li><li>dor lombar;</li><li>pressão na pelve;</li><li>perda do tampão mucoso;</li><li>rompimento da bolsa;</li><li>aumento do desconforto pélvico.</li></ul><p>Em algumas mulheres, esses sinais aparecem gradualmente. Em outras, o trabalho de parto pode evoluir mais rapidamente. Por isso, observar a frequência e a intensidade das mudanças costuma ser mais útil do que analisar apenas um sintoma isolado.</p>
-<h2 id="contracoes">Como são as contrações do trabalho de parto?</h2><p>As contrações reais costumam ter ritmo, intensidade progressiva e intervalos cada vez menores entre uma e outra. Muitas mulheres descrevem como cólicas fortes, pressão na lombar, dor que irradia para a barriga ou sensação de aperto que vai e volta.</p><p>Diferente das contrações de treinamento, as contrações do trabalho de parto geralmente não melhoram com repouso, ficam mais fortes com o tempo e começam a acontecer em intervalos mais regulares.</p><h3>Contração de treinamento x contração real</h3><p>As contrações de treinamento, também chamadas de Braxton Hicks, costumam ser irregulares, mais fracas, podem desaparecer ao mudar de posição e geralmente duram pouco tempo.</p><p>Já as contrações reais tendem a criar um padrão de repetição, aumentam progressivamente, ficam mais intensas e aproximam os intervalos.</p><h3>Como medir o intervalo das contrações</h3><p>Uma forma simples é anotar o horário de início, a duração e o intervalo entre as contrações. Essa observação ajuda a perceber se existe um padrão de evolução.</p><p>Muitas maternidades orientam procurar atendimento quando as contrações acontecem a cada 5 minutos, duram aproximadamente 1 minuto e se mantêm por cerca de 1 hora. Mas essa orientação pode variar conforme seu histórico, idade gestacional e recomendação da sua equipe.</p>
-<div class="ad-placeholder">Espaço para AdSense — sugestão: anúncio display responsivo após a seção sobre contrações.</div>
-<h2 id="tampao">A perda do tampão mucoso significa que o parto começou?</h2><p>Nem sempre. O tampão mucoso é uma secreção gelatinosa que pode sair dias ou até semanas antes do parto. Ele pode ter aspecto transparente, rosado, amarronzado ou apresentar pequenos traços de sangue.</p><p>A perda do tampão é um sinal de preparação do corpo, mas isoladamente não significa que o bebê nascerá imediatamente.</p>
-<h2 id="bolsa">Bolsa estourada: o que fazer?</h2><p>Quando ocorre o rompimento da bolsa, é importante observar a cor do líquido, a quantidade, o cheiro e se existem outros sintomas associados, como febre, dor intensa ou diminuição dos movimentos do bebê.</p><p>Na maioria dos casos, é recomendado entrar em contato com sua equipe de acompanhamento ou com a maternidade para receber orientação adequada. Se o líquido estiver esverdeado, com cheiro forte ou acompanhado de sintomas importantes, procure atendimento rapidamente.</p>
-<h2 id="maternidade">Quando devo ir para a maternidade?</h2><p>Algumas situações costumam indicar necessidade de avaliação:</p><ul><li>contrações regulares e intensas;</li><li>bolsa rompida;</li><li>diminuição dos movimentos do bebê;</li><li>sangramento importante;</li><li>dor intensa;</li><li>sintomas diferentes do habitual.</li></ul><p>Cada gestação é única. Por isso, ter informação e preparo emocional pode ajudar muito a reduzir a ansiedade e a insegurança nesse momento.</p>
-<h2 id="preparo">Como se sentir mais segura e preparada para o parto?</h2><p>Muitas vezes, o medo do parto vem justamente da falta de informação ou de experiências negativas que ouvimos ao longo da vida.</p><p>Entender o que acontece no corpo, como o trabalho de parto evolui, quais escolhas existem e como lidar emocionalmente com esse momento pode transformar completamente a forma como a gestante vive o parto.</p>
-<div class="cta-box course-card"><img src="/assets/Untitled_design__1_-removebg-preview.png" alt="Mockup do curso Preparação para o Parto da Amábile Marinho em celular e notebook" loading="lazy" /><div><div class="label">Próximo passo</div><h2>Conheça o curso Preparação para o Parto</h2><p>O curso da Amábile Marinho foi criado para ajudar gestantes a chegarem ao parto mais conscientes, seguras e tranquilas, entendendo cada etapa do processo de forma acolhedora e humanizada.</p><a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o Curso Parto Sem Medo</a></div></div>
-<div class="ad-placeholder">Espaço para AdSense — sugestão: anúncio display responsivo antes do FAQ.</div>
-<h2 id="faq">Perguntas frequentes sobre trabalho de parto</h2><div class="faq"><details><summary>Como saber se a contração é real?</summary><p>As contrações reais costumam ficar mais frequentes, intensas e ritmadas ao longo do tempo. Elas geralmente não melhoram com repouso ou mudança de posição.</p></details><details><summary>Posso perder o tampão e ainda demorar para entrar em trabalho de parto?</summary><p>Sim. Algumas mulheres entram em trabalho de parto horas depois, enquanto outras podem demorar dias ou até semanas. A perda do tampão, sozinha, não significa que o parto começou imediatamente.</p></details><details><summary>Toda bolsa rompe antes do parto?</summary><p>Não. Algumas mulheres entram em trabalho de parto antes do rompimento da bolsa. Em outros casos, a bolsa pode romper antes das contrações regulares.</p></details><details><summary>Dor lombar pode ser sinal de parto?</summary><p>Sim. Em muitas gestantes, a dor nas costas pode aparecer junto com contrações, pressão na pelve e outros sinais de evolução do trabalho de parto.</p></details><details><summary>Quando devo procurar ajuda médica?</summary><p>Sempre que houver dúvidas, sintomas intensos, sangramento importante, redução dos movimentos do bebê, rompimento da bolsa ou orientação específica da sua equipe de acompanhamento.</p></details></div>
-<div class="cta-box"><div class="label">Prepare-se com mais confiança</div><h2>O parto pode ser vivido com mais consciência e tranquilidade</h2><p>Quando você entende o que está acontecendo no seu corpo, o medo tende a dar lugar a mais clareza, segurança e presença.</p><p>Conheça o curso Preparação para o Parto da Amábile Marinho e dê o próximo passo na sua preparação.</p><a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">Acessar o Curso Parto Sem Medo</a> <a class="btn secondary" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a></div>
-</article><aside aria-label="Conteúdo complementar"><div class="sidebar-card"><h3>Faça o quiz gratuito</h3><p>Entenda seu momento atual e veja como se preparar melhor para o parto.</p><a class="btn" href="https://amabilemarinho.com.br/quiz/">Começar agora</a></div><div class="sidebar-card"><img src="curso_parto_sem_medo.png" alt="Curso Preparação para o Parto da Amábile Marinho" loading="lazy" /><h3>Preparação para o Parto</h3><p>Um caminho acolhedor para chegar ao parto com mais segurança, consciência e tranquilidade.</p><a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o curso</a></div><div class="sidebar-card ad"><h3>Publicidade</h3><div class="ad-placeholder">Espaço para AdSense lateral.</div></div><div class="related-card"><span class="tag">Trabalho de parto</span><h3>Sinais de que o parto está próximo</h3><p>Conteúdo relacionado para criar quando o próximo artigo estiver pronto.</p></div></aside></div></main>
-<footer><div class="container footer-grid"><div>© Amábile Marinho — Conteúdo informativo para gestantes.</div><div class="footer-links"><a href="https://amabilemarinho.com.br/quiz/">Quiz</a><a href="https://amabilemarinho.com.br/parto-sem-medo">Curso</a><a href="https://www.instagram.com/amabilemarinho/" target="_blank" rel="noopener">Instagram</a></div></div></footer></body></html>
+   </script>
+   <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Como Saber se Estou em Trabalho de Parto?",
+  "description": "Saiba identificar os sinais reais do trabalho de parto, entenda as contrações e descubra quando procurar atendimento com mais segurança e tranquilidade.",
+  "author": {
+    "@type": "Person",
+    "name": "Amábile Marinho"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Amábile Marinho"
+  },
+  "mainEntityOfPage": "https://amabilemarinho.com.br/blog/como-saber-se-estou-em-trabalho-de-parto/",
+  "image": "https://amabilemarinho.com.br/assets/img/curso_parto_sem_medo.png",
+  "inLanguage": "pt-BR"
+}
+   </script>
+   <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Como saber se a contração é real?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As contrações reais costumam ficar mais frequentes, intensas e ritmadas ao longo do tempo. Elas geralmente não melhoram com repouso ou mudança de posição."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso perder o tampão e ainda demorar para entrar em trabalho de parto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. A perda do tampão mucoso pode acontecer horas, dias ou até semanas antes do parto. Isoladamente, não significa que o bebê nascerá imediatamente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Toda bolsa rompe antes do parto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. Algumas mulheres entram em trabalho de parto antes do rompimento da bolsa. Em outros casos, a bolsa pode romper antes das contrações regulares."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Dor lombar pode ser sinal de parto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Em muitas gestantes, a dor lombar pode aparecer junto com contrações, pressão na pelve e outros sinais de evolução do trabalho de parto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando devo procurar ajuda médica?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Procure atendimento se houver contrações regulares e intensas, rompimento da bolsa, sangramento importante, diminuição dos movimentos do bebê, dor intensa ou qualquer sintoma que gere preocupação."
+      }
+    }
+  ]
+}
+   </script>
+   <style>
+    :root {
+  --bg:#fff7f7;
+  --surface:#fff;
+  --surface-soft:#fdeaf1;
+  --text:#3b1831;
+  --muted:#5f6f83;
+  --brand:#a01363;
+  --brand-dark:#6f0f4f;
+  --brand-soft:#f7cfe1;
+  --line:#ead6df;
+  --shadow:0 18px 50px rgba(111,15,79,.10);
+  --radius:22px;
+  --max:1120px
+}
+* {
+  box-sizing:border-box
+}
+html {
+  scroll-behavior:smooth
+}
+body {
+  margin:0;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:var(--text);
+  background:linear-gradient(180deg,#fff7f7 0%,#fff 42%,#fff7f7 100%);
+  line-height:1.72
+}
+img {
+  max-width:100%;
+  display:block
+}
+a {
+  color:var(--brand);
+  text-decoration:none
+}
+a:hover {
+  text-decoration:underline
+}
+.container {
+  max-width:var(--max);
+  margin:0 auto;
+  padding:0 22px
+}
+.skip {
+  position:absolute;
+  left:-999px;
+  top:auto
+}
+.skip:focus {
+  left:16px;
+  top:16px;
+  background:#fff;
+  padding:10px 14px;
+  border-radius:10px;
+  z-index:9999
+}
+header.site-header {
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:rgba(255,247,247,.9);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(234,214,223,.8)
+}
+.nav {
+  height:72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px
+}
+.brand {
+  font-weight:850;
+  letter-spacing:-.03em;
+  font-size:1.15rem;
+  color:var(--brand-dark)
+}
+.menu {
+  display:flex;
+  align-items:center;
+  gap:18px;
+  font-size:.95rem
+}
+.menu a {
+  color:var(--muted)
+}
+.btn {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:12px 18px;
+  border-radius:999px;
+  border:1px solid transparent;
+  background:var(--brand);
+  color:#fff!important;
+  font-weight:800;
+  line-height:1.1;
+  box-shadow:0 10px 24px rgba(160,19,99,.18)
+}
+.btn:hover {
+  text-decoration:none;
+  background:var(--brand-dark)
+}
+.btn.secondary {
+  background:#fff;
+  color:var(--brand)!important;
+  border-color:var(--line);
+  box-shadow:none
+}
+.hero {
+  padding:58px 0 28px
+}
+.breadcrumb {
+  font-size:.9rem;
+  color:var(--muted);
+  margin-bottom:18px
+}
+.article-kicker {
+  display:inline-flex;
+  background:var(--surface-soft);
+  color:var(--brand);
+  padding:7px 12px;
+  border-radius:999px;
+  font-weight:850;
+  font-size:.82rem;
+  margin-bottom:18px
+}
+h1,h2,h3 {
+  line-height:1.16;
+  letter-spacing:-.035em;
+  margin:0 0 18px
+}
+h1 {
+  font-size:clamp(2.15rem,5vw,4.2rem);
+  max-width:900px;
+  color:var(--brand-dark)
+}
+.lead {
+  font-size:clamp(1.12rem,2vw,1.35rem);
+  color:var(--muted);
+  max-width:820px;
+  margin:0 0 28px
+}
+.hero-actions {
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin:26px 0 0
+}
+.content-layout {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 320px;
+  gap:36px;
+  align-items:start;
+  padding:26px 0 70px
+}
+article {
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:clamp(24px,4vw,44px)
+}
+article h2 {
+  font-size:clamp(1.65rem,3vw,2.25rem);
+  margin-top:44px;
+  color:var(--brand-dark)
+}
+article h3 {
+  font-size:1.25rem;
+  margin-top:28px;
+  color:var(--brand-dark)
+}
+article p {
+  margin:0 0 18px;
+  color:#46333f
+}
+article ul,article ol {
+  padding-left:22px;
+  margin:0 0 22px;
+  color:#46333f
+}
+article li {
+  margin:8px 0
+}
+.notice {
+  background:#fff7fb;
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:18px 20px;
+  color:var(--muted);
+  margin:28px 0
+}
+.toc {
+  background:#fff7fb;
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:20px;
+  margin:28px 0
+}
+.toc strong {
+  display:block;
+  margin-bottom:10px;
+  color:var(--brand-dark)
+}
+.toc a {
+  display:block;
+  padding:5px 0;
+  color:var(--muted)
+}
+.cta-box {
+  background:linear-gradient(135deg,#fdeaf1,#fff);
+  border:1px solid var(--brand-soft);
+  border-radius:22px;
+  padding:24px;
+  margin:34px 0;
+  box-shadow:0 12px 30px rgba(160,19,99,.10)
+}
+.cta-box .label {
+  font-size:.82rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:var(--brand);
+  font-weight:900;
+  margin-bottom:8px
+}
+.cta-box h2,.cta-box h3 {
+  margin-top:0
+}
+.course-card {
+  display:grid;
+  grid-template-columns:220px 1fr;
+  gap:24px;
+  align-items:center
+}
+.course-card img {
+  filter:drop-shadow(0 18px 28px rgba(59,24,49,.15))
+}
+.ad-placeholder {
+  border:1px dashed #d6adbf;
+  border-radius:18px;
+  background:#fff7fb;
+  color:var(--muted);
+  padding:22px;
+  text-align:center;
+  font-size:.92rem;
+  margin:34px 0
+}
+.faq details {
+  border-bottom:1px solid var(--line);
+  padding:18px 0
+}
+.faq summary {
+  cursor:pointer;
+  font-weight:850;
+  color:var(--brand-dark)
+}
+.faq p {
+  margin-top:10px;
+  color:var(--muted)
+}
+aside {
+  position:sticky;
+  top:96px
+}
+.sidebar-card {
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+  padding:22px;
+  margin-bottom:18px
+}
+.sidebar-card h3 {
+  font-size:1.15rem;
+  margin-bottom:10px;
+  color:var(--brand-dark)
+}
+.sidebar-card p {
+  color:var(--muted);
+  margin:0 0 16px;
+  font-size:.96rem
+}
+.related-card {
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:22px;
+  background:#fff;
+  margin:14px 0
+}
+.related-card .tag {
+  display:inline-flex;
+  background:var(--surface-soft);
+  color:var(--brand);
+  padding:6px 10px;
+  border-radius:999px;
+  font-size:.78rem;
+  font-weight:800
+}
+.related-card h3 {
+  margin-top:12px;
+  margin-bottom:8px
+}
+.related-card p {
+  color:var(--muted)
+}
+footer {
+  border-top:1px solid var(--line);
+  background:#fff7f7;
+  padding:34px 0;
+  color:var(--muted)
+}
+.footer-grid {
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  flex-wrap:wrap
+}
+.footer-links {
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap
+}
+@media (max-width:900px) {
+  .menu {
+    display:none
+  }
+  .content-layout {
+    grid-template-columns:1fr
+  }
+  .hero {
+    padding-top:38px
+  }
+  aside {
+    position:static
+  }
+  .sidebar-card.ad {
+    display:none
+  }
+  .course-card {
+    grid-template-columns:1fr
+  }
+  .course-card img {
+    max-width:260px;
+    margin:auto
+  }
+}
+   </style>
+  </link>
+ </head>
+ <body>
+  <a class="skip" href="#conteudo">
+   Pular para o conte&uacute;do
+  </a>
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-WZLSB55C" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <header class="site-header">
+   <div class="container nav">
+    <a class="brand" href="https://amabilemarinho.com.br">
+     Am&aacute;bile Marinho
+    </a>
+    <nav aria-label="Menu principal" class="menu">
+     <a href="https://amabilemarinho.com.br/quiz/">
+      Quiz
+     </a>
+     <a href="https://amabilemarinho.com.br/parto-sem-medo">
+      Curso
+     </a>
+     <a href="https://www.instagram.com/amabilemarinho/" rel="noopener" target="_blank">
+      Instagram
+     </a>
+     <a class="btn" href="https://amabilemarinho.com.br/quiz/">
+      Fazer quiz gratuito
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section class="hero">
+    <div class="container">
+     <div class="breadcrumb">
+      <a href="https://amabilemarinho.com.br">
+       In&iacute;cio
+      </a>
+      <a href="https://amabilemarinho.com.br/blog/">Blog</a>
+     </div>
+     <span class="article-kicker">
+      Trabalho de parto
+     </span>
+     <h1>
+      Como saber se estou em trabalho de parto?
+     </h1>
+     <p class="lead">
+      Entenda os sinais reais, como observar as contra&ccedil;&otilde;es e quando procurar atendimento com mais seguran&ccedil;a e tranquilidade.
+     </p>
+     <div class="hero-actions">
+      <a class="btn" href="https://amabilemarinho.com.br/quiz/">
+       Fazer quiz gratuito
+      </a>
+      <a class="btn secondary" href="https://amabilemarinho.com.br/parto-sem-medo">
+       Conhecer o curso
+      </a>
+     </div>
+    </div>
+   </section>
+   <div class="container content-layout">
+    <article id="conteudo">
+     <div class="notice">
+      <strong>
+       Aviso importante:
+      </strong>
+      este conte&uacute;do &eacute; informativo e n&atilde;o substitui orienta&ccedil;&atilde;o m&eacute;dica, diagn&oacute;stico profissional ou acompanhamento da sua equipe de sa&uacute;de durante a gesta&ccedil;&atilde;o e o parto.
+     </div>
+     <p>
+      Descobrir se o trabalho de parto realmente come&ccedil;ou &eacute; uma das maiores d&uacute;vidas das gestantes, principalmente nas &uacute;ltimas semanas da gravidez. Muitas mulheres sentem medo de ir cedo demais para a maternidade ou de n&atilde;o reconhecer os sinais corretos.
+     </p>
+     <p>
+      A verdade &eacute; que o corpo costuma dar v&aacute;rios sinais importantes antes e durante o trabalho de parto. Entender esses sinais pode trazer muito mais tranquilidade, consci&ecirc;ncia e confian&ccedil;a nesse momento t&atilde;o especial.
+     </p>
+     <div class="cta-box">
+      <div class="label">
+       Comece por aqui
+      </div>
+      <h2>
+       Quer entender melhor seu momento na gesta&ccedil;&atilde;o?
+      </h2>
+      <p>
+       Fa&ccedil;a o quiz gratuito da Am&aacute;bile Marinho e descubra qual pode ser o pr&oacute;ximo passo na sua prepara&ccedil;&atilde;o para o parto.
+      </p>
+      <a class="btn" href="https://amabilemarinho.com.br/quiz/">
+       Fazer quiz gratuito
+      </a>
+     </div>
+     <nav aria-label="&Iacute;ndice do artigo" class="toc">
+      <strong>
+       Neste artigo voc&ecirc; ver&aacute;:
+      </strong>
+      <a href="#primeiros-sinais">
+       Quais s&atilde;o os primeiros sinais do trabalho de parto?
+      </a>
+      <a href="#contracoes">
+       Como s&atilde;o as contra&ccedil;&otilde;es do trabalho de parto?
+      </a>
+      <a href="#tampao">
+       A perda do tamp&atilde;o mucoso significa que o parto come&ccedil;ou?
+      </a>
+      <a href="#bolsa">
+       Bolsa estourada: o que fazer?
+      </a>
+      <a href="#maternidade">
+       Quando devo ir para a maternidade?
+      </a>
+      <a href="#preparo">
+       Como se sentir mais segura e preparada para o parto?
+      </a>
+      <a href="#faq">
+       Perguntas frequentes
+      </a>
+     </nav>
+     <div class="ad-placeholder">
+      Espa&ccedil;o para AdSense &mdash; sugest&atilde;o: an&uacute;ncio display responsivo ap&oacute;s a introdu&ccedil;&atilde;o.
+     </div>
+     <h2 id="primeiros-sinais">
+      Quais s&atilde;o os primeiros sinais do trabalho de parto?
+     </h2>
+     <p>
+      Nem toda gestante apresenta os mesmos sintomas, mas alguns sinais costumam indicar que o corpo est&aacute; se preparando para o nascimento do beb&ecirc;.
+     </p>
+     <ul>
+      <li>
+       contra&ccedil;&otilde;es regulares;
+      </li>
+      <li>
+       endurecimento da barriga;
+      </li>
+      <li>
+       dor lombar;
+      </li>
+      <li>
+       press&atilde;o na pelve;
+      </li>
+      <li>
+       perda do tamp&atilde;o mucoso;
+      </li>
+      <li>
+       rompimento da bolsa;
+      </li>
+      <li>
+       aumento do desconforto p&eacute;lvico.
+      </li>
+     </ul>
+     <p>
+      Em algumas mulheres, esses sinais aparecem gradualmente. Em outras, o trabalho de parto pode evoluir mais rapidamente. Por isso, observar a frequ&ecirc;ncia e a intensidade das mudan&ccedil;as costuma ser mais &uacute;til do que analisar apenas um sintoma isolado.
+     </p>
+     <h2 id="contracoes">
+      Como s&atilde;o as contra&ccedil;&otilde;es do trabalho de parto?
+     </h2>
+     <p>
+      As contra&ccedil;&otilde;es reais costumam ter ritmo, intensidade progressiva e intervalos cada vez menores entre uma e outra. Muitas mulheres descrevem como c&oacute;licas fortes, press&atilde;o na lombar, dor que irradia para a barriga ou sensa&ccedil;&atilde;o de aperto que vai e volta.
+     </p>
+     <p>
+      Diferente das contra&ccedil;&otilde;es de treinamento, as contra&ccedil;&otilde;es do trabalho de parto geralmente n&atilde;o melhoram com repouso, ficam mais fortes com o tempo e come&ccedil;am a acontecer em intervalos mais regulares.
+     </p>
+     <h3>
+      Contra&ccedil;&atilde;o de treinamento x contra&ccedil;&atilde;o real
+     </h3>
+     <p>
+      As contra&ccedil;&otilde;es de treinamento, tamb&eacute;m chamadas de Braxton Hicks, costumam ser irregulares, mais fracas, podem desaparecer ao mudar de posi&ccedil;&atilde;o e geralmente duram pouco tempo.
+     </p>
+     <p>
+      J&aacute; as contra&ccedil;&otilde;es reais tendem a criar um padr&atilde;o de repeti&ccedil;&atilde;o, aumentam progressivamente, ficam mais intensas e aproximam os intervalos.
+     </p>
+     <h3>
+      Como medir o intervalo das contra&ccedil;&otilde;es
+     </h3>
+     <p>
+      Uma forma simples &eacute; anotar o hor&aacute;rio de in&iacute;cio, a dura&ccedil;&atilde;o e o intervalo entre as contra&ccedil;&otilde;es. Essa observa&ccedil;&atilde;o ajuda a perceber se existe um padr&atilde;o de evolu&ccedil;&atilde;o.
+     </p>
+     <p>
+      Muitas maternidades orientam procurar atendimento quando as contra&ccedil;&otilde;es acontecem a cada 5 minutos, duram aproximadamente 1 minuto e se mant&ecirc;m por cerca de 1 hora. Mas essa orienta&ccedil;&atilde;o pode variar conforme seu hist&oacute;rico, idade gestacional e recomenda&ccedil;&atilde;o da sua equipe.
+     </p>
+     <div class="ad-placeholder">
+      Espa&ccedil;o para AdSense &mdash; sugest&atilde;o: an&uacute;ncio display responsivo ap&oacute;s a se&ccedil;&atilde;o sobre contra&ccedil;&otilde;es.
+     </div>
+     <h2 id="tampao">
+      A perda do tamp&atilde;o mucoso significa que o parto come&ccedil;ou?
+     </h2>
+     <p>
+      Nem sempre. O tamp&atilde;o mucoso &eacute; uma secre&ccedil;&atilde;o gelatinosa que pode sair dias ou at&eacute; semanas antes do parto. Ele pode ter aspecto transparente, rosado, amarronzado ou apresentar pequenos tra&ccedil;os de sangue.
+     </p>
+     <p>
+      A perda do tamp&atilde;o &eacute; um sinal de prepara&ccedil;&atilde;o do corpo, mas isoladamente n&atilde;o significa que o beb&ecirc; nascer&aacute; imediatamente.
+     </p>
+     <h2 id="bolsa">
+      Bolsa estourada: o que fazer?
+     </h2>
+     <p>
+      Quando ocorre o rompimento da bolsa, &eacute; importante observar a cor do l&iacute;quido, a quantidade, o cheiro e se existem outros sintomas associados, como febre, dor intensa ou diminui&ccedil;&atilde;o dos movimentos do beb&ecirc;.
+     </p>
+     <p>
+      Na maioria dos casos, &eacute; recomendado entrar em contato com sua equipe de acompanhamento ou com a maternidade para receber orienta&ccedil;&atilde;o adequada. Se o l&iacute;quido estiver esverdeado, com cheiro forte ou acompanhado de sintomas importantes, procure atendimento rapidamente.
+     </p>
+     <h2 id="maternidade">
+      Quando devo ir para a maternidade?
+     </h2>
+     <p>
+      Algumas situa&ccedil;&otilde;es costumam indicar necessidade de avalia&ccedil;&atilde;o:
+     </p>
+     <ul>
+      <li>
+       contra&ccedil;&otilde;es regulares e intensas;
+      </li>
+      <li>
+       bolsa rompida;
+      </li>
+      <li>
+       diminui&ccedil;&atilde;o dos movimentos do beb&ecirc;;
+      </li>
+      <li>
+       sangramento importante;
+      </li>
+      <li>
+       dor intensa;
+      </li>
+      <li>
+       sintomas diferentes do habitual.
+      </li>
+     </ul>
+     <p>
+      Cada gesta&ccedil;&atilde;o &eacute; &uacute;nica. Por isso, ter informa&ccedil;&atilde;o e preparo emocional pode ajudar muito a reduzir a ansiedade e a inseguran&ccedil;a nesse momento.
+     </p>
+     <h2 id="preparo">
+      Como se sentir mais segura e preparada para o parto?
+     </h2>
+     <p>
+      Muitas vezes, o medo do parto vem justamente da falta de informa&ccedil;&atilde;o ou de experi&ecirc;ncias negativas que ouvimos ao longo da vida.
+     </p>
+     <p>
+      Entender o que acontece no corpo, como o trabalho de parto evolui, quais escolhas existem e como lidar emocionalmente com esse momento pode transformar completamente a forma como a gestante vive o parto.
+     </p>
+     <div class="cta-box course-card">
+      <img alt="Mockup do curso Prepara&ccedil;&atilde;o para o Parto da Am&aacute;bile Marinho em celular e notebook" loading="lazy" src="/assets/Untitled_design__1_-removebg-preview.png"/>
+      <div>
+       <div class="label">
+        Pr&oacute;ximo passo
+       </div>
+       <h2>
+        Conhe&ccedil;a o curso Prepara&ccedil;&atilde;o para o Parto
+       </h2>
+       <p>
+        O curso da Am&aacute;bile Marinho foi criado para ajudar gestantes a chegarem ao parto mais conscientes, seguras e tranquilas, entendendo cada etapa do processo de forma acolhedora e humanizada.
+       </p>
+       <a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">
+        Conhecer o Curso Parto Sem Medo
+       </a>
+      </div>
+     </div>
+     <div class="ad-placeholder">
+      Espa&ccedil;o para AdSense &mdash; sugest&atilde;o: an&uacute;ncio display responsivo antes do FAQ.
+     </div>
+     <h2 id="faq">
+      Perguntas frequentes sobre trabalho de parto
+     </h2>
+     <div class="faq">
+      <details>
+       <summary>
+        Como saber se a contra&ccedil;&atilde;o &eacute; real?
+       </summary>
+       <p>
+        As contra&ccedil;&otilde;es reais costumam ficar mais frequentes, intensas e ritmadas ao longo do tempo. Elas geralmente n&atilde;o melhoram com repouso ou mudan&ccedil;a de posi&ccedil;&atilde;o.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Posso perder o tamp&atilde;o e ainda demorar para entrar em trabalho de parto?
+       </summary>
+       <p>
+        Sim. Algumas mulheres entram em trabalho de parto horas depois, enquanto outras podem demorar dias ou at&eacute; semanas. A perda do tamp&atilde;o, sozinha, n&atilde;o significa que o parto come&ccedil;ou imediatamente.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Toda bolsa rompe antes do parto?
+       </summary>
+       <p>
+        N&atilde;o. Algumas mulheres entram em trabalho de parto antes do rompimento da bolsa. Em outros casos, a bolsa pode romper antes das contra&ccedil;&otilde;es regulares.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Dor lombar pode ser sinal de parto?
+       </summary>
+       <p>
+        Sim. Em muitas gestantes, a dor nas costas pode aparecer junto com contra&ccedil;&otilde;es, press&atilde;o na pelve e outros sinais de evolu&ccedil;&atilde;o do trabalho de parto.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Quando devo procurar ajuda m&eacute;dica?
+       </summary>
+       <p>
+        Sempre que houver d&uacute;vidas, sintomas intensos, sangramento importante, redu&ccedil;&atilde;o dos movimentos do beb&ecirc;, rompimento da bolsa ou orienta&ccedil;&atilde;o espec&iacute;fica da sua equipe de acompanhamento.
+       </p>
+      </details>
+     </div>
+     <div class="cta-box">
+      <div class="label">
+       Prepare-se com mais confian&ccedil;a
+      </div>
+      <h2>
+       O parto pode ser vivido com mais consci&ecirc;ncia e tranquilidade
+      </h2>
+      <p>
+       Quando voc&ecirc; entende o que est&aacute; acontecendo no seu corpo, o medo tende a dar lugar a mais clareza, seguran&ccedil;a e presen&ccedil;a.
+      </p>
+      <p>
+       Conhe&ccedil;a o curso Prepara&ccedil;&atilde;o para o Parto da Am&aacute;bile Marinho e d&ecirc; o pr&oacute;ximo passo na sua prepara&ccedil;&atilde;o.
+      </p>
+      <a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">
+       Acessar o Curso Parto Sem Medo
+      </a>
+      <a class="btn secondary" href="https://amabilemarinho.com.br/quiz/">
+       Fazer quiz gratuito
+      </a>
+     </div>
+    </article>
+    <aside aria-label="Conte&uacute;do complementar">
+     <div class="sidebar-card">
+      <h3>
+       Fa&ccedil;a o quiz gratuito
+      </h3>
+      <p>
+       Entenda seu momento atual e veja como se preparar melhor para o parto.
+      </p>
+      <a class="btn" href="https://amabilemarinho.com.br/quiz/">
+       Come&ccedil;ar agora
+      </a>
+     </div>
+     <div class="sidebar-card">
+      <img alt="Curso Prepara&ccedil;&atilde;o para o Parto da Am&aacute;bile Marinho" loading="lazy" src="curso_parto_sem_medo.png"/>
+      <h3>
+       Prepara&ccedil;&atilde;o para o Parto
+      </h3>
+      <p>
+       Um caminho acolhedor para chegar ao parto com mais seguran&ccedil;a, consci&ecirc;ncia e tranquilidade.
+      </p>
+      <a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">
+       Conhecer o curso
+      </a>
+     </div>
+     <div class="sidebar-card ad">
+      <h3>
+       Publicidade
+      </h3>
+      <div class="ad-placeholder">
+       Espa&ccedil;o para AdSense lateral.
+      </div>
+     </div>
+     <div class="related-card">
+      <span class="tag">
+       Trabalho de parto
+      </span>
+      <h3>
+       Sinais de que o parto est&aacute; pr&oacute;ximo
+      </h3>
+      <p>
+       Conte&uacute;do relacionado para criar quando o pr&oacute;ximo artigo estiver pronto.
+      </p>
+     </div>
+    </aside>
+   </div>
+  </main>
+  <footer>
+   <div class="container footer-grid">
+    <div>
+     &copy; Am&aacute;bile Marinho &mdash; Conte&uacute;do informativo para gestantes.
+    </div>
+    <div class="footer-links">
+     <a href="https://amabilemarinho.com.br/quiz/">
+      Quiz
+     </a>
+     <a href="https://amabilemarinho.com.br/parto-sem-medo">
+      Curso
+     </a>
+     <a href="https://www.instagram.com/amabilemarinho/" rel="noopener" target="_blank">
+      Instagram
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
