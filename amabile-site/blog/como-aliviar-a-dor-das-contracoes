@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+  <link rel="icon" href="/assets/favicon.svg">
+<link rel="apple-touch-icon" href="/assets/favicon.svg">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -965,7 +967,7 @@ Começar agora
 <div class="sidebar-card">
 
 <img
-src="curso_parto_sem_medo.png"
+src="/assets/Untitled_design__1_-removebg-preview.png"
 alt="Curso Preparação para o Parto da Amábile Marinho"
 loading="lazy"
 />
