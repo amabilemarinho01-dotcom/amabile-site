@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Como fazer um plano de parto? Guia completo para gestantes</title>
+  <meta name="description" content="Aprenda como fazer um plano de parto, o que incluir, como organizar suas preferências e como conversar com a equipe de saúde com mais segurança." />
+  <link rel="canonical" href="https://amabilemarinho.com.br/blog/como-fazer-um-plano-de-parto/" />
+
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Como fazer um plano de parto? Guia completo para gestantes" />
+  <meta property="og:description" content="Veja o que incluir no plano de parto, como organizar suas preferências e como conversar com a equipe de saúde." />
+  <meta property="og:url" content="https://amabilemarinho.com.br/blog/como-fazer-um-plano-de-parto/" />
+  <meta property="og:site_name" content="Amábile Marinho" />
+  <meta property="og:image" content="https://amabilemarinho.com.br/assets/Untitled_design__1_-removebg-preview.png" />
+
+  <link rel="icon" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/favicon.svg">
+
+  <meta name="google-adsense-account" content="ca-pub-9085628749129517" />
+
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WZLSB55C');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"Como fazer um plano de parto?",
+    "description":"Aprenda como fazer um plano de parto, o que incluir, como organizar suas preferências e como conversar com a equipe de saúde com mais segurança.",
+    "author":{"@type":"Person","name":"Amábile Marinho"},
+    "publisher":{"@type":"Organization","name":"Amábile Marinho"},
+    "mainEntityOfPage":"https://amabilemarinho.com.br/blog/como-fazer-um-plano-de-parto/",
+    "image":"https://amabilemarinho.com.br/assets/Untitled_design__1_-removebg-preview.png",
+    "inLanguage":"pt-BR"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"O que é um plano de parto?","acceptedAnswer":{"@type":"Answer","text":"O plano de parto é um documento em que a gestante registra suas preferências para o trabalho de parto, parto e pós-parto imediato."}},
+      {"@type":"Question","name":"O plano de parto é obrigatório?","acceptedAnswer":{"@type":"Answer","text":"Não é obrigatório, mas pode ajudar a gestante a organizar suas escolhas e conversar melhor com a equipe de saúde."}},
+      {"@type":"Question","name":"O que colocar no plano de parto?","acceptedAnswer":{"@type":"Answer","text":"É possível incluir preferências sobre ambiente, acompanhante, alívio da dor, posições, intervenções, contato pele a pele, amamentação e cuidados com o bebê."}},
+      {"@type":"Question","name":"Quando devo fazer meu plano de parto?","acceptedAnswer":{"@type":"Answer","text":"Muitas gestantes começam a organizar o plano de parto no terceiro trimestre, mas ele pode ser construído ao longo da gestação."}},
+      {"@type":"Question","name":"Como conversar com a equipe sobre o plano de parto?","acceptedAnswer":{"@type":"Answer","text":"O ideal é levar o plano em uma consulta, conversar com clareza, tirar dúvidas e alinhar possibilidades com a equipe e a maternidade escolhida."}}
+    ]
+  }
+  </script>
+
+  <style>
+    :root{--bg:#fff7f7;--surface:#fff;--surface-soft:#fdeaf1;--text:#3b1831;--muted:#5f6f83;--brand:#a01363;--brand-dark:#6f0f4f;--brand-soft:#f7cfe1;--line:#ead6df;--shadow:0 18px 50px rgba(111,15,79,.10);--radius:22px;--max:1120px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:linear-gradient(180deg,#fff7f7 0%,#fff 42%,#fff7f7 100%);line-height:1.72}
+    img{max-width:100%;display:block}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--max);margin:0 auto;padding:0 22px}
+    .skip{position:absolute;left:-999px;top:auto}
+    .skip:focus{left:16px;top:16px;background:#fff;padding:10px 14px;border-radius:10px;z-index:9999}
+    header.site-header{position:sticky;top:0;z-index:10;background:rgba(255,247,247,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(234,214,223,.8)}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{font-weight:850;letter-spacing:-.03em;font-size:1.15rem;color:var(--brand-dark)}
+    .menu{display:flex;align-items:center;gap:18px;font-size:.95rem}
+    .menu a{color:var(--muted)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:999px;border:1px solid transparent;background:var(--brand);color:#fff!important;font-weight:800;line-height:1.1;box-shadow:0 10px 24px rgba(160,19,99,.18)}
+    .btn:hover{text-decoration:none;background:var(--brand-dark)}
+    .btn.secondary{background:#fff;color:var(--brand)!important;border-color:var(--line);box-shadow:none}
+    .hero{padding:58px 0 28px}
+    .breadcrumb{font-size:.9rem;color:var(--muted);margin-bottom:18px}
+    .article-kicker{display:inline-flex;background:var(--surface-soft);color:var(--brand);padding:7px 12px;border-radius:999px;font-weight:850;font-size:.82rem;margin-bottom:18px}
+    h1,h2,h3{line-height:1.16;letter-spacing:-.035em;margin:0 0 18px}
+    h1{font-size:clamp(2.15rem,5vw,4.2rem);max-width:900px;color:var(--brand-dark)}
+    .lead{font-size:clamp(1.12rem,2vw,1.35rem);color:var(--muted);max-width:820px;margin:0 0 28px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 0}
+    .content-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:36px;align-items:start;padding:26px 0 70px}
+    article{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(24px,4vw,44px)}
+    article h2{font-size:clamp(1.65rem,3vw,2.25rem);margin-top:44px;color:var(--brand-dark)}
+    article h3{font-size:1.25rem;margin-top:28px;color:var(--brand-dark)}
+    article p{margin:0 0 18px;color:#46333f}
+    article ul{padding-left:22px;margin:0 0 22px;color:#46333f}
+    article li{margin:8px 0}
+    .notice{background:#fff7fb;border:1px solid var(--line);border-radius:18px;padding:18px 20px;color:var(--muted);margin:28px 0}
+    .toc{background:#fff7fb;border:1px solid var(--line);border-radius:18px;padding:20px;margin:28px 0}
+    .toc strong{display:block;margin-bottom:10px;color:var(--brand-dark)}
+    .toc a{display:block;padding:5px 0;color:var(--muted)}
+    .cta-box{background:linear-gradient(135deg,#fdeaf1,#fff);border:1px solid var(--brand-soft);border-radius:22px;padding:24px;margin:34px 0;box-shadow:0 12px 30px rgba(160,19,99,.10)}
+    .cta-box .label{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:900;margin-bottom:8px}
+    .course-card{display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:center}
+    .course-card img{filter:drop-shadow(0 18px 28px rgba(59,24,49,.15))}
+    .ad-placeholder{border:1px dashed #d6adbf;border-radius:18px;background:#fff7fb;color:var(--muted);padding:22px;text-align:center;font-size:.92rem;margin:34px 0}
+    .faq details{border-bottom:1px solid var(--line);padding:18px 0}
+    .faq summary{cursor:pointer;font-weight:850;color:var(--brand-dark)}
+    .faq p{margin-top:10px;color:var(--muted)}
+    aside{position:sticky;top:96px}
+    .sidebar-card{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:22px;margin-bottom:18px}
+    .sidebar-card h3{font-size:1.15rem;margin-bottom:10px;color:var(--brand-dark)}
+    .sidebar-card p{color:var(--muted);margin:0 0 16px;font-size:.96rem}
+    .related-card{border:1px solid var(--line);border-radius:22px;padding:22px;background:#fff;margin:14px 0}
+    .related-card .tag{display:inline-flex;background:var(--surface-soft);color:var(--brand);padding:6px 10px;border-radius:999px;font-size:.78rem;font-weight:800}
+    footer{border-top:1px solid var(--line);background:#fff7f7;padding:34px 0;color:var(--muted)}
+    .footer-grid{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    .footer-links{display:flex;gap:14px;flex-wrap:wrap}
+    @media (max-width:900px){.menu{display:none}.content-layout{grid-template-columns:1fr}.hero{padding-top:38px}aside{position:static}.sidebar-card.ad{display:none}.course-card{grid-template-columns:1fr}.course-card img{max-width:260px;margin:auto}}
+  </style>
+</head>
+
+<body>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZLSB55C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="https://amabilemarinho.com.br">Amábile Marinho</a>
+
+<nav class="menu" aria-label="Menu principal">
+<a href="https://amabilemarinho.com.br/quiz/">Quiz</a>
+<a href="https://amabilemarinho.com.br/parto-sem-medo">Curso</a>
+<a href="https://www.instagram.com/amabilemarinho/" target="_blank" rel="noopener">Instagram</a>
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a>
+</nav>
+</div>
+</header>
+
+<main>
+
+<section class="hero">
+<div class="container">
+
+<div class="breadcrumb">
+<a href="https://amabilemarinho.com.br">Início</a> /
+<a href="https://amabilemarinho.com.br/blog/">Blog</a> /
+Plano de parto
+</div>
+
+<span class="article-kicker">Plano de parto</span>
+
+<h1>Como fazer um plano de parto?</h1>
+
+<p class="lead">
+Veja o que incluir, como organizar suas preferências e como conversar com a equipe para viver o parto com mais clareza, segurança e acolhimento.
+</p>
+
+<div class="hero-actions">
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a>
+<a class="btn secondary" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o curso</a>
+</div>
+
+</div>
+</section>
+
+<div class="container content-layout">
+
+<article id="conteudo">
+
+<div class="notice">
+<strong>Aviso importante:</strong>
+este conteúdo é informativo e não substitui orientação médica, diagnóstico profissional ou acompanhamento da sua equipe de saúde durante a gestação, parto ou pós-parto.
+</div>
+
+<p>
+O plano de parto é uma das ferramentas mais importantes para a gestante que deseja viver o nascimento do bebê com mais consciência, participação e segurança.
+</p>
+
+<p>
+Ele ajuda a organizar preferências, registrar desejos, alinhar expectativas e facilitar a comunicação com a equipe que acompanhará o parto.
+</p>
+
+<p>
+Mais do que um documento, o plano de parto é um convite para a gestante conhecer suas possibilidades, entender seus direitos e se preparar emocionalmente para esse momento.
+</p>
+
+<div class="cta-box">
+<div class="label">Comece por aqui</div>
+
+<h2>Quer se sentir mais preparada para o parto?</h2>
+
+<p>
+Faça o quiz gratuito da Amábile Marinho e descubra como está sua preparação emocional e prática para esse momento tão especial.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a>
+</div>
+
+<nav class="toc" aria-label="Índice do artigo">
+<strong>Neste artigo você verá:</strong>
+
+<a href="#o-que-e">O que é um plano de parto?</a>
+<a href="#importancia">Por que fazer um plano de parto?</a>
+<a href="#incluir">O que incluir no plano de parto?</a>
+<a href="#organizar">Como organizar suas preferências</a>
+<a href="#equipe">Como conversar com a equipe</a>
+<a href="#modelo">Modelo simples de plano de parto</a>
+<a href="#faq">Perguntas frequentes</a>
+</nav>
+
+<div class="ad-placeholder">
+Espaço para AdSense — sugestão: anúncio display responsivo após a introdução.
+</div>
+
+<h2 id="o-que-e">O que é um plano de parto?</h2>
+
+<p>
+O plano de parto é um documento em que a gestante registra suas preferências para o trabalho de parto, o nascimento do bebê e os primeiros cuidados após o parto.
+</p>
+
+<p>
+Ele pode incluir escolhas sobre ambiente, acompanhante, formas de alívio da dor, posições, intervenções, contato pele a pele, amamentação e cuidados com o recém-nascido.
+</p>
+
+<h3>Plano de parto não é uma exigência rígida</h3>
+
+<p>
+É importante entender que o plano de parto não é uma lista de ordens inflexíveis. Ele funciona como um guia de comunicação.
+</p>
+
+<p>
+O parto pode mudar de acordo com a evolução do corpo, do bebê e das necessidades clínicas. Por isso, o plano deve ser construído com informação, flexibilidade e diálogo.
+</p>
+
+<h2 id="importancia">Por que fazer um plano de parto?</h2>
+
+<p>
+Muitas mulheres chegam ao parto sem saber exatamente quais escolhas podem fazer. Isso pode gerar insegurança, medo e sensação de perda de controle.
+</p>
+
+<p>
+Quando a gestante constrói um plano de parto, ela passa a conhecer melhor o processo e consegue conversar com mais clareza com a equipe.
+</p>
+
+<ul>
+<li>Ajuda a organizar desejos e preferências</li>
+<li>Facilita a comunicação com a equipe</li>
+<li>Reduz dúvidas na hora do parto</li>
+<li>Fortalece a autonomia da gestante</li>
+<li>Ajuda o acompanhante a entender seu papel</li>
+<li>Estimula o preparo emocional</li>
+</ul>
+
+<div class="ad-placeholder">
+Espaço para AdSense — sugestão: anúncio display responsivo após a seção sobre importância.
+</div>
+
+<h2 id="incluir">O que incluir no plano de parto?</h2>
+
+<p>
+Um bom plano de parto deve ser claro, objetivo e fácil de ler. O ideal é organizar por etapas do processo.
+</p>
+
+<h3>Preferências para o ambiente</h3>
+
+<ul>
+<li>Luz mais baixa, se possível</li>
+<li>Ambiente silencioso e acolhedor</li>
+<li>Privacidade durante o trabalho de parto</li>
+<li>Presença do acompanhante escolhido</li>
+<li>Possibilidade de músicas ou itens que tragam conforto</li>
+</ul>
+
+<h3>Preferências durante o trabalho de parto</h3>
+
+<ul>
+<li>Liberdade para caminhar e mudar de posição</li>
+<li>Uso de bola, banho morno ou técnicas naturais de alívio da dor</li>
+<li>Ingestão de líquidos, se liberada pela equipe</li>
+<li>Respeito ao tempo do corpo</li>
+<li>Explicação antes de qualquer procedimento</li>
+</ul>
+
+<h3>Preferências para o nascimento</h3>
+
+<ul>
+<li>Escolha de posições para parir, quando possível</li>
+<li>Evitar intervenções sem necessidade ou sem explicação</li>
+<li>Contato pele a pele logo após o nascimento, se mãe e bebê estiverem bem</li>
+<li>Clampeamento oportuno do cordão, se indicado e possível</li>
+<li>Participação do acompanhante, conforme regras da maternidade</li>
+</ul>
+
+<h3>Preferências para o pós-parto imediato</h3>
+
+<ul>
+<li>Amamentação na primeira hora de vida, se possível</li>
+<li>Cuidados com o bebê próximos à mãe, quando permitido</li>
+<li>Explicação sobre procedimentos realizados no recém-nascido</li>
+<li>Respeito ao momento de vínculo entre mãe, bebê e acompanhante</li>
+</ul>
+
+<div class="cta-box">
+<div class="label">Descubra seu momento</div>
+
+<h2>Faça o quiz gratuito da Amábile Marinho</h2>
+
+<p>
+Entenda como está sua preparação emocional para o parto e descubra quais áreas podem trazer mais segurança e confiança nesse momento.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Fazer quiz gratuito</a>
+</div>
+
+<h2 id="organizar">Como organizar suas preferências no plano de parto</h2>
+
+<p>
+A melhor forma de organizar o plano de parto é usar uma linguagem simples, direta e respeitosa.
+</p>
+
+<p>
+Evite textos muito longos. O ideal é que a equipe consiga entender rapidamente suas preferências.
+</p>
+
+<h3>Use frases claras</h3>
+
+<ul>
+<li>“Gostaria de ter liberdade para me movimentar, se possível.”</li>
+<li>“Desejo ser informada antes de qualquer procedimento.”</li>
+<li>“Gostaria de contato pele a pele com meu bebê, se ambos estivermos bem.”</li>
+<li>“Desejo que meu acompanhante permaneça comigo durante o trabalho de parto.”</li>
+</ul>
+
+<h3>Priorize o que é mais importante para você</h3>
+
+<p>
+Nem tudo precisa estar no plano. Pense no que realmente faz diferença para sua segurança, tranquilidade e experiência.
+</p>
+
+<p>
+O plano de parto deve refletir seus valores, seus medos, suas necessidades e suas preferências.
+</p>
+
+<h2 id="equipe">Como conversar com a equipe sobre o plano de parto?</h2>
+
+<p>
+O plano de parto deve ser conversado antes do nascimento, preferencialmente durante as consultas de pré-natal ou em uma visita à maternidade.
+</p>
+
+<p>
+Esse diálogo ajuda a entender o que é possível, quais são as rotinas da instituição e quais pontos precisam ser ajustados.
+</p>
+
+<h3>Perguntas importantes para fazer</h3>
+
+<ul>
+<li>A maternidade aceita plano de parto?</li>
+<li>Quais práticas são rotina no local?</li>
+<li>O acompanhante pode permanecer durante todo o processo?</li>
+<li>Há liberdade de posição durante o trabalho de parto?</li>
+<li>Quais métodos não farmacológicos de alívio da dor estão disponíveis?</li>
+<li>Como são feitos os primeiros cuidados com o bebê?</li>
+</ul>
+
+<p>
+Conversar antes ajuda a evitar surpresas e aumenta a sensação de segurança.
+</p>
+
+<div class="ad-placeholder">
+Espaço para AdSense — sugestão: anúncio display responsivo antes do modelo de plano.
+</div>
+
+<h2 id="modelo">Modelo simples de plano de parto</h2>
+
+<p>
+Você pode adaptar o modelo abaixo conforme suas preferências e orientações da sua equipe.
+</p>
+
+<h3>Durante o trabalho de parto</h3>
+
+<ul>
+<li>Desejo a presença do meu acompanhante.</li>
+<li>Gostaria de liberdade para me movimentar, se possível.</li>
+<li>Gostaria de usar métodos naturais de alívio da dor.</li>
+<li>Desejo ser informada antes de qualquer procedimento.</li>
+</ul>
+
+<h3>Durante o nascimento</h3>
+
+<ul>
+<li>Gostaria de escolher posições confortáveis, se possível.</li>
+<li>Desejo um ambiente calmo e respeitoso.</li>
+<li>Gostaria que intervenções fossem explicadas antes de serem realizadas.</li>
+</ul>
+
+<h3>Após o nascimento</h3>
+
+<ul>
+<li>Desejo contato pele a pele com meu bebê, se estiver tudo bem.</li>
+<li>Gostaria de tentar amamentar na primeira hora de vida.</li>
+<li>Desejo que os cuidados com o bebê sejam explicados para mim.</li>
+</ul>
+
+<h2>Preparação emocional também faz parte do plano de parto</h2>
+
+<p>
+Fazer um plano de parto não é apenas preencher um documento. É também olhar para seus medos, dúvidas e expectativas.
+</p>
+
+<p>
+Quanto mais informação de qualidade a gestante recebe, mais preparada ela tende a se sentir para conversar, decidir e participar do próprio parto.
+</p>
+
+<div class="cta-box course-card">
+
+<img
+src="/assets/Untitled_design__1_-removebg-preview.png"
+alt="Curso Preparação para o Parto da Amábile Marinho"
+loading="lazy"
+/>
+
+<div>
+<div class="label">Próximo passo</div>
+
+<h2>Conheça o curso Parto Sem Medo</h2>
+
+<p>
+Um preparo acolhedor para ajudar você a entender o parto, organizar suas escolhas, reduzir medos e chegar mais segura para o nascimento do seu bebê.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o curso</a>
+</div>
+
+</div>
+
+<div class="ad-placeholder">
+Espaço para AdSense — sugestão: anúncio display responsivo antes do FAQ.
+</div>
+
+<h2 id="faq">Perguntas frequentes sobre plano de parto</h2>
+
+<div class="faq">
+
+<details>
+<summary>O que é um plano de parto?</summary>
+<p>
+O plano de parto é um documento em que a gestante registra suas preferências para o trabalho de parto, parto e pós-parto imediato.
+</p>
+</details>
+
+<details>
+<summary>O plano de parto é obrigatório?</summary>
+<p>
+Não é obrigatório, mas pode ajudar muito na organização das escolhas e na comunicação com a equipe de saúde.
+</p>
+</details>
+
+<details>
+<summary>O que colocar no plano de parto?</summary>
+<p>
+Você pode incluir preferências sobre ambiente, acompanhante, alívio da dor, posições, intervenções, contato pele a pele, amamentação e cuidados com o bebê.
+</p>
+</details>
+
+<details>
+<summary>Quando devo fazer meu plano de parto?</summary>
+<p>
+Muitas gestantes começam a organizar o plano de parto no terceiro trimestre, mas ele pode ser construído ao longo da gestação.
+</p>
+</details>
+
+<details>
+<summary>Como conversar com a equipe sobre o plano de parto?</summary>
+<p>
+O ideal é levar o plano em uma consulta, conversar com clareza, tirar dúvidas e alinhar possibilidades com a equipe e a maternidade escolhida.
+</p>
+</details>
+
+</div>
+
+<div class="cta-box">
+
+<div class="label">Prepare-se com mais tranquilidade</div>
+
+<h2>Seu parto pode ser vivido com mais consciência e segurança</h2>
+
+<p>
+Quando a gestante entende suas escolhas, organiza suas preferências e conversa com a equipe, ela se sente mais preparada para viver esse momento.
+</p>
+
+<p>
+Conheça o curso Preparação para o Parto da Amábile Marinho e dê o próximo passo na sua preparação.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">
+Acessar o Curso Parto Sem Medo
+</a>
+
+<a class="btn secondary" href="https://amabilemarinho.com.br/quiz/">
+Fazer quiz gratuito
+</a>
+
+</div>
+
+</article>
+
+<aside aria-label="Conteúdo complementar">
+
+<div class="sidebar-card">
+<h3>Faça o quiz gratuito</h3>
+
+<p>
+Descubra como está sua preparação emocional para o parto.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/quiz/">Começar agora</a>
+</div>
+
+<div class="sidebar-card">
+
+<img
+src="/assets/Untitled_design__1_-removebg-preview.png"
+alt="Curso Preparação para o Parto da Amábile Marinho"
+loading="lazy"
+/>
+
+<h3>Preparação para o Parto</h3>
+
+<p>
+Um caminho acolhedor para chegar ao parto com mais segurança, consciência e tranquilidade.
+</p>
+
+<a class="btn" href="https://amabilemarinho.com.br/parto-sem-medo">Conhecer o curso</a>
+
+</div>
+
+<div class="sidebar-card ad">
+<h3>Publicidade</h3>
+
+<div class="ad-placeholder">
+Espaço para AdSense lateral.
+</div>
+</div>
+
+<div class="related-card">
+<span class="tag">Plano de parto</span>
+
+<h3>O que levar na mala da maternidade?</h3>
+
+<p>
+Conteúdo relacionado ideal para fortalecer SEO interno futuramente.
+</p>
+</div>
+
+</aside>
+
+</div>
+
+</main>
+
+<footer>
+
+<div class="container footer-grid">
+
+<div>
+© Amábile Marinho — Conteúdo informativo para gestantes.
+</div>
+
+<div class="footer-links">
+
+<a href="https://amabilemarinho.com.br/quiz/">Quiz</a>
+<a href="https://amabilemarinho.com.br/parto-sem-medo">Curso</a>
+<a href="https://www.instagram.com/amabilemarinho/" target="_blank" rel="noopener">Instagram</a>
+
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
