@@ -1,30 +1,20 @@
-name: Generate Sitemap
-
+name: Gerar Sitemap
 on:
   push:
     branches:
       - main
-
 jobs:
   sitemap:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 20
-
-      - name: Generate sitemap
-        run: node generate-sitemap.js
-
-      - name: Commit sitemap
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          node-version: "20"
+      - run: node generate-sitemap.js
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add sitemap.xml
-          git commit -m "Atualiza sitemap" || echo "Sem mudanças"
+          git diff --cached --quiet || git commit -m "chore: atualiza sitemap [skip ci]"
           git push
