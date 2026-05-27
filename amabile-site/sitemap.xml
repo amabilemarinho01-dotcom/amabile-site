@@ -1,36 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://amabilemarinho.com.br/blog</loc>
-  </url>
-
-  <url>
-    <loc>https://amabilemarinho.com.br/calculadoras</loc>
-  </url>
-
-  <url>
-    <loc>https://amabilemarinho.com.br/contato</loc>
-  </url>
-
   <url>
     <loc>https://amabilemarinho.com.br</loc>
   </url>
-
+  <url>
+    <loc>https://amabilemarinho.com.br/blog</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/como-aliviar-a-dor-das-contracoes</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/como-fazer-um-plano-de-parto</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/como-o-acompanhante-pode-ajudar-no-parto</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/como-saber-se-estou-em-trabalho-de-parto</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/medo-do-parto</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/o-que-fazer-quando-a-bolsa-rompe</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/o-que-levar-na-mala-da-maternidade</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/plano-de-parto</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/respiracao-no-parto</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/blog/sintomas-de-gravidez</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/calculadoras</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/calculadoras/calculadora-data-provavel-do-parto</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/calculadoras/calculadora-gestacional</loc>
+  </url>
+  <url>
+    <loc>https://amabilemarinho.com.br/contato</loc>
+  </url>
   <url>
     <loc>https://amabilemarinho.com.br/parto-sem-medo</loc>
   </url>
-
   <url>
     <loc>https://amabilemarinho.com.br/politica-de-privacidade</loc>
   </url>
-
   <url>
     <loc>https://amabilemarinho.com.br/quiz</loc>
   </url>
-
   <url>
     <loc>https://amabilemarinho.com.br/termos-de-uso</loc>
   </url>
-
 </urlset>
