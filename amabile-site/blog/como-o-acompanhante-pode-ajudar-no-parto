@@ -210,9 +210,7 @@ Faça o quiz gratuito da Amábile Marinho e entenda como está sua preparação 
 <a href="#faq">Perguntas frequentes</a>
 </nav>
 
-<div class="ad-placeholder">
-Espaço para AdSense — sugestão: anúncio display responsivo após a introdução.
-</div>
+<div class="adsense-placeholder"></div>
 
 <h2 id="papel">Qual é o papel do acompanhante no parto?</h2>
 
@@ -259,9 +257,7 @@ O apoio do acompanhante começa antes do nascimento. A preparação durante a ge
 Essa conversa antes do parto evita confusão e ajuda o acompanhante a agir com mais segurança no momento certo.
 </p>
 
-<div class="ad-placeholder">
-Espaço para AdSense — sugestão: anúncio display responsivo após a preparação do acompanhante.
-</div>
+<div class="adsense-placeholder"></div>
 
 <h2 id="contracoes">Como ajudar durante as contrações</h2>
 
@@ -363,9 +359,7 @@ A função do acompanhante não é decidir pela mulher, mas apoiar suas escolhas
 O protagonismo continua sendo da gestante.
 </p>
 
-<div class="ad-placeholder">
-Espaço para AdSense — sugestão: anúncio display responsivo antes da seção de pós-parto.
-</div>
+<div class="adsense-placeholder"></div>
 
 <h2 id="pos-parto">Como apoiar no pós-parto imediato</h2>
 
@@ -428,9 +422,7 @@ Um preparo acolhedor para ajudar gestante e acompanhante a entenderem o parto, r
 
 </div>
 
-<div class="ad-placeholder">
-Espaço para AdSense — sugestão: anúncio display responsivo antes do FAQ.
-</div>
+<div class="adsense-placeholder"></div>
 
 <h2 id="faq">Perguntas frequentes sobre acompanhante no parto</h2>
 
@@ -532,9 +524,7 @@ Um caminho acolhedor para chegar ao parto com mais segurança, consciência e tr
 <div class="sidebar-card ad">
 <h3>Publicidade</h3>
 
-<div class="ad-placeholder">
-Espaço para AdSense lateral.
-</div>
+<div class="adsense-placeholder"></div>
 </div>
 
 <div class="related-card">
