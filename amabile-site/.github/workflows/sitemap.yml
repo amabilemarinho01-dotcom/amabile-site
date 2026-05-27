@@ -1,6 +1,7 @@
 name: Generate Sitemap
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - principal
