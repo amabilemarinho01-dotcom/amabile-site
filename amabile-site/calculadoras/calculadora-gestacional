@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <link rel="icon" href="/assets/favicon.svg">
@@ -44,6 +44,15 @@
 .faq summary::before{content:"▶";display:inline-block;margin-right:8px;font-size:12px;transition:.2s}
 .faq details[open] summary::before{transform:rotate(90deg)}
 .faq details p{margin:14px 0 0;color:#52637a;line-height:1.75}
+
+
+.compact-faq{margin-top:12px}
+.compact-faq details{border-bottom:1px solid var(--line);padding:14px 0}
+.compact-faq summary{cursor:pointer;font-weight:800;color:var(--wine);list-style:none}
+.compact-faq summary::-webkit-details-marker{display:none}
+.compact-faq summary::before{content:"▶";display:inline-block;margin-right:8px;font-size:12px;transition:.2s}
+.compact-faq details[open] summary::before{transform:rotate(90deg)}
+.compact-faq p{margin:12px 0 0;color:#52637a;line-height:1.75}
 
 </style>
 
@@ -212,9 +221,20 @@
           <div class="adsense-placeholder"></div>
 
           <h3>Perguntas frequentes</h3>
-          <p><strong>Quantas semanas dura uma gestação?</strong><br>Como referência, a gestação é calculada em aproximadamente 40 semanas a partir da última menstruação.</p>
-          <p><strong>Por que os médicos contam por semanas?</strong><br>Porque o desenvolvimento do bebê muda bastante de semana para semana, e essa medida é mais precisa do que contar apenas por meses.</p>
-          <p><strong>O ultrassom pode mudar minha data provável do parto?</strong><br>Sim. Em alguns casos, especialmente no início da gestação, o ultrassom pode ajudar a ajustar a idade gestacional estimada.</p>
+              <div class="faq compact-faq">
+                <details>
+                  <summary>Quantas semanas dura uma gestação?</summary>
+                  <p>Como referência, a gestação é calculada em aproximadamente 40 semanas a partir da última menstruação.</p>
+                </details>
+                <details>
+                  <summary>Por que os médicos contam por semanas?</summary>
+                  <p>Porque o desenvolvimento do bebê muda bastante de semana para semana, e essa medida é mais precisa do que contar apenas por meses.</p>
+                </details>
+                <details>
+                  <summary>O ultrassom pode mudar minha data provável do parto?</summary>
+                  <p>Sim. Em alguns casos, especialmente no início da gestação, o ultrassom pode ajudar a ajustar a idade gestacional estimada.</p>
+                </details>
+              </div>
         </article>
 
         <aside class="sticky-cta">
