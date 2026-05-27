@@ -31,6 +31,20 @@
   
 .faq{display:grid;gap:14px;max-width:900px;margin:0 auto}.faq-item{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}.faq-question{width:100%;background:#fff;border:none;padding:22px;font-size:17px;font-weight:700;color:var(--wine);display:flex;justify-content:space-between;align-items:center;cursor:pointer;text-align:left}.faq-answer{display:none;padding:0 22px 22px;color:var(--muted);font-size:15px}.faq-item.active .faq-answer{display:block}.faq-item.active .faq-question span{transform:rotate(45deg)}.faq-question span{transition:.2s;font-size:26px;line-height:1}
 
+
+.course-cta-media{margin:0 auto 20px;max-width:250px}
+.course-cta-media img{width:100%;height:auto;object-fit:contain}
+.course-side-card{text-align:left}
+.course-side-card h3{margin-top:0}
+.course-side-card .btn{width:100%;margin-top:18px}
+.faq details{border-bottom:1px solid var(--line);padding:18px 0}
+.faq details:first-child{padding-top:0}
+.faq summary{cursor:pointer;font-weight:800;color:var(--wine);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"▶";display:inline-block;margin-right:8px;font-size:12px;transition:.2s}
+.faq details[open] summary::before{transform:rotate(90deg)}
+.faq details p{margin:14px 0 0;color:#52637a;line-height:1.75}
+
 </style>
 
   <script type="application/ld+json">
@@ -70,10 +84,6 @@
             <h1>Calculadora Gestacional: descubra de quantas <em>semanas</em> você está.</h1>
             <p class="lead">Informe a data da última menstruação, a data provável do parto ou os dados do ultrassom para estimar sua idade gestacional, trimestre atual e data provável do parto.</p>
             
-<div class="photo-card" style="margin-top:30px;max-width:420px">
-  <img src="/assets/Untitled_design__1_-removebg-preview.png" alt="Curso preparação para o parto">
-</div>
-
 <div class="hero-actions">
               <a class="btn btn-primary" href="#calculadora">Calcular agora</a>
               <a class="btn btn-secondary" href="/quiz">Fazer quiz gratuito</a>
@@ -208,7 +218,8 @@
         </article>
 
         <aside class="sticky-cta">
-          <h3>Prepare-se para o parto com mais confiança</h3>
+          <div class="course-cta-media"><img src="/assets/Untitled_design__1_-removebg-preview.png" alt="Curso Preparação para o Parto"></div>
+<h3>Prepare-se para o parto com mais confiança</h3>
           <p>Depois de descobrir suas semanas, dê o próximo passo: entenda seu corpo, as contrações e como se preparar emocionalmente.</p>
           <a class="btn" href="/parto-sem-medo">Conhecer o curso</a>
         </aside>
@@ -384,15 +395,6 @@
       hideMessage();
     });
   </script>
-
-<script>
-document.querySelectorAll('.faq-question').forEach(button => {
-  button.addEventListener('click', () => {
-    const item = button.parentElement;
-    item.classList.toggle('active');
-  });
-});
-</script>
 
 </body>
 </html>
