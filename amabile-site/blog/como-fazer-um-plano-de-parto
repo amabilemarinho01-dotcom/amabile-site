@@ -210,9 +210,7 @@ Faça o quiz gratuito da Amábile Marinho e descubra como está sua preparação
 <a href="#faq">Perguntas frequentes</a>
 </nav>
 
-<div class="ad-placeholder">
-Espaço para AdSense — sugestão: anúncio display responsivo após a introdução.
-</div>
+<div class="adsense-placeholder"></div>
 
 <h2 id="o-que-e">O que é um plano de parto?</h2>
 
@@ -253,9 +251,7 @@ Quando a gestante constrói um plano de parto, ela passa a conhecer melhor o pro
 <li>Estimula o preparo emocional</li>
 </ul>
 
-<div class="ad-placeholder">
-Espaço para AdSense — sugestão: anúncio display responsivo após a seção sobre importância.
-</div>
+<div class="adsense-placeholder"></div>
 
 <h2 id="incluir">O que incluir no plano de parto?</h2>
 
@@ -368,9 +364,7 @@ Esse diálogo ajuda a entender o que é possível, quais são as rotinas da inst
 Conversar antes ajuda a evitar surpresas e aumenta a sensação de segurança.
 </p>
 
-<div class="ad-placeholder">
-Espaço para AdSense — sugestão: anúncio display responsivo antes do modelo de plano.
-</div>
+<div class="adsense-placeholder"></div>
 
 <h2 id="modelo">Modelo simples de plano de parto</h2>
 
@@ -435,9 +429,7 @@ Um preparo acolhedor para ajudar você a entender o parto, organizar suas escolh
 
 </div>
 
-<div class="ad-placeholder">
-Espaço para AdSense — sugestão: anúncio display responsivo antes do FAQ.
-</div>
+<div class="adsense-placeholder"></div>
 
 <h2 id="faq">Perguntas frequentes sobre plano de parto</h2>
 
@@ -539,9 +531,7 @@ Um caminho acolhedor para chegar ao parto com mais segurança, consciência e tr
 <div class="sidebar-card ad">
 <h3>Publicidade</h3>
 
-<div class="ad-placeholder">
-Espaço para AdSense lateral.
-</div>
+<div class="adsense-placeholder"></div>
 </div>
 
 <div class="related-card">
