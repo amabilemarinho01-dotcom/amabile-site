@@ -1,40 +1,30 @@
-# .github/workflows/sitemap.yml
-#
-# Toda vez que você fizer push na branch main,
-# este workflow roda o generate-sitemap.js e commita
-# o sitemap.xml atualizado de volta no repositório.
-
-name: Gerar Sitemap
+name: Generate Sitemap
 
 on:
   push:
     branches:
-      - main        
+      - main
 
 jobs:
   sitemap:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Faz checkout do repositório
-      - name: Checkout do repositório
+      - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Instala o Node.js (o script não precisa de dependências externas)
-      - name: Configurar Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 20
 
-      # 3. Roda o script que gera o sitemap.xml
-      - name: Gerar sitemap.xml
+      - name: Generate sitemap
         run: node generate-sitemap.js
 
-      # 4. Commita o sitemap.xml atualizado (só se houver mudanças)
-      - name: Commitar sitemap atualizado
+      - name: Commit sitemap
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add sitemap.xml
-          git diff --cached --quiet || git commit -m "chore: atualiza sitemap.xml [skip ci]"
+          git commit -m "Atualiza sitemap" || echo "Sem mudanças"
           git push
