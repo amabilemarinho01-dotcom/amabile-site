@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <link rel="icon" href="/assets/favicon.svg">
@@ -16,14 +16,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Calculadora de Data Provável do Parto (DPP) | Amábile Marinho</title>
-  <meta name="description" content="Calcule sua data provável do parto pela última menstruação, data da concepção ou ultrassom. Ferramenta gratuita para gestantes.">
-  <link rel="canonical" href="https://amabilemarinho.com.br/calculadora-data-provavel-do-parto">
+  <title>Calculadora DPP | Data Provável do Parto | Amábile Marinho</title>
+  <meta name="description" content="Use a calculadora DPP gratuita para descobrir sua data provável do parto pela última menstruação, data da concepção ou dados do ultrassom.">
+  <link rel="canonical" href="https://amabilemarinho.com.br/calculadora-dpp">
 
-  <meta property="og:title" content="Calculadora de Data Provável do Parto (DPP)">
+  <meta property="og:title" content="Calculadora DPP | Amábile Marinho">
   <meta property="og:description" content="Descubra sua data provável do parto de forma simples e gratuita.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://amabilemarinho.com.br/calculadora-data-provavel-do-parto">
+  <meta property="og:url" content="https://amabilemarinho.com.br/calculadora-dpp">
   <meta name="theme-color" content="#6B1F4E">
 
   <style>
@@ -54,87 +54,14 @@
 .compact-faq details[open] summary::before{transform:rotate(90deg)}
 .compact-faq p{margin:12px 0 0;color:#52637a;line-height:1.75}
 
-
-.tool-hero{padding-bottom:62px}
-.tool-layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:34px;align-items:start}
-.tool-card,.content-card,.side-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:32px;box-shadow:0 12px 38px rgba(107,31,78,.06)}
-.tool-card h2,.content-card h2{color:var(--wine);font-size:32px;line-height:1.2;margin:8px 0 12px}
-.content-card h3{color:var(--wine);font-size:23px;margin:28px 0 10px}
-.calc-tabs{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}
-.tab-btn{border:1px solid var(--line);background:#fff;color:var(--wine);border-radius:999px;padding:12px 16px;font-weight:800;cursor:pointer}
-.tab-btn.active{background:var(--soft);border-color:#efcddd}
-.calc-form{display:grid;gap:18px;margin-top:10px}
-.field{display:grid;gap:8px}
-.field-grid{display:grid;grid-template-columns:1fr 130px;gap:14px}
-label{font-weight:800;color:#3a4453}
-input{width:100%;border:1px solid var(--line);border-radius:16px;padding:14px 15px;font-size:16px;background:#fff;color:var(--text)}
-input:focus{outline:3px solid rgba(196,64,106,.14);border-color:var(--pink)}
-.hidden{display:none!important}
-.result-box{margin-top:24px;border-radius:24px;background:linear-gradient(135deg,var(--soft),#fff);border:1px solid #efd4dd;padding:24px}
-.result-box h3{margin:0 0 12px;color:var(--wine);font-size:26px}
-.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
-.result-item{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}
-.result-item strong{display:block;color:var(--wine);font-size:18px}
-.result-item span{font-size:13px;color:var(--muted)}
-.notice{font-size:13px;color:var(--muted);margin:18px 0 0}
-.side-stack{display:grid;gap:18px;position:sticky;top:92px}
-.side-card{background:linear-gradient(135deg,var(--wine),var(--rose));color:#fff;border:none}
-.side-card h3{font-size:25px;line-height:1.12;margin:0 0 12px}
-.side-card p{color:rgba(255,255,255,.86);margin:0}
-.side-card .btn{background:#fff;color:var(--wine)}
-.content-grid{max-width:980px}
-@media(max-width:900px){.tool-layout{grid-template-columns:1fr}.side-stack{position:static}.field-grid,.result-grid{grid-template-columns:1fr}.tool-card,.content-card,.side-card{padding:24px}.tool-card h2,.content-card h2{font-size:28px}}
-
 </style>
 
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora Gestacional","url":"https://amabilemarinho.com.br/calculadora-gestacional","applicationCategory":"HealthApplication","operatingSystem":"All","description":"Calculadora gestacional gratuita para estimar idade gestacional, data provável do parto e trimestre da gravidez.","offers":{"@type":"Offer","price":"0","priceCurrency":"BRL"}}
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora DPP","url":"https://amabilemarinho.com.br/calculadora-dpp","applicationCategory":"HealthApplication","operatingSystem":"All","description":"Calculadora DPP gratuita para estimar a data provável do parto, idade gestacional e trimestre da gravidez.","offers":{"@type":"Offer","price":"0","priceCurrency":"BRL"}}
   </script>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Como calcular quantas semanas de gravidez estou?","acceptedAnswer":{"@type":"Answer","text":"A forma mais comum é contar a partir do primeiro dia da última menstruação. A calculadora soma os dias desde essa data e transforma o resultado em semanas e dias de gestação."}},{"@type":"Question","name":"A data provável do parto é exata?","acceptedAnswer":{"@type":"Answer","text":"Não. A data provável do parto é uma estimativa. O bebê pode nascer antes ou depois dessa data, e o acompanhamento com profissional de saúde é essencial."}},{"@type":"Question","name":"Posso calcular pela data do ultrassom?","acceptedAnswer":{"@type":"Answer","text":"Sim. Se você informou a data do ultrassom e a idade gestacional mostrada no exame, a ferramenta estima a idade gestacional atual e a data provável do parto."}}]}
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"A data provável do parto é exata?","acceptedAnswer":{"@type":"Answer","text":"Não. A data provável do parto é uma estimativa. O bebê pode nascer antes ou depois dessa data, e o acompanhamento com profissional de saúde é essencial."}},{"@type":"Question","name":"Qual é a forma mais comum de calcular a DPP?","acceptedAnswer":{"@type":"Answer","text":"A forma mais comum é usar o primeiro dia da última menstruação. A calculadora soma aproximadamente 280 dias a partir dessa data."}},{"@type":"Question","name":"Posso calcular a DPP pelo ultrassom?","acceptedAnswer":{"@type":"Answer","text":"Sim. Se você informou a data do ultrassom e a idade gestacional mostrada no exame, a ferramenta estima uma data provável do parto com base nesses dados."}}]}
   </script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "A data provável do parto é exata?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Não. A data provável do parto é uma estimativa. Muitos bebês nascem antes ou depois dessa data, e isso pode ser normal dependendo do contexto clínico."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Qual método é mais comum para calcular a DPP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "O método mais comum é usar o primeiro dia da última menstruação, principalmente quando a gestante lembra essa data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "O ultrassom pode mudar minha DPP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sim. Em alguns casos, especialmente quando feito no início da gestação, o ultrassom pode ajudar a ajustar a idade gestacional estimada."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Por que a gravidez é contada em semanas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Porque o desenvolvimento do bebê muda bastante de semana para semana, e essa medida é mais precisa do que contar apenas em meses."
-      }
-    }
-  ]
-}
-</script>
-
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -156,129 +83,105 @@ input:focus{outline:3px solid rgba(196,64,106,.14);border-color:var(--pink)}
     </div>
   </header>
 
-  
   <main>
-    <section class="hero tool-hero">
-      <div class="container hero-grid">
-        <div>
-          <div class="eyebrow">Calculadora gratuita para gestantes</div>
-          <h1>Calculadora de <em>Data Provável do Parto</em> (DPP)</h1>
-          <p class="lead">Descubra uma estimativa da sua data provável do parto pela última menstruação, data da concepção ou idade gestacional informada no ultrassom.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#calculadora">Calcular minha DPP</a>
-            <a class="btn btn-secondary" href="/quiz">Fazer quiz gratuito</a>
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="/">Início</a> › <a href="/calculadoras">Calculadoras</a> › Calculadora DPP</div>
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">Calculadora gratuita para gestantes</div>
+            <h1>Calculadora DPP: descubra de quantas <em>semanas</em> você está.</h1>
+            <p class="lead">Informe a data da última menstruação, a data provável da concepção ou os dados do ultrassom para estimar sua data provável do parto, idade gestacional e trimestre atual.</p>
+            
+<div class="hero-actions">
+              <a class="btn btn-primary" href="#calculadora">Calcular agora</a>
+              <a class="btn btn-secondary" href="/quiz">Fazer quiz gratuito</a>
+            </div>
+            <div class="notice"><strong>Atenção:</strong> esta ferramenta é educativa e não substitui o acompanhamento com obstetra, enfermeira obstetra ou outro profissional de saúde.</div>
           </div>
-          <div class="trust">
-            <div class="trust-card"><strong>3 formas</strong><span>DUM, concepção ou ultrassom</span></div>
-            <div class="trust-card"><strong>Resultado rápido</strong><span>DPP, semanas e trimestre</span></div>
-            <div class="trust-card"><strong>Gratuito</strong><span>sem cadastro obrigatório</span></div>
+
+          <div class="calculator-card" id="calculadora">
+            <h2>Calcule sua DPP</h2>
+            <p>Escolha uma forma de cálculo e preencha os dados para estimar sua data provável do parto.</p>
+
+            <div class="tabs" role="tablist" aria-label="Formas de cálculo">
+              <button class="tab active" type="button" data-tab="dum">Última menstruação</button>
+              <button class="tab" type="button" data-tab="dpp">Concepção</button>
+              <button class="tab" type="button" data-tab="usg">Ultrassom</button>
+            </div>
+
+            <form id="gestationForm">
+              <div class="tab-panel" id="panel-dum">
+                <div class="form-group">
+                  <label for="dumDate">Primeiro dia da última menstruação</label>
+                  <input id="dumDate" type="date">
+                  <small>Usado no cálculo obstétrico tradicional, considerando 40 semanas.</small>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="panel-dpp" style="display:none">
+                <div class="form-group">
+                  <label for="dppDate">Data provável da concepção</label>
+                  <input id="dppDate" type="date">
+                  <small>Use essa opção se você sabe a data provável da concepção.</small>
+                </div>
+              </div>
+
+              <div class="tab-panel" id="panel-usg" style="display:none">
+                <div class="form-group">
+                  <label for="usgDate">Data em que o ultrassom foi feito</label>
+                  <input id="usgDate" type="date">
+                </div>
+                <div class="form-group">
+                  <label for="usgWeeks">Idade gestacional no ultrassom</label>
+                  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+                    <input id="usgWeeks" type="number" min="1" max="42" placeholder="Semanas">
+                    <input id="usgDays" type="number" min="0" max="6" placeholder="Dias">
+                  </div>
+                  <small>Exemplo: 8 semanas e 3 dias.</small>
+                </div>
+              </div>
+
+              <div class="calc-actions">
+                <button class="btn btn-primary" type="submit">Ver resultado</button>
+                <button class="btn btn-secondary" type="button" id="clearBtn">Limpar</button>
+              </div>
+
+              <div class="error" id="errorBox"></div>
+
+              <div class="result" id="resultBox" aria-live="polite">
+                <h3>Resultado da sua calculadora DPP</h3>
+                <div class="result-grid">
+                  <div class="result-item"><span>Idade gestacional</span><strong id="gestAge">-</strong></div>
+                  <div class="result-item"><span>Data provável do parto</span><strong id="dueDate">-</strong></div>
+                  <div class="result-item"><span>Trimestre atual</span><strong id="trimester">-</strong></div>
+                  <div class="result-item"><span>Tempo restante estimado</span><strong id="remaining">-</strong></div>
+                </div>
+                <div class="progress-wrap">
+                  <div class="progress-label"><span>Progresso aproximado da gestação</span><span id="progressText">0%</span></div>
+                  <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
+                </div>
+                <p class="result-note" id="resultNote"></p>
+              </div>
+            </form>
           </div>
-        </div>
-        <div class="hero-photo">
-          <div class="photo-card"><img src="/assets/amabile_gravida.webp" alt="Gestante segurando a barriga"></div>
-          <div class="floating"><strong>Use como referência</strong><span>A DPP é uma estimativa. O acompanhamento com profissional de saúde continua sendo essencial.</span></div>
         </div>
       </div>
     </section>
 
-    <section id="calculadora">
-      <div class="container tool-layout">
-        <article class="tool-card">
-          <span class="tag">Ferramenta gratuita</span>
-          <h2>Calcule sua data provável do parto</h2>
-          <p>Escolha a forma de cálculo e preencha os campos abaixo. A opção mais comum é pela data da última menstruação.</p>
+    <div class="adsense-placeholder"></div>
 
-          <div class="calc-tabs" role="tablist" aria-label="Tipo de cálculo">
-            <button class="tab-btn active" type="button" data-method="dum">Última menstruação</button>
-            <button class="tab-btn" type="button" data-method="concepcao">Concepção</button>
-            <button class="tab-btn" type="button" data-method="ultrassom">Ultrassom</button>
-          </div>
-
-          <form class="calc-form" id="dppForm">
-            <div class="field method-field" data-field="dum">
-              <label for="dumDate">Primeiro dia da última menstruação</label>
-              <input id="dumDate" type="date">
-            </div>
-
-            <div class="field method-field hidden" data-field="concepcao">
-              <label for="conceptionDate">Data provável da concepção</label>
-              <input id="conceptionDate" type="date">
-            </div>
-
-            <div class="method-field hidden" data-field="ultrassom">
-              <div class="field">
-                <label for="usDate">Data do ultrassom</label>
-                <input id="usDate" type="date">
-              </div>
-              <div class="field-grid">
-                <div class="field">
-                  <label for="usWeeks">Idade gestacional no ultrassom — semanas</label>
-                  <input id="usWeeks" type="number" min="0" max="42" placeholder="Ex: 8">
-                </div>
-                <div class="field">
-                  <label for="usDays">Dias</label>
-                  <input id="usDays" type="number" min="0" max="6" placeholder="Ex: 3">
-                </div>
-              </div>
-            </div>
-
-            <button class="btn btn-primary" type="submit">Calcular DPP</button>
-          </form>
-
-          <div id="resultBox" class="result-box hidden" aria-live="polite"></div>
-
-          <p class="notice">Esta calculadora é apenas informativa e não substitui consulta, diagnóstico ou acompanhamento com obstetra, enfermeira obstetra ou profissional de saúde.</p>
-        </article>
-
-        <aside class="side-stack">
-          <div class="side-card course-side-card">
-            <div class="course-cta-media"><img src="/assets/Untitled_design__1_-removebg-preview.png" alt="Curso Preparação para o Parto"></div>
-            <h3>Prepare-se para o parto com mais confiança</h3>
-            <p>Depois de descobrir sua DPP, o próximo passo é entender seu corpo, as contrações e como se preparar emocionalmente.</p>
-            <a class="btn btn-secondary" href="/parto-sem-medo">Conhecer o curso</a>
-          </div>
-          <div class="adsense-placeholder"></div>
-        </aside>
-      </div>
-    </section>
-
-    <section>
-      <div class="container content-grid">
-        <article class="content-card">
-          <h2>Como funciona a calculadora de DPP?</h2>
-          <p>A data provável do parto é uma estimativa usada para acompanhar a evolução da gestação. Em geral, ela considera cerca de 40 semanas a partir do primeiro dia da última menstruação.</p>
-
-          <h3>1. Cálculo pela última menstruação</h3>
-          <p>É a forma mais usada. Você informa o primeiro dia da sua última menstruação e a ferramenta estima a data provável do parto somando 280 dias.</p>
-
-          <h3>2. Cálculo pela concepção</h3>
-          <p>Quando a data provável da concepção é conhecida, a calculadora estima a DPP somando aproximadamente 266 dias.</p>
-
-          <h3>3. Cálculo pelo ultrassom</h3>
-          <p>Quando você tem a idade gestacional indicada no ultrassom, a ferramenta estima a DUM aproximada e calcula a DPP a partir dela.</p>
-
-          <div class="adsense-placeholder"></div>
-
-          <h2>Perguntas frequentes</h2>
-          <div class="faq compact-faq">
-            <details>
-              <summary>A data provável do parto é exata?</summary>
-              <p>Não. A DPP é uma estimativa. Muitos bebês nascem antes ou depois dessa data, e isso pode ser normal dependendo do contexto clínico.</p>
-            </details>
-            <details>
-              <summary>Qual método é mais comum para calcular a DPP?</summary>
-              <p>O método mais comum é usar o primeiro dia da última menstruação, principalmente quando a gestante lembra essa data.</p>
-            </details>
-            <details>
-              <summary>O ultrassom pode mudar minha DPP?</summary>
-              <p>Sim. Em alguns casos, especialmente quando feito no início da gestação, o ultrassom pode ajudar a ajustar a idade gestacional estimada.</p>
-            </details>
-            <details>
-              <summary>Por que a gravidez é contada em semanas?</summary>
-              <p>Porque o desenvolvimento do bebê muda bastante de semana para semana, e essa medida é mais precisa do que contar apenas em meses.</p>
-            </details>
-          </div>
-        </article>
+    <section id="como-funciona">
+      <div class="container">
+        <div class="section-head">
+          <h2>O que a calculadora DPP mostra?</h2>
+          <p>Ela ajuda você a estimar a data provável do parto e entender em que fase da gestação está.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><div class="icon">♡</div><h3>Data provável do parto</h3><p>Mostra uma estimativa da DPP, informação muito usada no acompanhamento pré-natal.</p></article>
+          <article class="card"><div class="icon">↻</div><h3>Idade gestacional</h3><p>Também estima sua idade gestacional atual em semanas e dias, a partir dos dados informados.</p></article>
+          <article class="card"><div class="icon">✓</div><h3>Trimestre atual</h3><p>Indica se você está no primeiro, segundo ou terceiro trimestre da gestação.</p></article>
+        </div>
       </div>
     </section>
 
@@ -286,15 +189,78 @@ input:focus{outline:3px solid rgba(196,64,106,.14);border-color:var(--pink)}
       <div class="container">
         <div class="quiz-cta">
           <div>
-            <h2>Agora que você sabe sua DPP, descubra seu nível de preparo</h2>
-            <p>Responda 7 perguntas rápidas e veja quais pontos merecem mais atenção antes do parto.</p>
+            <h2>Agora que você sabe sua DPP, descubra seu nível de preparo para o parto</h2>
+            <p>Responda 7 perguntas e descubra quais pontos merecem mais atenção antes do grande dia.</p>
           </div>
-          <a class="btn" href="/quiz">Fazer quiz gratuito</a>
+          <a class="btn" href="/quiz">Fazer teste gratuito</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container content-grid">
+        <article class="article-box">
+          <h2>Como usar a calculadora DPP?</h2>
+          <p>Você pode calcular sua data provável do parto de três formas: pela data da última menstruação, pela data provável da concepção ou pelos dados do ultrassom. A opção mais comum é usar o primeiro dia da última menstruação, também chamado de DUM.</p>
+
+          <h3>1. Cálculo pela última menstruação</h3>
+          <p>Informe o primeiro dia da sua última menstruação. A calculadora estima quantos dias se passaram desde essa data e transforma esse período em semanas e dias de gestação.</p>
+
+          <h3>2. Cálculo pela data provável da concepção</h3>
+          <p>Se você sabe a data provável da concepção, informe essa data. A calculadora soma aproximadamente 266 dias para estimar a data provável do parto.</p>
+
+          <h3>3. Cálculo pelo ultrassom</h3>
+          <p>Use essa opção se você tem a data em que o ultrassom foi realizado e a idade gestacional mostrada no laudo. A ferramenta estima a DPP com base nesses dados.</p>
+
+          <h3>A data provável do parto é uma certeza?</h3>
+          <p>Não. A DPP é uma estimativa. Muitas mulheres entram em trabalho de parto antes ou depois dessa data, e isso pode ser normal dependendo do contexto clínico. Por isso, use a ferramenta como apoio educativo e mantenha seu pré-natal em dia.</p>
+
+          <h3>Quando procurar orientação profissional?</h3>
+          <p>Procure sua equipe de saúde se tiver sangramento, perda de líquido, dor intensa, febre, redução dos movimentos do bebê, pressão alta, dor de cabeça forte, alterações visuais ou qualquer sintoma que gere preocupação.</p>
+
+          <div class="adsense-placeholder"></div>
+
+          <h3>Perguntas frequentes</h3>
+              <div class="faq compact-faq">
+                <details>
+                  <summary>A data provável do parto é exata?</summary>
+                  <p>Não. A DPP é uma estimativa. O bebê pode nascer antes ou depois dessa data, e o acompanhamento com profissional de saúde é essencial.</p>
+                </details>
+                <details>
+                  <summary>Qual é a forma mais comum de calcular a DPP?</summary>
+                  <p>A forma mais comum é usar o primeiro dia da última menstruação. A calculadora soma aproximadamente 280 dias a partir dessa data.</p>
+                </details>
+                <details>
+                  <summary>Posso calcular a DPP pelo ultrassom?</summary>
+                  <p>Sim. Se você informou a data do ultrassom e a idade gestacional mostrada no exame, a ferramenta estima uma data provável do parto com base nesses dados.</p>
+                </details>
+              </div>
+        </article>
+
+        <aside class="sticky-cta">
+          <div class="course-cta-media"><img src="/assets/Untitled_design__1_-removebg-preview.png" alt="Curso Preparação para o Parto"></div>
+<h3>Prepare-se para o parto com mais confiança</h3>
+          <p>Depois de descobrir suas semanas, dê o próximo passo: entenda seu corpo, as contrações e como se preparar emocionalmente.</p>
+          <a class="btn" href="/parto-sem-medo">Conhecer o curso</a>
+        </aside>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="side-card">
+          <h2>Conteúdos relacionados</h2>
+          <p>Continue aprendendo com os conteúdos gratuitos da Amábile Marinho.</p>
+          <div class="mini-list">
+            <a class="mini" href="/blog/sintomas-de-gravidez"><b>✓</b><span>Sintomas de gravidez: como identificar os primeiros sinais?</span></a>
+            <a class="mini" href="/blog/como-saber-se-estou-em-trabalho-de-parto"><b>✓</b><span>Como saber se estou em trabalho de parto?</span></a>
+            <a class="mini" href="/blog/como-aliviar-a-dor-das-contracoes"><b>✓</b><span>Como aliviar a dor das contrações?</span></a>
+            <a class="mini" href="/blog/o-que-levar-na-mala-da-maternidade"><b>✓</b><span>O que levar na mala da maternidade?</span></a>
+          </div>
         </div>
       </div>
     </section>
   </main>
-
 
   <footer class="footer">
     <div class="container">
@@ -394,9 +360,10 @@ input:focus{outline:3px solid rgba(196,64,106,.14);border-color:var(--pink)}
       }
 
       if (activeTab === "dpp") {
-        const dpp = parseLocalDate(document.getElementById("dppDate").value);
-        if (!dpp) throw new Error("Informe a data provável do parto.");
-        return addDays(dpp, -TOTAL_DAYS);
+        const conception = parseLocalDate(document.getElementById("dppDate").value);
+        if (!conception) throw new Error("Informe a data provável da concepção.");
+        if (conception > today) throw new Error("A data da concepção não pode estar no futuro.");
+        return addDays(conception, -14);
       }
 
       const usgDate = parseLocalDate(document.getElementById("usgDate").value);
@@ -449,115 +416,6 @@ input:focus{outline:3px solid rgba(196,64,106,.14);border-color:var(--pink)}
       hideMessage();
     });
   </script>
-
-
-<script>
-(function(){
-  const tabButtons = document.querySelectorAll('.tab-btn');
-  const methodFields = document.querySelectorAll('.method-field');
-  const form = document.getElementById('dppForm');
-  const resultBox = document.getElementById('resultBox');
-  let currentMethod = 'dum';
-
-  function parseLocalDate(value){
-    if(!value) return null;
-    const parts = value.split('-').map(Number);
-    return new Date(parts[0], parts[1] - 1, parts[2]);
-  }
-
-  function addDays(date, days){
-    const copy = new Date(date);
-    copy.setDate(copy.getDate() + days);
-    return copy;
-  }
-
-  function diffDays(start, end){
-    const oneDay = 1000 * 60 * 60 * 24;
-    return Math.floor((end - start) / oneDay);
-  }
-
-  function formatDate(date){
-    return date.toLocaleDateString('pt-BR', {day:'2-digit', month:'long', year:'numeric'});
-  }
-
-  function trimester(weeks){
-    if(weeks < 14) return '1º trimestre';
-    if(weeks < 28) return '2º trimestre';
-    return '3º trimestre';
-  }
-
-  function showError(message){
-    resultBox.classList.remove('hidden');
-    resultBox.innerHTML = '<h3>Revise os dados</h3><p>' + message + '</p>';
-  }
-
-  tabButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      currentMethod = button.dataset.method;
-      tabButtons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-      methodFields.forEach(field => {
-        field.classList.toggle('hidden', field.dataset.field !== currentMethod);
-      });
-      resultBox.classList.add('hidden');
-    });
-  });
-
-  form.addEventListener('submit', function(event){
-    event.preventDefault();
-
-    const today = new Date();
-    today.setHours(0,0,0,0);
-    let dpp = null;
-    let baseDate = null;
-
-    if(currentMethod === 'dum'){
-      const dum = parseLocalDate(document.getElementById('dumDate').value);
-      if(!dum) return showError('Informe o primeiro dia da sua última menstruação.');
-      if(dum > today) return showError('A data da última menstruação não pode estar no futuro.');
-      baseDate = dum;
-      dpp = addDays(dum, 280);
-    }
-
-    if(currentMethod === 'concepcao'){
-      const conception = parseLocalDate(document.getElementById('conceptionDate').value);
-      if(!conception) return showError('Informe a data provável da concepção.');
-      if(conception > today) return showError('A data de concepção não pode estar no futuro.');
-      baseDate = addDays(conception, -14);
-      dpp = addDays(conception, 266);
-    }
-
-    if(currentMethod === 'ultrassom'){
-      const usDate = parseLocalDate(document.getElementById('usDate').value);
-      const weeks = Number(document.getElementById('usWeeks').value);
-      const days = Number(document.getElementById('usDays').value || 0);
-      if(!usDate) return showError('Informe a data do ultrassom.');
-      if(usDate > today) return showError('A data do ultrassom não pode estar no futuro.');
-      if(Number.isNaN(weeks) || weeks < 0 || weeks > 42) return showError('Informe as semanas do ultrassom entre 0 e 42.');
-      if(Number.isNaN(days) || days < 0 || days > 6) return showError('Informe os dias do ultrassom entre 0 e 6.');
-      const gestDaysAtUS = (weeks * 7) + days;
-      baseDate = addDays(usDate, -gestDaysAtUS);
-      dpp = addDays(baseDate, 280);
-    }
-
-    const gestDays = diffDays(baseDate, today);
-    const weeksNow = Math.max(0, Math.floor(gestDays / 7));
-    const daysNow = Math.max(0, gestDays % 7);
-    const daysToBirth = diffDays(today, dpp);
-
-    resultBox.classList.remove('hidden');
-    resultBox.innerHTML = `
-      <h3>Sua data provável do parto é ${formatDate(dpp)}</h3>
-      <p>Com base nas informações preenchidas, essa é uma estimativa da sua DPP. Use como referência e confirme sempre com seu acompanhamento profissional.</p>
-      <div class="result-grid">
-        <div class="result-item"><strong>${weeksNow} semanas e ${daysNow} dias</strong><span>idade gestacional estimada hoje</span></div>
-        <div class="result-item"><strong>${trimester(weeksNow)}</strong><span>fase atual da gestação</span></div>
-        <div class="result-item"><strong>${daysToBirth >= 0 ? daysToBirth + ' dias' : 'DPP já passou'}</strong><span>tempo estimado até a DPP</span></div>
-      </div>
-    `;
-  });
-})();
-</script>
 
 </body>
 </html>
