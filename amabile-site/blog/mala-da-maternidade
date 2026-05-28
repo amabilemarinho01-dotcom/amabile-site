@@ -1,0 +1,1075 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Mala da maternidade: checklist completo para mãe, bebê e acompanhante</title>
+
+  <meta name="description" content="Veja o checklist completo da mala da maternidade para mãe, bebê e acompanhante e descubra o que realmente levar para o parto." />
+
+  <link rel="canonical" href="https://amabilemarinho.com.br/blog/mala-da-maternidade" />
+
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Mala da maternidade: checklist completo para mãe, bebê e acompanhante" />
+  <meta property="og:description" content="Descubra o que levar na mala da maternidade e veja um checklist completo para mãe, bebê e acompanhante." />
+  <meta property="og:url" content="https://amabilemarinho.com.br/blog/mala-da-maternidade" />
+  <meta property="og:site_name" content="Amábile Marinho" />
+  <meta property="og:image" content="https://amabilemarinho.com.br/assets/Untitled_design__1_-removebg-preview.png" />
+
+  <link rel="icon" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/favicon.svg">
+
+  <meta name="google-adsense-account" content="ca-pub-9085628749129517" />
+
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WZLSB55C');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"Mala da maternidade: checklist completo para mãe, bebê e acompanhante",
+    "description":"Veja o checklist completo da mala da maternidade para mãe, bebê e acompanhante.",
+    "author":{"@type":"Person","name":"Amábile Marinho"},
+    "publisher":{"@type":"Organization","name":"Amábile Marinho"},
+    "mainEntityOfPage":"https://amabilemarinho.com.br/blog/mala-da-maternidade",
+    "image":"https://amabilemarinho.com.br/assets/Untitled_design__1_-removebg-preview.png",
+    "inLanguage":"pt-BR"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Quando arrumar a mala da maternidade?","acceptedAnswer":{"@type":"Answer","text":"Muitas gestantes preferem deixar a mala pronta entre 32 e 36 semanas de gestação."}},
+      {"@type":"Question","name":"O que levar na mala do bebê?","acceptedAnswer":{"@type":"Answer","text":"Roupinhas, fraldas, manta, touca, meias e itens básicos de higiene costumam fazer parte da mala do bebê."}},
+      {"@type":"Question","name":"O acompanhante também deve levar mala?","acceptedAnswer":{"@type":"Answer","text":"Sim. O acompanhante pode precisar de roupas, documentos, carregador e itens de conforto."}},
+      {"@type":"Question","name":"Quantas roupas levar para o bebê?","acceptedAnswer":{"@type":"Answer","text":"A quantidade pode variar conforme orientação da maternidade e tempo de internação."}},
+      {"@type":"Question","name":"Preciso levar documentos para a maternidade?","acceptedAnswer":{"@type":"Answer","text":"Sim. Documentos da gestante e exames costumam ser importantes no momento da internação."}}
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#fff7f7;
+      --surface:#fff;
+      --surface-soft:#fdeaf1;
+      --text:#3b1831;
+      --muted:#5f6f83;
+      --brand:#a01363;
+      --brand-dark:#6f0f4f;
+      --brand-soft:#f7cfe1;
+      --line:#ead6df;
+      --shadow:0 18px 50px rgba(111,15,79,.10);
+      --radius:22px;
+      --max:1120px;
+      --wine:#6f0f4f;
+      --rose:#d63384;
+      --pink:#f06292;
+      --soft:#fff1f6
+    }
+
+    *{box-sizing:border-box}
+
+    html{scroll-behavior:smooth}
+
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      color:var(--text);
+      background:linear-gradient(180deg,#fff7f7 0%,#fff 42%,#fff7f7 100%);
+      line-height:1.72
+    }
+
+    img{max-width:100%;display:block}
+
+    a{
+      color:var(--brand);
+      text-decoration:none
+    }
+
+    a:hover{text-decoration:underline}
+
+    .container{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:0 22px
+    }
+
+    header.site-header{
+      position:sticky;
+      top:0;
+      z-index:20;
+      background:rgba(255,247,247,.9);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid rgba(234,214,223,.8)
+    }
+
+    .nav{
+      position:relative;
+      height:72px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px
+    }
+
+    .brand{
+      font-weight:850;
+      letter-spacing:-.03em;
+      font-size:1.15rem;
+      color:var(--brand-dark)
+    }
+
+    .menu{
+      display:flex;
+      align-items:center;
+      gap:18px;
+      font-size:.95rem
+    }
+
+    .menu a{color:var(--muted)}
+
+    .btn-primary{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      padding:12px 18px;
+      border-radius:999px;
+      border:1px solid transparent;
+      background:var(--brand);
+      color:#fff!important;
+      font-weight:800;
+      line-height:1.1;
+      box-shadow:0 10px 24px rgba(160,19,99,.18)
+    }
+
+    .btn-secondary{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      padding:12px 18px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background:#fff;
+      color:var(--brand)!important;
+      font-weight:800
+    }
+
+    .menu-toggle{display:none;align-items:center;justify-content:center;width:46px;height:46px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--wine);font-size:24px;font-weight:800;cursor:pointer}
+
+    .mobile-menu{display:none;position:absolute;left:4%;right:4%;top:76px;background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 18px 44px rgba(107,31,78,.16);padding:12px;z-index:30}
+
+    .mobile-menu a{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-radius:14px;color:var(--wine);font-weight:700}
+
+    .mobile-menu a:hover{background:var(--soft)}
+
+    .mobile-menu a.primary-mobile{background:linear-gradient(135deg,var(--rose),var(--pink));color:#fff;margin-top:6px;justify-content:center}
+
+    .hero{
+      padding:58px 0 28px
+    }
+
+    .breadcrumb{
+      font-size:.9rem;
+      color:var(--muted);
+      margin-bottom:18px
+    }
+
+    .article-kicker{
+      display:inline-flex;
+      background:var(--surface-soft);
+      color:var(--brand);
+      padding:7px 12px;
+      border-radius:999px;
+      font-weight:850;
+      font-size:.82rem;
+      margin-bottom:18px
+    }
+
+    h1,h2,h3{
+      line-height:1.16;
+      letter-spacing:-.035em;
+      margin:0 0 18px
+    }
+
+    h1{
+      font-size:clamp(2.2rem,5vw,4.2rem);
+      max-width:900px;
+      color:var(--brand-dark)
+    }
+
+    .lead{
+      font-size:clamp(1.12rem,2vw,1.35rem);
+      color:var(--muted);
+      max-width:820px;
+      margin:0 0 28px
+    }
+
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin:26px 0 0
+    }
+
+    .content-layout{
+      display:grid;
+      grid-template-columns:minmax(0,1fr) 320px;
+      gap:36px;
+      align-items:start;
+      padding:26px 0 70px
+    }
+
+    article{
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:clamp(24px,4vw,44px)
+    }
+
+    article h2{
+      font-size:clamp(1.65rem,3vw,2.25rem);
+      margin-top:44px;
+      color:var(--brand-dark)
+    }
+
+    article h3{
+      font-size:1.25rem;
+      margin-top:28px;
+      color:var(--brand-dark)
+    }
+
+    article p{
+      margin:0 0 18px;
+      color:#46333f
+    }
+
+    article ul{
+      padding-left:22px;
+      margin:0 0 22px
+    }
+
+    article li{
+      margin:8px 0
+    }
+
+    .notice{
+      background:#fff7fb;
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 20px;
+      color:var(--muted);
+      margin:28px 0
+    }
+
+    .toc{
+      background:#fff7fb;
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:20px;
+      margin:28px 0
+    }
+
+    .toc strong{
+      display:block;
+      margin-bottom:10px;
+      color:var(--brand-dark)
+    }
+
+    .toc a{
+      display:block;
+      padding:5px 0;
+      color:var(--muted)
+    }
+
+    .checklist-box{
+      background:#fff7fb;
+      border:1px solid var(--line);
+      border-radius:20px;
+      padding:22px;
+      margin:28px 0
+    }
+
+    .cta-box{
+      background:linear-gradient(135deg,#fdeaf1,#fff);
+      border:1px solid var(--brand-soft);
+      border-radius:22px;
+      padding:24px;
+      margin:34px 0;
+      box-shadow:0 12px 30px rgba(160,19,99,.10)
+    }
+
+    .cta-box .label{
+      font-size:.82rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      color:var(--brand);
+      font-weight:900;
+      margin-bottom:8px
+    }
+
+    .course-card{
+      display:grid;
+      grid-template-columns:220px 1fr;
+      gap:24px;
+      align-items:center
+    }
+
+    .adsense-placeholder{
+      display:none
+    }
+
+    .faq details{
+      border-bottom:1px solid var(--line);
+      padding:18px 0
+    }
+
+    .faq summary{
+      cursor:pointer;
+      font-weight:850;
+      color:var(--brand-dark)
+    }
+
+    .faq p{
+      margin-top:10px;
+      color:var(--muted)
+    }
+
+    aside{
+      position:sticky;
+      top:96px
+    }
+
+    .sidebar-card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:22px;
+      box-shadow:var(--shadow);
+      padding:22px;
+      margin-bottom:18px
+    }
+
+    .sidebar-card h3{
+      font-size:1.15rem;
+      margin-bottom:10px;
+      color:var(--brand-dark)
+    }
+
+    .sidebar-card p{
+      color:var(--muted);
+      margin:0 0 16px;
+      font-size:.96rem
+    }
+
+    footer{
+      border-top:1px solid var(--line);
+      background:#fff7f7;
+      padding:34px 0;
+      color:var(--muted)
+    }
+
+    .footer-grid{
+      display:flex;
+      justify-content:space-between;
+      gap:18px;
+      flex-wrap:wrap
+    }
+
+    .footer-links{
+      display:flex;
+      gap:14px;
+      flex-wrap:wrap
+    }
+
+    @media(max-width:900px){
+
+      .menu{display:none}
+
+      .menu-toggle{display:inline-flex}
+
+      .mobile-menu.open{display:grid}
+
+      .nav>.btn-primary{display:none}
+
+      .content-layout{
+        grid-template-columns:1fr
+      }
+
+      aside{
+        position:static
+      }
+
+      .course-card{
+        grid-template-columns:1fr
+      }
+
+      .course-card img{
+        max-width:260px;
+        margin:auto
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="container nav">
+
+<a class="brand" href="https://amabilemarinho.com.br">
+Amábile Marinho
+</a>
+
+<nav class="menu" aria-label="Menu principal">
+<a href="https://amabilemarinho.com.br/calculadoras">Calculadoras</a>
+<a href="https://amabilemarinho.com.br/blog">Blog</a>
+<a href="https://amabilemarinho.com.br/quiz">Quiz</a>
+<a href="https://amabilemarinho.com.br/parto-sem-medo">Curso</a>
+<a href="https://amabilemarinho.com.br/contato">Contato</a>
+</nav>
+
+<a class="btn-primary" href="https://amabilemarinho.com.br/quiz">
+Fazer quiz gratuito
+</a>
+
+<button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Menu mobile">
+  <a href="/calculadoras">Calculadoras</a>
+  <a href="/blog">Blog</a>
+  <a href="/quiz">Quiz gratuito</a>
+  <a href="/parto-sem-medo">Curso</a>
+  <a href="/contato">Contato</a>
+  <a href="https://www.instagram.com/amabilemarinho/" target="_blank" rel="noopener">Instagram</a>
+  <a class="primary-mobile" href="/quiz">Fazer o quiz</a>
+</nav>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="breadcrumb">
+<a href="https://amabilemarinho.com.br">Início</a> /
+<a href="https://amabilemarinho.com.br/blog">Blog</a> /
+Mala da maternidade
+</div>
+
+<span class="article-kicker">
+Preparação para o parto
+</span>
+
+<h1>
+Mala da maternidade: checklist completo para mãe, bebê e acompanhante
+</h1>
+
+<p class="lead">
+Veja o que realmente levar para a maternidade e descubra como montar uma mala prática, organizada e acolhedora para o nascimento do bebê.
+</p>
+
+<div class="hero-actions">
+
+<a class="btn-primary" href="https://amabilemarinho.com.br/quiz">
+Fazer quiz gratuito
+</a>
+
+<a class="btn-secondary" href="https://amabilemarinho.com.br/parto-sem-medo">
+Conhecer o curso
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="container content-layout">
+
+<article>
+
+<div class="notice">
+<strong>Aviso importante:</strong>
+a lista pode variar conforme orientação da maternidade, tipo de parto e tempo de internação.
+</div>
+
+<p>
+Uma das etapas mais marcantes da reta final da gravidez costuma ser arrumar a mala da maternidade.
+</p>
+
+<p>
+Esse momento geralmente mistura ansiedade, expectativa e emoção, afinal, a qualquer momento o nascimento pode acontecer.
+</p>
+
+<p>
+Mas junto com a empolgação também surgem muitas dúvidas:
+</p>
+
+<ul>
+<li>o que realmente levar?</li>
+<li>quantas roupas colocar?</li>
+<li>o acompanhante também precisa de mala?</li>
+<li>o que pode ficar de fora?</li>
+</ul>
+
+<p>
+Organizar tudo com antecedência costuma trazer mais tranquilidade para a gestante e para toda a família.
+</p>
+
+<div class="cta-box">
+
+<div class="label">
+Comece por aqui
+</div>
+
+<h2>
+Descubra como está sua preparação para o parto
+</h2>
+
+<p>
+Faça o quiz gratuito da Amábile Marinho e receba conteúdos acolhedores sobre gestação, parto e maternidade.
+</p>
+
+<a class="btn-primary" href="https://amabilemarinho.com.br/quiz">
+Fazer quiz gratuito
+</a>
+
+</div>
+
+<nav class="toc" aria-label="Índice do artigo">
+
+<strong>
+Neste artigo você verá:
+</strong>
+
+<a href="#quando">Quando arrumar a mala?</a>
+<a href="#mae">Checklist da mãe</a>
+<a href="#bebe">Checklist do bebê</a>
+<a href="#acompanhante">Checklist do acompanhante</a>
+<a href="#documentos">Documentos importantes</a>
+<a href="#dicas">Dicas práticas</a>
+<a href="#faq">Perguntas frequentes</a>
+
+</nav>
+
+<div class="adsense-placeholder"></div>
+
+<h2 id="quando">
+Quando arrumar a mala da maternidade?
+</h2>
+
+<p>
+Muitas gestantes preferem deixar a mala pronta entre 32 e 36 semanas da gestação.
+</p>
+
+<p>
+Isso ajuda a evitar correria caso o trabalho de parto comece antes do esperado.
+</p>
+
+<h3>
+Preparar cedo pode trazer mais tranquilidade
+</h3>
+
+<p>
+Ter tudo organizado costuma diminuir ansiedade na reta final da gravidez.
+</p>
+
+<p>
+Além disso, a gestante consegue revisar os itens com calma e evitar esquecimentos importantes.
+</p>
+
+<p>
+Você também pode gostar de:
+<a href="https://amabilemarinho.com.br/blog/plano-de-parto">
+como fazer um plano de parto
+</a>.
+</p>
+
+<div class="adsense-placeholder"></div>
+
+<h2 id="mae">
+Checklist da mala da mãe
+</h2>
+
+<p>
+A mala da mãe deve priorizar conforto, praticidade e itens importantes para o pós-parto imediato.
+</p>
+
+<div class="checklist-box">
+
+<h3>
+O que levar para a mãe
+</h3>
+
+<ul>
+<li>Camisolas ou pijamas confortáveis</li>
+<li>Roupas íntimas confortáveis</li>
+<li>Sutiã de amamentação</li>
+<li>Absorventes pós-parto</li>
+<li>Chinelos</li>
+<li>Produtos de higiene pessoal</li>
+<li>Escova e pasta de dentes</li>
+<li>Hidratante labial</li>
+<li>Toalha de banho</li>
+<li>Carregador de celular</li>
+<li>Roupa confortável para alta</li>
+</ul>
+
+</div>
+
+<h3>
+Itens que podem aumentar o conforto
+</h3>
+
+<ul>
+<li>Almofada</li>
+<li>Garrafa de água</li>
+<li>Snacks leves</li>
+<li>Elástico de cabelo</li>
+<li>Fone de ouvido</li>
+</ul>
+
+<p>
+Pequenos detalhes podem fazer diferença durante o trabalho de parto e recuperação.
+</p>
+
+<div class="cta-box">
+
+<div class="label">
+Preparação emocional
+</div>
+
+<h2>
+Sentir-se preparada pode reduzir ansiedade
+</h2>
+
+<p>
+Organizar a mala da maternidade costuma ajudar muitas mulheres a se sentirem mais seguras para o nascimento.
+</p>
+
+<a class="btn-primary" href="https://amabilemarinho.com.br/parto-sem-medo">
+Conhecer o curso
+</a>
+
+</div>
+
+<div class="adsense-placeholder"></div>
+
+<h2 id="bebe">
+Checklist da mala do bebê
+</h2>
+
+<p>
+A quantidade de roupas pode variar conforme a maternidade e tempo previsto de internação.
+</p>
+
+<div class="checklist-box">
+
+<h3>
+O que levar para o bebê
+</h3>
+
+<ul>
+<li>Body</li>
+<li>Macacões</li>
+<li>Mijão</li>
+<li>Meias</li>
+<li>Touca</li>
+<li>Manta</li>
+<li>Fraldas</li>
+<li>Lenço umedecido</li>
+<li>Toalha ou fralda de pano</li>
+<li>Saída da maternidade</li>
+</ul>
+
+</div>
+
+<h3>
+Vale separar os kits por dia
+</h3>
+
+<p>
+Muitas famílias gostam de deixar cada troca do bebê organizada em saquinhos separados.
+</p>
+
+<p>
+Isso costuma facilitar bastante durante a internação.
+</p>
+
+<h2 id="acompanhante">
+Checklist do acompanhante
+</h2>
+
+<p>
+O acompanhante também deve se preparar para passar várias horas na maternidade.
+</p>
+
+<div class="checklist-box">
+
+<h3>
+O que o acompanhante pode levar
+</h3>
+
+<ul>
+<li>Roupas confortáveis</li>
+<li>Casaco</li>
+<li>Itens de higiene</li>
+<li>Carregador de celular</li>
+<li>Documentos</li>
+<li>Lanches leves</li>
+<li>Chinelo</li>
+</ul>
+
+</div>
+
+<p>
+Você também pode gostar de:
+<a href="https://amabilemarinho.com.br/blog/acompanhante-no-parto">
+como o acompanhante pode ajudar no parto
+</a>.
+</p>
+
+<div class="adsense-placeholder"></div>
+
+<h2 id="documentos">
+Documentos importantes para levar
+</h2>
+
+<p>
+Alguns documentos costumam ser importantes no momento da internação.
+</p>
+
+<ul>
+<li>Documento com foto</li>
+<li>Carteirinha do convênio</li>
+<li>Exames da gestação</li>
+<li>Cartão pré-natal</li>
+<li>Plano de parto</li>
+</ul>
+
+<p>
+Deixar tudo separado previamente pode evitar estresse desnecessário no momento do parto.
+</p>
+
+<h2 id="dicas">
+Dicas práticas para organizar a mala
+</h2>
+
+<h3>
+1. Faça uma lista antes
+</h3>
+
+<p>
+Montar um checklist ajuda bastante a evitar esquecimentos.
+</p>
+
+<h3>
+2. Evite excesso
+</h3>
+
+<p>
+Levar itens demais pode dificultar a organização dentro da maternidade.
+</p>
+
+<h3>
+3. Separe por categorias
+</h3>
+
+<p>
+Dividir os itens entre mãe, bebê e acompanhante facilita muito durante a internação.
+</p>
+
+<h3>
+4. Revise tudo com antecedência
+</h3>
+
+<p>
+Vale revisar documentos, carregadores e roupas antes da reta final da gravidez.
+</p>
+
+<div class="adsense-placeholder"></div>
+
+<h2>
+Preparação também ajuda emocionalmente
+</h2>
+
+<p>
+Muitas mulheres relatam que preparar a mala da maternidade ajuda a tornar o nascimento mais “real”.
+</p>
+
+<p>
+Esse momento costuma trazer conexão emocional com a chegada do bebê e sensação de organização para o parto.
+</p>
+
+<p>
+A preparação prática também pode ajudar a diminuir ansiedade na reta final da gestação.
+</p>
+
+<div class="cta-box course-card">
+
+<img
+src="/assets/Untitled_design__1_-removebg-preview.png"
+alt="Curso Preparação para o Parto da Amábile Marinho"
+loading="lazy"
+/>
+
+<div>
+
+<div class="label">
+Próximo passo
+</div>
+
+<h2>
+Conheça o curso Parto Sem Medo
+</h2>
+
+<p>
+Um preparo acolhedor para ajudar você a viver a gestação e o nascimento com mais segurança emocional.
+</p>
+
+<a class="btn-primary" href="https://amabilemarinho.com.br/parto-sem-medo">
+Conhecer o curso
+</a>
+
+</div>
+
+</div>
+
+<div class="adsense-placeholder"></div>
+
+<h2 id="faq">
+Perguntas frequentes sobre mala da maternidade
+</h2>
+
+<div class="faq">
+
+<details>
+<summary>Quando arrumar a mala da maternidade?</summary>
+<p>
+Muitas gestantes preferem deixar a mala pronta entre 32 e 36 semanas.
+</p>
+</details>
+
+<details>
+<summary>O que levar na mala do bebê?</summary>
+<p>
+Roupinhas, fraldas, manta e itens básicos de higiene costumam fazer parte da lista.
+</p>
+</details>
+
+<details>
+<summary>O acompanhante também deve levar mala?</summary>
+<p>
+Sim. O acompanhante pode precisar de roupas, documentos e itens de conforto.
+</p>
+</details>
+
+<details>
+<summary>Quantas roupas levar para o bebê?</summary>
+<p>
+A quantidade pode variar conforme orientação da maternidade e tempo de internação.
+</p>
+</details>
+
+<details>
+<summary>Preciso levar documentos para a maternidade?</summary>
+<p>
+Sim. Documentos da gestante e exames costumam ser importantes na internação.
+</p>
+</details>
+
+</div>
+
+<div class="cta-box">
+
+<div class="label">
+Prepare-se com mais tranquilidade
+</div>
+
+<h2>
+Organização pode trazer mais segurança emocional
+</h2>
+
+<p>
+Quando a mulher se sente preparada para o nascimento, a reta final da gestação costuma ficar mais leve e acolhedora.
+</p>
+
+<p>
+Conheça o curso Preparação para o Parto da Amábile Marinho.
+</p>
+
+<a class="btn-primary" href="https://amabilemarinho.com.br/parto-sem-medo">
+Acessar o Curso Parto Sem Medo
+</a>
+
+<a class="btn-secondary" href="https://amabilemarinho.com.br/quiz">
+Fazer quiz gratuito
+</a>
+
+</div>
+
+<div class="cta-box">
+
+<div class="label">
+Sobre a autora
+</div>
+
+<div class="course-card">
+
+<img
+src="/assets/amabile-marinho.webp"
+alt="Amábile Marinho especialista em preparação para o parto"
+loading="lazy"
+/>
+
+<div>
+
+<h2>
+Amábile Marinho
+</h2>
+
+<p>
+Amábile Marinho atua ajudando gestantes a viverem o parto com mais acolhimento, informação e segurança emocional.
+</p>
+
+<p>
+Seu trabalho é focado em preparação para o parto e fortalecimento da confiança da mulher durante a maternidade.
+</p>
+
+<p>
+Instagram:
+<a href="https://www.instagram.com/amabilemarinho/" target="_blank" rel="noopener">
+@amabilemarinho
+</a>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</article>
+
+<aside>
+
+<div class="sidebar-card">
+
+<h3>
+Faça o quiz gratuito
+</h3>
+
+<p>
+Descubra como está sua preparação emocional para o parto.
+</p>
+
+<a class="btn-primary" href="https://amabilemarinho.com.br/quiz">
+Começar agora
+</a>
+
+</div>
+
+<div class="sidebar-card">
+
+<img
+src="/assets/Untitled_design__1_-removebg-preview.png"
+alt="Curso Preparação para o Parto da Amábile Marinho"
+loading="lazy"
+/>
+
+<h3>
+Preparação para o Parto
+</h3>
+
+<p>
+Um caminho acolhedor para viver o nascimento com mais segurança emocional.
+</p>
+
+<a class="btn-primary" href="https://amabilemarinho.com.br/parto-sem-medo">
+Conhecer o curso
+</a>
+
+</div>
+
+</aside>
+
+</div>
+
+</main>
+
+<footer>
+
+<div class="container footer-grid">
+
+<div>
+© Amábile Marinho — Conteúdo informativo para gestantes.
+</div>
+
+<div class="footer-links">
+
+<a href="https://amabilemarinho.com.br/blog">
+Blog
+</a>
+
+<a href="https://amabilemarinho.com.br/politica-de-privacidade">
+Política de Privacidade
+</a>
+
+<a href="https://amabilemarinho.com.br/termos-de-uso">
+Termos de Uso
+</a>
+
+<a href="https://amabilemarinho.com.br/contato">
+Contato
+</a>
+
+</div>
+
+</div>
+
+</footer>
+
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  if (menuToggle && mobileMenu) {
+    menuToggle.addEventListener('click', function () {
+      const isOpen = mobileMenu.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      menuToggle.textContent = isOpen ? '×' : '☰';
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        mobileMenu.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.textContent = '☰';
+      });
+    });
+  }
+</script>
+
+</body>
+</html>
