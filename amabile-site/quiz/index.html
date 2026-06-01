@@ -132,6 +132,19 @@
 .guarantee-strip{background:#EAF3DE;border-radius:12px;padding:12px 16px;display:flex;align-items:center;gap:10px;margin-top:12px}
 .guarantee-strip i{color:#3B6D11;font-size:20px;flex-shrink:0}
 .guarantee-strip-txt{font-size:12px;color:#27500A;line-height:1.5}
+
+.checkout-accordion{display:none;background:#fff8f5;border:1px solid #eadde4;border-radius:16px;padding:16px;margin:4px 0 14px;animation:slideOpen .25s ease}
+.checkout-accordion.open{display:block}
+.checkout-title{font-size:15px;font-weight:600;color:#6B1F4E;margin-bottom:6px;text-align:center}
+.checkout-sub{font-size:12px;color:var(--color-text-secondary);line-height:1.5;text-align:center;margin-bottom:14px}
+.checkout-field{margin-bottom:10px}
+.checkout-field label{display:block;font-size:12px;color:var(--color-text-secondary);margin-bottom:5px}
+.checkout-field input{width:100%;border:1px solid var(--color-border-tertiary);border-radius:10px;padding:13px 12px;font-size:14px;color:var(--color-text-primary);background:#fff;outline:none}
+.checkout-field input:focus{border-color:#9B2D6F;box-shadow:0 0 0 3px rgba(155,45,111,.08)}
+.btn-checkout-final{display:block;background:linear-gradient(135deg,#9B2D6F,#C4406A);color:#fff;border:none;padding:15px;border-radius:50px;font-size:14px;font-weight:500;cursor:pointer;text-decoration:none;text-align:center;width:100%;margin-top:12px;transition:transform .15s}
+.btn-checkout-final:hover{transform:translateY(-1px)}
+.checkout-privacy{font-size:11px;color:var(--color-text-secondary);line-height:1.45;text-align:center;margin-top:10px}
+@keyframes slideOpen{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
 </style>
 
 </head>
@@ -199,7 +212,7 @@
       <div><div class="video-top-txt">Veja o que o curso faz por você</div><div class="video-top-sub">Assista antes de decidir</div></div>
     </div>
     <div class="video-ratio">
-      <iframe src="https://www.youtube.com/embed/Wv43sYHFjsc" allowfullscreen></iframe>
+      <iframe id="youtube-video" src="https://www.youtube.com/embed/Wv43sYHFjsc?enablejsapi=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
   </div>
 
@@ -222,7 +235,27 @@
         <div class="price-por">R$ 97<span>,00 à vista</span></div>
         <div class="price-note">ou em parcelas no cartão</div>
       </div>
-      <a class="btn-cta" href="https://pay.cakto.com.br/36cw2yy_874088" target="_blank">Quero chegar ao parto preparada <i class="ti ti-arrow-right" style="font-size:14px;vertical-align:-2px" aria-hidden="true"></i></a>
+      <button class="btn-cta" type="button" onclick="openCheckoutForm()">Quero chegar ao parto preparada <i class="ti ti-arrow-right" style="font-size:14px;vertical-align:-2px" aria-hidden="true"></i></button>
+      <div class="checkout-accordion" id="checkout-accordion">
+        <form id="checkout-lead-form" onsubmit="submitCheckoutLead(event)">
+          <div class="checkout-title">Finalize seu acesso</div>
+          <div class="checkout-sub">Preencha seus dados para continuar para o pagamento seguro.</div>
+          <div class="checkout-field">
+            <label for="lead-name">Nome completo</label>
+            <input id="lead-name" name="nome" type="text" autocomplete="name" required placeholder="Seu nome completo">
+          </div>
+          <div class="checkout-field">
+            <label for="lead-email">E-mail</label>
+            <input id="lead-email" name="email" type="email" autocomplete="email" required placeholder="seuemail@exemplo.com">
+          </div>
+          <div class="checkout-field">
+            <label for="lead-phone">Celular / WhatsApp</label>
+            <input id="lead-phone" name="celular" type="tel" autocomplete="tel" required placeholder="(00) 00000-0000">
+          </div>
+          <button class="btn-checkout-final" type="submit">Continuar para pagamento seguro <i class="ti ti-lock" style="font-size:14px;vertical-align:-2px" aria-hidden="true"></i></button>
+          <div class="checkout-privacy">Seus dados serão usados apenas para identificar seu acesso e melhorar sua experiência.</div>
+        </form>
+      </div>
       <div class="security-row">
         <span><i class="ti ti-lock" style="font-size:14px" aria-hidden="true"></i> Pagamento seguro</span>
         <span><i class="ti ti-credit-card" style="font-size:14px" aria-hidden="true"></i> Cartão ou Pix</span>
@@ -262,6 +295,11 @@ let leadData={
   'Preparo do acompanhante':'',
   'Direitos no parto':'',
   Resultado:'',
+  'Progresso vídeo':'',
+  'Clique comprar':'',
+  'Nome completo':'',
+  Email:'',
+  Celular:'',
   Data:new Date().toLocaleString('pt-BR'),
   'Script sugerido':'',
   Origem:getOrigem()
@@ -305,11 +343,12 @@ function sendToSheets(extraData={}){
     Data:new Date().toLocaleString('pt-BR')
   };
 
-  fetch(SHEETS_URL,{
+  return fetch(SHEETS_URL,{
     method:'POST',
     mode:'no-cors',
     headers:{'Content-Type':'application/json'},
-    body:JSON.stringify(leadData)
+    body:JSON.stringify(leadData),
+    keepalive:true
   }).catch(function(error){
     console.warn('Erro ao enviar dados para a planilha:',error);
   });
@@ -379,6 +418,90 @@ function pick(p,btn){
     pts+=p;cur++;
     cur<Qs.length?renderQ():result();
   },320);
+}
+
+
+let videoProgressTracked={25:false,50:false,90:false};
+let videoProgressInterval=null;
+let youtubePlayer=null;
+
+const youtubeApiScript=document.createElement('script');
+youtubeApiScript.src='https://www.youtube.com/iframe_api';
+document.head.appendChild(youtubeApiScript);
+
+function onYouTubeIframeAPIReady(){
+  youtubePlayer=new YT.Player('youtube-video',{
+    events:{'onStateChange':onYoutubePlayerStateChange}
+  });
+}
+
+function onYoutubePlayerStateChange(event){
+  if(event.data===YT.PlayerState.PLAYING){
+    clearInterval(videoProgressInterval);
+    videoProgressInterval=setInterval(trackVideoProgress,1000);
+  }else{
+    clearInterval(videoProgressInterval);
+  }
+}
+
+function trackVideoProgress(){
+  if(!youtubePlayer || !youtubePlayer.getDuration || !youtubePlayer.getCurrentTime) return;
+
+  const duration=youtubePlayer.getDuration();
+  const currentTime=youtubePlayer.getCurrentTime();
+
+  if(!duration || duration<=0) return;
+
+  const percent=Math.round((currentTime/duration)*100);
+
+  if(percent>=25 && !videoProgressTracked[25]){
+    videoProgressTracked[25]=true;
+    sendToSheets({'Progresso vídeo':'25%'});
+  }
+
+  if(percent>=50 && !videoProgressTracked[50]){
+    videoProgressTracked[50]=true;
+    sendToSheets({'Progresso vídeo':'50%'});
+  }
+
+  if(percent>=90 && !videoProgressTracked[90]){
+    videoProgressTracked[90]=true;
+    sendToSheets({'Progresso vídeo':'90%'});
+  }
+}
+
+function openCheckoutForm(){
+  sendToSheets({'Clique comprar':'Sim'});
+  const box=document.getElementById('checkout-accordion');
+  box.classList.add('open');
+  setTimeout(()=>box.scrollIntoView({behavior:'smooth',block:'center'}),80);
+}
+
+function submitCheckoutLead(event){
+  event.preventDefault();
+
+  const nome=document.getElementById('lead-name').value.trim();
+  const email=document.getElementById('lead-email').value.trim();
+  const celular=document.getElementById('lead-phone').value.trim();
+  const button=event.target.querySelector('button[type="submit"]');
+
+  if(!nome || !email || !celular) return;
+
+  if(button){
+    button.disabled=true;
+    button.textContent='Enviando...';
+  }
+
+  sendToSheets({
+    'Clique comprar':'Dados enviados',
+    'Nome completo':nome,
+    Email:email,
+    Celular:celular
+  });
+
+  setTimeout(()=>{
+    window.location.href='https://pay.cakto.com.br/36cw2yy_874088';
+  },700);
 }
 
 function result(){
