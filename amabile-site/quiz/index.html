@@ -250,9 +250,83 @@ const Qs=[
 
 let cur=0,pts=0;
 
+const SHEETS_URL='https://script.google.com/macros/s/AKfycbyiFTEsCDb5JaAQh0S183utjMm9O2UpKjVBWV4wXznJPMqWKeg8GPlaX4fXD4JKhxe8PA/exec';
+
+let leadData={
+  session_id:getSessionId(),
+  'Semanas de gestação':'',
+  'Sentimento sobre o parto':'',
+  'Preparo para o parto':'',
+  'Condutas nas contrações':'',
+  'Medo da dor':'',
+  'Preparo do acompanhante':'',
+  'Direitos no parto':'',
+  Resultado:'',
+  Data:new Date().toLocaleString('pt-BR'),
+  'Script sugerido':'',
+  Origem:getOrigem()
+};
+
+function getSessionId(){
+  let id=sessionStorage.getItem('quiz_session_id');
+  if(!id){
+    id='lead_'+Date.now()+'_'+Math.random().toString(36).substring(2,10);
+    sessionStorage.setItem('quiz_session_id',id);
+  }
+  return id;
+}
+
+function getOrigem(){
+  const params=new URLSearchParams(window.location.search);
+  const origem=params.get('origem');
+  const utmSource=params.get('utm_source');
+  const utmMedium=params.get('utm_medium');
+  const utmCampaign=params.get('utm_campaign');
+
+  if(origem) return origem;
+
+  if(utmSource){
+    return [
+      'utm_source='+utmSource,
+      utmMedium?'utm_medium='+utmMedium:'',
+      utmCampaign?'utm_campaign='+utmCampaign:''
+    ].filter(Boolean).join(' | ');
+  }
+
+  if(document.referrer) return document.referrer;
+
+  return 'Direto';
+}
+
+function sendToSheets(extraData={}){
+  leadData={
+    ...leadData,
+    ...extraData,
+    Data:new Date().toLocaleString('pt-BR')
+  };
+
+  fetch(SHEETS_URL,{
+    method:'POST',
+    mode:'no-cors',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(leadData)
+  }).catch(function(error){
+    console.warn('Erro ao enviar dados para a planilha:',error);
+  });
+}
+
+// Cria a linha na planilha assim que a pessoa abre o quiz.
+sendToSheets();
+
 function start(){
-  cur=0;pts=0;
-  show('s1');renderQ();
+  cur=0;
+  pts=0;
+  sendToSheets({
+    Resultado:'',
+    'Script sugerido':''
+  });
+  show('s1');
+  renderQ();
 }
 
 function show(id){
@@ -282,6 +356,25 @@ function renderQ(){
 function pick(p,btn){
   document.querySelectorAll('.opt').forEach(b=>b.classList.remove('sel'));
   btn.classList.add('sel');
+
+  const resposta=btn.textContent.trim();
+
+  const campos=[
+    'Semanas de gestação',
+    'Sentimento sobre o parto',
+    'Preparo para o parto',
+    'Condutas nas contrações',
+    'Medo da dor',
+    'Preparo do acompanhante',
+    'Direitos no parto'
+  ];
+
+  if(campos[cur]){
+    sendToSheets({
+      [campos[cur]]:resposta
+    });
+  }
+
   setTimeout(()=>{
     pts+=p;cur++;
     cur<Qs.length?renderQ():result();
@@ -289,7 +382,7 @@ function pick(p,btn){
 }
 
 function result(){
-  const max=Qs.length*3;
+  const max=Qs.reduce((total,q)=>total+Math.max(...q.os.map(o=>o.p)),0);
   const pct=Math.round((pts/max)*100);
   const hero=document.getElementById('res-hero');
   let title,sub,desc,insights,cls;
@@ -336,6 +429,11 @@ function result(){
   el.innerHTML='';
   insights.forEach(i=>{
     el.innerHTML+=`<div class="insight"><div class="ins-icon ${i.cl}"><i class="ti ${i.ic}" aria-hidden="true"></i></div><div class="ins-txt"><strong>${i.t}.</strong> ${i.d}</div></div>`;
+  });
+
+  sendToSheets({
+    Resultado:title+' ('+pct+'%)',
+    'Script sugerido':desc
   });
 
   show('s2');
