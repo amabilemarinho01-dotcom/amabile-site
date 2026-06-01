@@ -481,12 +481,24 @@ function onlyNumbers(value){
   return String(value || '').replace(/\D/g,'');
 }
 
+function limparCelularParaCheckout(celular){
+  let numero=onlyNumbers(celular);
+
+  // O checkout da Cakto já mostra o seletor Brasil (+55).
+  // Por isso, removemos o código 55 se a pessoa digitar com DDI.
+  if(numero.startsWith('55') && numero.length>=12){
+    numero=numero.substring(2);
+  }
+
+  return numero;
+}
+
 function buildCheckoutUrl(nome,email,celular){
   const url=new URL('https://pay.cakto.com.br/36cw2yy_874088');
-  const phone=onlyNumbers(celular);
+  const phone=limparCelularParaCheckout(celular);
 
   // Parâmetros comuns de pré-preenchimento.
-  // Se a Cakto aceitar um deles, o checkout já abre preenchido; se ignorar algum, não quebra o checkout.
+  // O telefone é enviado sem +55 para não quebrar o campo de celular no checkout.
   url.searchParams.set('name',nome);
   url.searchParams.set('full_name',nome);
   url.searchParams.set('nome',nome);
