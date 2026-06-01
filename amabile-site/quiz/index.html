@@ -477,7 +477,32 @@ function openCheckoutForm(){
   setTimeout(()=>box.scrollIntoView({behavior:'smooth',block:'center'}),80);
 }
 
-function submitCheckoutLead(event){
+function onlyNumbers(value){
+  return String(value || '').replace(/\D/g,'');
+}
+
+function buildCheckoutUrl(nome,email,celular){
+  const url=new URL('https://pay.cakto.com.br/36cw2yy_874088');
+  const phone=onlyNumbers(celular);
+
+  // Parâmetros comuns de pré-preenchimento.
+  // Se a Cakto aceitar um deles, o checkout já abre preenchido; se ignorar algum, não quebra o checkout.
+  url.searchParams.set('name',nome);
+  url.searchParams.set('full_name',nome);
+  url.searchParams.set('nome',nome);
+  url.searchParams.set('email',email);
+  url.searchParams.set('phone',phone);
+  url.searchParams.set('telefone',phone);
+  url.searchParams.set('celular',phone);
+  url.searchParams.set('whatsapp',phone);
+
+  // Mantém o vínculo entre quiz, planilha e compra.
+  url.searchParams.set('session_id',leadData.session_id);
+
+  return url.toString();
+}
+
+async function submitCheckoutLead(event){
   event.preventDefault();
 
   const nome=document.getElementById('lead-name').value.trim();
@@ -492,16 +517,28 @@ function submitCheckoutLead(event){
     button.textContent='Enviando...';
   }
 
-  sendToSheets({
+  const payload={
     'Clique comprar':'Dados enviados',
     'Nome completo':nome,
+    'Nome Completo':nome,
+    Nome:nome,
     Email:email,
     Celular:celular
-  });
+  };
 
+  // Atualiza também o objeto local antes do redirecionamento.
+  leadData={...leadData,...payload};
+
+  try{
+    await sendToSheets(payload);
+  }catch(e){
+    console.warn('Não foi possível confirmar o envio antes do checkout:',e);
+  }
+
+  // Pequena folga para o Apps Script receber o POST antes da troca de página.
   setTimeout(()=>{
-    window.location.href='https://pay.cakto.com.br/36cw2yy_874088';
-  },700);
+    window.location.href=buildCheckoutUrl(nome,email,celular);
+  },1200);
 }
 
 function result(){
