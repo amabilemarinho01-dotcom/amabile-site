@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sua Oferta Viral</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,sans-serif;background:#07070a;color:white;overflow-x:hidden}
+    section{padding:80px 8%}
+    .hero{min-height:100vh;display:grid;place-items:center;text-align:center;background:radial-gradient(circle at top,#4f16ff55,transparent 40%),#07070a}
+    .badge{display:inline-block;padding:10px 18px;border:1px solid #ffffff22;border-radius:999px;background:#ffffff0d;margin-bottom:24px}
+    h1{font-size:clamp(38px,7vw,86px);line-height:.95;margin-bottom:24px}
+    h1 span{color:#8b5cff}
+    p{color:#cfcfe6;font-size:20px;line-height:1.6}
+    .btn{display:inline-block;margin-top:34px;padding:18px 34px;background:linear-gradient(135deg,#8b5cff,#ff3df2);color:white;text-decoration:none;border-radius:14px;font-weight:700;box-shadow:0 0 40px #8b5cff66;transition:.3s}
+    .btn:hover{transform:translateY(-4px) scale(1.03)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-top:40px}
+    .card{padding:28px;border:1px solid #ffffff14;border-radius:24px;background:linear-gradient(180deg,#ffffff12,#ffffff05);backdrop-filter:blur(10px);animation:float 4s ease-in-out infinite}
+    .card h3{font-size:24px;margin-bottom:12px}
+    .title{text-align:center;font-size:clamp(32px,5vw,58px);margin-bottom:18px}
+    .center{text-align:center;max-width:850px;margin:auto}
+    .offer{background:linear-gradient(135deg,#17112b,#0b0b12);border-top:1px solid #ffffff14;border-bottom:1px solid #ffffff14}
+    .price{font-size:54px;font-weight:900;margin-top:24px}
+    details{max-width:850px;margin:16px auto;padding:22px;border-radius:18px;background:#ffffff0d;border:1px solid #ffffff14}
+    summary{cursor:pointer;font-weight:700;font-size:20px}
+    details p{margin-top:14px;font-size:17px}
+    footer{text-align:center;padding:40px;color:#aaa}
+    .reveal{opacity:0;transform:translateY(35px);animation:reveal .8s forwards}
+    .delay1{animation-delay:.2s}.delay2{animation-delay:.4s}.delay3{animation-delay:.6s}
+    @keyframes reveal{to{opacity:1;transform:none}}
+    @keyframes float{50%{transform:translateY(-10px)}}
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div>
+      <div class="badge reveal">Método exclusivo para vender mais</div>
+      <h1 class="reveal delay1">Transforme sua oferta em uma <span>máquina de vendas</span></h1>
+      <p class="center reveal delay2">Uma landing page moderna, rápida e persuasiva para apresentar seu produto, capturar atenção e aumentar conversões.</p>
+      <a href="#oferta" class="btn reveal delay3">Quero acessar agora</a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="title">O que você recebe</h2>
+    <p class="center">Estrutura pensada para prender atenção, gerar desejo e levar o visitante até a compra.</p>
+
+    <div class="grid">
+      <div class="card"><h3>Design premium</h3><p>Visual moderno com contraste forte, cards, brilho e profundidade.</p></div>
+      <div class="card"><h3>Animações</h3><p>Elementos entrando na tela, botões interativos e sensação de movimento.</p></div>
+      <div class="card"><h3>Alta conversão</h3><p>Seções organizadas para explicar, provar valor e chamar para ação.</p></div>
+      <div class="card"><h3>Responsivo</h3><p>Funciona bem no celular, tablet e computador.</p></div>
+    </div>
+  </section>
+
+  <section class="offer" id="oferta">
+    <h2 class="title">Oferta especial</h2>
+    <p class="center">Adapte este bloco para seu produto, curso, mentoria ou serviço.</p>
+    <div class="center">
+      <div class="price">R$ 97</div>
+      <a href="#" class="btn">Comprar agora</a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="title">Perguntas frequentes</h2>
+
+    <details>
+      <summary>Posso colocar no GitHub?</summary>
+      <p>Sim. Salve este arquivo como index.html e envie para o seu repositório.</p>
+    </details>
+
+    <details>
+      <summary>Funciona no Cloudflare Pages?</summary>
+      <p>Sim. Como é HTML puro, não precisa de build. Basta publicar a pasta do projeto.</p>
+    </details>
+
+    <details>
+      <summary>Posso trocar textos e cores?</summary>
+      <p>Sim. Você pode editar diretamente no HTML e no CSS dentro deste arquivo.</p>
+    </details>
+  </section>
+
+  <footer>
+    © 2026 Sua Marca. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
