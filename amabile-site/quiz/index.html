@@ -306,8 +306,11 @@ let leadData={
 };
 
 let metaEventsSent={
+  ViewContent:false,
   QuizStarted:false,
+  CompleteRegistration:false,
   QuizCompleted:false,
+  AddToCart:false,
   PurchaseIntent:false,
   Lead:false
 };
@@ -392,6 +395,12 @@ sendToSheets();
 function start(){
   cur=0;
   pts=0;
+  trackMetaEvent('ViewContent','standard',{
+    content_name:'Quiz Parto Sem Medo',
+    content_category:'quiz',
+    status:'quiz_started'
+  });
+
   trackMetaEvent('QuizStarted','custom');
   sendToSheets({
     Resultado:'',
@@ -504,6 +513,13 @@ function trackVideoProgress(){
 }
 
 function openCheckoutForm(){
+  trackMetaEvent('AddToCart','standard',{
+    content_name:'Curso Preparação para o Parto',
+    content_type:'product',
+    value:97,
+    currency:'BRL'
+  });
+
   trackMetaEvent('PurchaseIntent','custom');
   sendToSheets({'Clique comprar':'Sim'});
   const box=document.getElementById('checkout-accordion');
@@ -629,6 +645,13 @@ function result(){
   el.innerHTML='';
   insights.forEach(i=>{
     el.innerHTML+=`<div class="insight"><div class="ins-icon ${i.cl}"><i class="ti ${i.ic}" aria-hidden="true"></i></div><div class="ins-txt"><strong>${i.t}.</strong> ${i.d}</div></div>`;
+  });
+
+  trackMetaEvent('CompleteRegistration','standard',{
+    content_name:'Quiz Parto Sem Medo',
+    status:'quiz_completed',
+    resultado:title,
+    percentual:pct
   });
 
   trackMetaEvent('QuizCompleted','custom',{
