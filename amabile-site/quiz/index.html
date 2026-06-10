@@ -305,6 +305,38 @@ let leadData={
   Origem:getOrigem()
 };
 
+let metaEventsSent={
+  QuizStarted:false,
+  QuizCompleted:false,
+  PurchaseIntent:false,
+  Lead:false
+};
+
+function trackMetaEvent(eventName,eventType='custom',params={}){
+  if(metaEventsSent[eventName]) return;
+  metaEventsSent[eventName]=true;
+
+  const eventParams={
+    ...params,
+    session_id:leadData.session_id,
+    origem:leadData.Origem
+  };
+
+  if(typeof fbq==='function'){
+    if(eventType==='standard'){
+      fbq('track',eventName,eventParams);
+    }else{
+      fbq('trackCustom',eventName,eventParams);
+    }
+  }
+
+  window.dataLayer=window.dataLayer || [];
+  window.dataLayer.push({
+    event:eventName,
+    ...eventParams
+  });
+}
+
 function getSessionId(){
   let id=sessionStorage.getItem('quiz_session_id');
   if(!id){
@@ -360,6 +392,7 @@ sendToSheets();
 function start(){
   cur=0;
   pts=0;
+  trackMetaEvent('QuizStarted','custom');
   sendToSheets({
     Resultado:'',
     'Script sugerido':''
@@ -471,6 +504,7 @@ function trackVideoProgress(){
 }
 
 function openCheckoutForm(){
+  trackMetaEvent('PurchaseIntent','custom');
   sendToSheets({'Clique comprar':'Sim'});
   const box=document.getElementById('checkout-accordion');
   box.classList.add('open');
@@ -512,6 +546,11 @@ async function submitCheckoutLead(event){
   const button=event.target.querySelector('button[type="submit"]');
 
   if(!nome || !email || !celular) return;
+
+  trackMetaEvent('Lead','standard',{
+    content_name:'Quiz Parto Sem Medo - dados enviados',
+    status:'checkout_lead'
+  });
 
   if(button){
     button.disabled=true;
@@ -590,6 +629,11 @@ function result(){
   el.innerHTML='';
   insights.forEach(i=>{
     el.innerHTML+=`<div class="insight"><div class="ins-icon ${i.cl}"><i class="ti ${i.ic}" aria-hidden="true"></i></div><div class="ins-txt"><strong>${i.t}.</strong> ${i.d}</div></div>`;
+  });
+
+  trackMetaEvent('QuizCompleted','custom',{
+    resultado:title,
+    percentual:pct
   });
 
   sendToSheets({
