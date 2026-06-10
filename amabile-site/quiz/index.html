@@ -307,11 +307,8 @@ let leadData={
 
 let metaEventsSent={
   ViewContent:false,
-  QuizStarted:false,
   CompleteRegistration:false,
-  QuizCompleted:false,
   AddToCart:false,
-  PurchaseIntent:false,
   Lead:false
 };
 
@@ -401,7 +398,6 @@ function start(){
     status:'quiz_started'
   });
 
-  trackMetaEvent('QuizStarted','custom');
   sendToSheets({
     Resultado:'',
     'Script sugerido':''
@@ -520,7 +516,6 @@ function openCheckoutForm(){
     currency:'BRL'
   });
 
-  trackMetaEvent('PurchaseIntent','custom');
   sendToSheets({'Clique comprar':'Sim'});
   const box=document.getElementById('checkout-accordion');
   box.classList.add('open');
@@ -654,10 +649,6 @@ function result(){
     percentual:pct
   });
 
-  trackMetaEvent('QuizCompleted','custom',{
-    resultado:title,
-    percentual:pct
-  });
 
   sendToSheets({
     Resultado:title+' ('+pct+'%)',
