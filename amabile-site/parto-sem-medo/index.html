@@ -750,170 +750,210 @@
   </script>
 
   <script>
-    (function () {
-      const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxYVOVaRXv5M8q6n6g0OOnvkRQuVyTEeewgTyESOt1QpoX7pJW3tYQHWrqhAwerwMp6/exec";
-      const CHECKOUT_DOMAIN = "pay.cakto.com.br";
+  (function () {
+    const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxYVOVaRXv5M8q6n6g0OOnvkRQuVyTEeewgTyESOt1QpoX7pJW3tYQHWrqhAwerwMp6/exec";
+    const CHECKOUT_DOMAIN = "pay.cakto.com.br";
 
-      function getVisitId() {
-        let id = localStorage.getItem("visit_id");
+    function getVisitId() {
+      let id = localStorage.getItem("visit_id");
 
-        if (!id) {
-          id = "visit_" + Date.now() + "_" + Math.random().toString(36).substring(2, 12);
-          localStorage.setItem("visit_id", id);
-        }
-
-        return id;
+      if (!id) {
+        id = "visit_" + Date.now() + "_" + Math.random().toString(36).substring(2, 12);
+        localStorage.setItem("visit_id", id);
       }
 
-      function getOrigem() {
-        const params = new URLSearchParams(window.location.search);
+      return id;
+    }
 
-        const utms = [
-          "utm_source",
-          "utm_medium",
-          "utm_campaign",
-          "utm_content",
-          "utm_term"
-        ];
+    function getOrigem() {
+      const params = new URLSearchParams(window.location.search);
 
-        const foundUtms = utms
-          .map(function (key) {
-            const value = params.get(key);
-            return value ? key + "=" + value : "";
-          })
-          .filter(Boolean);
+      const utms = [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_content",
+        "utm_term"
+      ];
 
-        if (foundUtms.length > 0) {
-          return foundUtms.join(" | ");
-        }
+      const foundUtms = utms
+        .map(function (key) {
+          const value = params.get(key);
+          return value ? key + "=" + value : "";
+        })
+        .filter(Boolean);
 
-        if (document.referrer) {
-          return document.referrer;
-        }
-
-        return "direto";
+      if (foundUtms.length > 0) {
+        return foundUtms.join(" | ");
       }
 
-      function getDateTimeBrazil() {
-        return new Date().toLocaleString("pt-BR", {
-          timeZone: "America/Sao_Paulo",
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-          hour: "2-digit",
-          minute: "2-digit",
-          second: "2-digit"
-        });
+      if (document.referrer) {
+        return document.referrer;
       }
 
-      function sendEvent(eventName, extraData) {
-        extraData = extraData || {};
+      return "direto";
+    }
 
-        const payload = {
-          event: eventName,
-          visit_id: getVisitId(),
-          data_hora: getDateTimeBrazil(),
-          origem: getOrigem(),
-          pagina: window.location.href,
-          percentual_video: extraData.percentual_video || "",
-          destino: extraData.destino || "",
-          texto_botao: extraData.texto_botao || "",
-          user_agent: navigator.userAgent
-        };
-
-        const body = new URLSearchParams(payload);
-
-        fetch(APPS_SCRIPT_URL, {
-          method: "POST",
-          mode: "no-cors",
-          headers: {
-            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
-          },
-          body: body
-        });
-      }
-
-      window.addEventListener("load", function () {
-        sendEvent("page_view");
+    function getDateTimeBrazil() {
+      return new Date().toLocaleString("pt-BR", {
+        timeZone: "America/Sao_Paulo",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
       });
+    }
 
-      document.addEventListener("click", function (event) {
-        const link = event.target.closest("a");
+    function formatTime(seconds) {
+      const min = Math.floor(seconds / 60);
+      const sec = seconds % 60;
 
-        if (!link) return;
+      return (
+        String(min).padStart(2, "0") +
+        ":" +
+        String(sec).padStart(2, "0")
+      );
+    }
 
-        const href = link.href || "";
+    function sendEvent(eventName, extraData) {
+      extraData = extraData || {};
 
-        if (href.includes(CHECKOUT_DOMAIN)) {
-          sendEvent("initiate", {
-            destino: href,
-            texto_botao: link.innerText.trim()
-          });
-        }
-      });
-
-      let player = null;
-      let trackingInterval = null;
-
-      const milestonesSent = {
-        25: false,
-        50: false,
-        75: false,
-        100: false
+      const payload = {
+        event: eventName,
+        visit_id: getVisitId(),
+        data_hora: getDateTimeBrazil(),
+        origem: getOrigem(),
+        pagina: window.location.href,
+        percentual_video: extraData.percentual_video || "",
+        destino: extraData.destino || "",
+        texto_botao: extraData.texto_botao || "",
+        tempo_ativo: extraData.tempo_ativo || "",
+        user_agent: navigator.userAgent
       };
 
-      window.onYouTubeIframeAPIReady = function () {
-        player = new YT.Player("vsl-youtube", {
-          events: {
-            onStateChange: onPlayerStateChange
-          }
-        });
-      };
+      const body = new URLSearchParams(payload);
 
-      function onPlayerStateChange(event) {
-        if (event.data === YT.PlayerState.PLAYING) {
-          startVideoTracking();
-        }
+      fetch(APPS_SCRIPT_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
+        },
+        body: body
+      });
+    }
 
-        if (event.data === YT.PlayerState.ENDED) {
-          sendVideoMilestone(100);
-        }
-      }
+    window.addEventListener("load", function () {
+      sendEvent("page_view");
+    });
 
-      function startVideoTracking() {
-        if (trackingInterval) return;
+    document.addEventListener("click", function (event) {
+      const link = event.target.closest("a");
 
-        trackingInterval = setInterval(function () {
-          if (!player || typeof player.getDuration !== "function") return;
+      if (!link) return;
 
-          const duration = player.getDuration();
-          const currentTime = player.getCurrentTime();
+      const href = link.href || "";
 
-          if (!duration || duration <= 0) return;
-
-          const percent = Math.floor((currentTime / duration) * 100);
-
-          if (percent >= 25) sendVideoMilestone(25);
-          if (percent >= 50) sendVideoMilestone(50);
-          if (percent >= 75) sendVideoMilestone(75);
-          if (percent >= 100) sendVideoMilestone(100);
-        }, 1000);
-      }
-
-      function sendVideoMilestone(percent) {
-        if (milestonesSent[percent]) return;
-
-        milestonesSent[percent] = true;
-
-        sendEvent("video_" + percent + "_percent", {
-          percentual_video: percent
+      if (href.includes(CHECKOUT_DOMAIN)) {
+        sendEvent("initiate", {
+          destino: href,
+          texto_botao: link.innerText.trim()
         });
       }
+    });
 
-      const youtubeApi = document.createElement("script");
-      youtubeApi.src = "https://www.youtube.com/iframe_api";
-      document.head.appendChild(youtubeApi);
-    })();
-  </script>
-</body>
-</html>
+    let activeSeconds = 0;
+    let lastInteraction = Date.now();
+
+    function registerActivity() {
+      lastInteraction = Date.now();
+    }
+
+    [
+      "mousemove",
+      "scroll",
+      "click",
+      "touchstart",
+      "keydown"
+    ].forEach(function (eventName) {
+      document.addEventListener(eventName, registerActivity, { passive: true });
+    });
+
+    setInterval(function () {
+      const isVisible = document.visibilityState === "visible";
+      const recentlyActive = Date.now() - lastInteraction < 30000;
+
+      if (isVisible && recentlyActive) {
+        activeSeconds += 10;
+
+        sendEvent("tempo_ativo", {
+          tempo_ativo: formatTime(activeSeconds)
+        });
+      }
+    }, 10000);
+
+    let player = null;
+    let trackingInterval = null;
+
+    const milestonesSent = {
+      25: false,
+      50: false,
+      75: false,
+      100: false
+    };
+
+    window.onYouTubeIframeAPIReady = function () {
+      player = new YT.Player("vsl-youtube", {
+        events: {
+          onStateChange: onPlayerStateChange
+        }
+      });
+    };
+
+    function onPlayerStateChange(event) {
+      if (event.data === YT.PlayerState.PLAYING) {
+        startVideoTracking();
+      }
+
+      if (event.data === YT.PlayerState.ENDED) {
+        sendVideoMilestone(100);
+      }
+    }
+
+    function startVideoTracking() {
+      if (trackingInterval) return;
+
+      trackingInterval = setInterval(function () {
+        if (!player || typeof player.getDuration !== "function") return;
+
+        const duration = player.getDuration();
+        const currentTime = player.getCurrentTime();
+
+        if (!duration || duration <= 0) return;
+
+        const percent = Math.floor((currentTime / duration) * 100);
+
+        if (percent >= 25) sendVideoMilestone(25);
+        if (percent >= 50) sendVideoMilestone(50);
+        if (percent >= 75) sendVideoMilestone(75);
+        if (percent >= 100) sendVideoMilestone(100);
+      }, 1000);
+    }
+
+    function sendVideoMilestone(percent) {
+      if (milestonesSent[percent]) return;
+
+      milestonesSent[percent] = true;
+
+      sendEvent("video_" + percent + "_percent", {
+        percentual_video: percent
+      });
+    }
+
+    const youtubeApi = document.createElement("script");
+    youtubeApi.src = "https://www.youtube.com/iframe_api";
+    document.head.appendChild(youtubeApi);
+  })();
+</script>
