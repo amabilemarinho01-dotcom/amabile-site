@@ -1,0 +1,3206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Consultoria de Amamentação Online | Amábile Marinho</title>
+
+  <meta
+    name="description"
+    content="Consultoria de amamentação online com atendimento individual e orientação personalizada para você e seu bebê, sem precisar sair de casa."
+  >
+
+  <link
+    rel="canonical"
+    href="https://amabilemarinho.com.br/consultoria-amamentacao"
+  >
+
+  <link rel="icon" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/favicon.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+
+  <meta
+    property="og:title"
+    content="Consultoria de Amamentação Online | Amábile Marinho"
+  >
+
+  <meta
+    property="og:description"
+    content="Orientação individual e personalizada sobre amamentação, com atendimento online no conforto da sua casa."
+  >
+
+  <meta
+    property="og:url"
+    content="https://amabilemarinho.com.br/consultoria-amamentacao"
+  >
+
+  <meta
+    property="og:image"
+    content="https://amabilemarinho.com.br/assets/amabile_gravacao.webp"
+  >
+
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){
+      w[l]=w[l]||[];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event:'gtm.js'
+      });
+
+      var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),
+          dl=l!='dataLayer'?'&l='+l:'';
+
+      j.async=true;
+      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+      f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-WZLSB55C');
+  </script>
+  <!-- End Google Tag Manager -->
+
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Consultoria de Amamentação Online",
+    "description": "Atendimento individual online com orientação personalizada sobre amamentação.",
+    "url": "https://amabilemarinho.com.br/consultoria-amamentacao",
+    "provider": {
+      "@type": "Person",
+      "name": "Amábile Marinho",
+      "url": "https://amabilemarinho.com.br"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Brasil"
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://amabilemarinho.com.br/consultoria-amamentacao",
+      "serviceLocation": {
+        "@type": "VirtualLocation",
+        "url": "https://amabilemarinho.com.br/consultoria-amamentacao"
+      }
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Consulta Essencial",
+        "price": "347",
+        "priceCurrency": "BRL"
+      },
+      {
+        "@type": "Offer",
+        "name": "Acompanhamento",
+        "price": "497",
+        "priceCurrency": "BRL"
+      },
+      {
+        "@type": "Offer",
+        "name": "Acompanhamento Completo",
+        "price": "647",
+        "priceCurrency": "BRL"
+      }
+    ]
+  }
+  </script>
+
+
+  <style>
+
+    :root {
+      --bg: #fffaf8;
+      --surface: #ffffff;
+      --surface-soft: #fff4f1;
+
+      --primary: #a64f61;
+      --primary-dark: #863b4c;
+      --primary-soft: #f7e4e7;
+
+      --text: #322a2c;
+      --text-soft: #665b5e;
+      --text-light: #85787b;
+
+      --border: #eadeda;
+      --success: #527a63;
+
+      --shadow-sm: 0 8px 24px rgba(73, 44, 50, .07);
+      --shadow-md: 0 16px 45px rgba(73, 44, 50, .11);
+
+      --radius-sm: 14px;
+      --radius-md: 22px;
+      --radius-lg: 30px;
+
+      --container: 1160px;
+    }
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+    body {
+      margin: 0;
+
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      color: var(--text);
+      background: var(--bg);
+
+      line-height: 1.6;
+
+      -webkit-font-smoothing: antialiased;
+    }
+
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+
+    button,
+    a {
+      font: inherit;
+    }
+
+
+    a {
+      color: inherit;
+    }
+
+
+    .container {
+      width: min(calc(100% - 40px), var(--container));
+      margin: 0 auto;
+    }
+
+
+    .section {
+      padding: 90px 0;
+    }
+
+
+    .section-soft {
+      background: var(--surface-soft);
+    }
+
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+
+      margin-bottom: 15px;
+
+      padding: 7px 13px;
+
+      border-radius: 999px;
+
+      background: var(--primary-soft);
+      color: var(--primary-dark);
+
+      font-size: .82rem;
+      font-weight: 800;
+
+      letter-spacing: .03em;
+      text-transform: uppercase;
+    }
+
+
+    .section-heading {
+      max-width: 760px;
+      margin: 0 auto 52px;
+      text-align: center;
+    }
+
+
+    .section-heading h2 {
+      margin: 0 0 15px;
+
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.12;
+      letter-spacing: -.035em;
+    }
+
+
+    .section-heading p {
+      margin: 0;
+
+      color: var(--text-soft);
+
+      font-size: 1.08rem;
+    }
+
+
+    /* =========================================================
+       HEADER
+       ========================================================= */
+
+    .site-header {
+      position: relative;
+      z-index: 20;
+
+      background: rgba(255, 250, 248, .96);
+
+      border-bottom: 1px solid rgba(234, 222, 218, .8);
+    }
+
+
+    .header-inner {
+      min-height: 76px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      gap: 20px;
+    }
+
+
+    .brand {
+      text-decoration: none;
+
+      font-size: 1.25rem;
+      font-weight: 800;
+
+      letter-spacing: -.025em;
+    }
+
+
+    .brand span {
+      color: var(--primary);
+    }
+
+
+    .header-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      min-height: 44px;
+
+      padding: 10px 20px;
+
+      border-radius: 999px;
+
+      background: var(--primary);
+      color: #fff;
+
+      text-decoration: none;
+      font-weight: 750;
+
+      transition: .2s ease;
+    }
+
+
+    .header-cta:hover {
+      background: var(--primary-dark);
+      transform: translateY(-1px);
+    }
+
+
+    /* =========================================================
+       BUTTONS
+       ========================================================= */
+
+    .btn {
+      cursor: pointer;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+
+      min-height: 54px;
+
+      padding: 14px 25px;
+
+      border: 0;
+      border-radius: 999px;
+
+      text-decoration: none;
+      font-weight: 800;
+
+      transition:
+        transform .2s ease,
+        background .2s ease,
+        box-shadow .2s ease;
+    }
+
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+
+      box-shadow:
+        0 12px 28px rgba(166, 79, 97, .22);
+    }
+
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+
+    .btn-secondary {
+      background: #fff;
+      color: var(--text);
+
+      border: 1px solid var(--border);
+    }
+
+
+    .btn-secondary:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+    }
+
+
+    /* =========================================================
+       HERO
+       ========================================================= */
+
+    .hero {
+      overflow: hidden;
+
+      padding: 72px 0 82px;
+
+      background:
+        radial-gradient(
+          circle at 90% 20%,
+          rgba(215, 167, 157, .18),
+          transparent 30%
+        ),
+        linear-gradient(
+          180deg,
+          #fffaf8 0%,
+          #fff7f4 100%
+        );
+    }
+
+
+    .hero-grid {
+      display: grid;
+
+      grid-template-columns: 1.04fr .96fr;
+
+      gap: 72px;
+
+      align-items: center;
+    }
+
+
+    .hero h1 {
+      margin: 0 0 20px;
+
+      font-size: clamp(2.7rem, 6vw, 4.75rem);
+      line-height: .99;
+
+      letter-spacing: -.055em;
+    }
+
+
+    .hero h1 strong {
+      color: var(--primary);
+      font-weight: inherit;
+    }
+
+
+    .hero-lead {
+      max-width: 650px;
+
+      margin: 0 0 27px;
+
+      color: var(--text-soft);
+
+      font-size: clamp(1.07rem, 2vw, 1.25rem);
+      line-height: 1.7;
+    }
+
+
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      gap: 13px;
+
+      margin-bottom: 28px;
+    }
+
+
+    .hero-trust {
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 13px 22px;
+
+      color: var(--text-soft);
+
+      font-size: .93rem;
+    }
+
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+
+      gap: 7px;
+    }
+
+
+    .trust-check {
+      color: var(--success);
+      font-weight: 900;
+    }
+
+
+    .hero-photo-wrap {
+      position: relative;
+
+      max-width: 500px;
+
+      margin-left: auto;
+    }
+
+
+    .hero-photo-card {
+      overflow: hidden;
+
+      background: #fff;
+
+      border-radius: var(--radius-lg);
+
+      box-shadow: var(--shadow-md);
+    }
+
+
+    .hero-photo {
+      width: 100%;
+
+      aspect-ratio: 4 / 5;
+
+      object-fit: cover;
+      object-position: center;
+    }
+
+
+    .hero-floating-card {
+      position: absolute;
+
+      left: -36px;
+      bottom: 30px;
+
+      max-width: 250px;
+
+      padding: 17px 19px;
+
+      background: rgba(255,255,255,.97);
+
+      border: 1px solid var(--border);
+      border-radius: 18px;
+
+      box-shadow: var(--shadow-md);
+    }
+
+
+    .hero-floating-card strong {
+      display: block;
+
+      margin-bottom: 4px;
+
+      font-size: .98rem;
+    }
+
+
+    .hero-floating-card span {
+      display: block;
+
+      color: var(--text-soft);
+
+      font-size: .86rem;
+      line-height: 1.45;
+    }
+
+
+    /* =========================================================
+       PAINS
+       ========================================================= */
+
+    .pain-grid {
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr);
+
+      gap: 15px;
+
+      max-width: 940px;
+
+      margin: 0 auto;
+    }
+
+
+    .pain-card {
+      display: flex;
+
+      align-items: flex-start;
+
+      gap: 14px;
+
+      padding: 20px 22px;
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+    }
+
+
+    .pain-icon {
+      flex: 0 0 36px;
+
+      width: 36px;
+      height: 36px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 50%;
+
+      background: var(--primary-soft);
+      color: var(--primary-dark);
+
+      font-weight: 900;
+    }
+
+
+    .pain-card p {
+      margin: 0;
+      color: var(--text-soft);
+    }
+
+
+    /* =========================================================
+       STEPS
+       ========================================================= */
+
+    .steps {
+      display: grid;
+
+      grid-template-columns: repeat(4, 1fr);
+
+      gap: 20px;
+    }
+
+
+    .step {
+      padding: 30px 24px;
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+
+      box-shadow: var(--shadow-sm);
+    }
+
+
+    .step-number {
+      width: 42px;
+      height: 42px;
+
+      display: grid;
+      place-items: center;
+
+      margin-bottom: 20px;
+
+      border-radius: 50%;
+
+      background: var(--primary);
+      color: #fff;
+
+      font-weight: 900;
+    }
+
+
+    .step h3 {
+      margin: 0 0 9px;
+
+      font-size: 1.1rem;
+    }
+
+
+    .step p {
+      margin: 0;
+
+      color: var(--text-soft);
+
+      font-size: .95rem;
+    }
+
+
+    /* =========================================================
+       ABOUT
+       ========================================================= */
+
+    .about-grid {
+      display: grid;
+
+      grid-template-columns: .8fr 1.2fr;
+
+      gap: 65px;
+
+      align-items: center;
+    }
+
+
+    .about-photo {
+      overflow: hidden;
+
+      border-radius: var(--radius-lg);
+
+      box-shadow: var(--shadow-md);
+    }
+
+
+    .about-photo img {
+      width: 100%;
+
+      aspect-ratio: 4 / 5;
+
+      object-fit: cover;
+    }
+
+
+    .about-copy h2 {
+      margin: 0 0 18px;
+
+      font-size: clamp(2rem, 4vw, 3.15rem);
+      line-height: 1.08;
+
+      letter-spacing: -.04em;
+    }
+
+
+    .about-copy p {
+      color: var(--text-soft);
+
+      font-size: 1.05rem;
+    }
+
+
+    /* =========================================================
+       INCLUDED
+       ========================================================= */
+
+    .included-grid {
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      gap: 14px;
+
+      max-width: 960px;
+
+      margin: 0 auto;
+    }
+
+
+    .included-item {
+      display: flex;
+
+      gap: 11px;
+
+      padding: 17px 18px;
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+      border-radius: 14px;
+
+      color: var(--text-soft);
+    }
+
+
+    .included-item span:first-child {
+      color: var(--success);
+
+      font-weight: 900;
+    }
+
+
+    /* =========================================================
+       PRICING
+       ========================================================= */
+
+    #pacotes {
+      scroll-margin-top: 20px;
+    }
+
+
+    .pricing-grid {
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      gap: 23px;
+
+      align-items: stretch;
+    }
+
+
+    .pricing-card {
+      position: relative;
+
+      display: flex;
+      flex-direction: column;
+
+      padding: 32px 28px;
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+
+      box-shadow: var(--shadow-sm);
+    }
+
+
+    .pricing-card.featured {
+      border: 2px solid var(--primary);
+
+      box-shadow: var(--shadow-md);
+
+      transform: translateY(-8px);
+    }
+
+
+    .badge {
+      position: absolute;
+
+      top: -14px;
+      left: 50%;
+
+      transform: translateX(-50%);
+
+      white-space: nowrap;
+
+      padding: 7px 15px;
+
+      border-radius: 999px;
+
+      background: var(--primary);
+      color: #fff;
+
+      font-size: .78rem;
+      font-weight: 850;
+
+      letter-spacing: .025em;
+
+      text-transform: uppercase;
+    }
+
+
+    .plan-name {
+      margin: 0 0 8px;
+
+      font-size: 1.28rem;
+    }
+
+
+    .plan-description {
+      min-height: 75px;
+
+      margin: 0 0 22px;
+
+      color: var(--text-soft);
+
+      font-size: .93rem;
+    }
+
+
+    .price {
+      display: flex;
+
+      align-items: flex-start;
+
+      gap: 3px;
+
+      margin-bottom: 5px;
+    }
+
+
+    .price-currency {
+      margin-top: 9px;
+
+      color: var(--text-soft);
+
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+
+    .price-number {
+      font-size: 3rem;
+      line-height: 1;
+
+      font-weight: 900;
+
+      letter-spacing: -.055em;
+    }
+
+
+    .price-note {
+      margin-bottom: 24px;
+
+      color: var(--text-light);
+
+      font-size: .84rem;
+    }
+
+
+    .plan-features {
+      list-style: none;
+
+      margin: 0 0 28px;
+      padding: 0;
+
+      display: flex;
+      flex-direction: column;
+
+      gap: 12px;
+
+      flex: 1;
+    }
+
+
+    .plan-features li {
+      display: flex;
+
+      align-items: flex-start;
+
+      gap: 9px;
+
+      color: var(--text-soft);
+
+      font-size: .94rem;
+    }
+
+
+    .feature-check {
+      color: var(--success);
+
+      font-weight: 900;
+    }
+
+
+    .plan-button {
+      width: 100%;
+    }
+
+
+    .whatsapp-note {
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      gap: 7px;
+
+      margin-top: 14px;
+
+      color: var(--text-light);
+
+      font-size: .8rem;
+    }
+
+
+    .pricing-note {
+      max-width: 720px;
+
+      margin: 30px auto 0;
+
+      text-align: center;
+
+      color: var(--text-light);
+
+      font-size: .88rem;
+    }
+
+
+    /* =========================================================
+       TESTIMONIALS
+       ========================================================= */
+
+    .testimonials-grid {
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      gap: 20px;
+    }
+
+
+    .testimonial-card {
+      padding: 25px;
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+
+      box-shadow: var(--shadow-sm);
+    }
+
+
+    .testimonial-head {
+      display: flex;
+
+      align-items: center;
+
+      gap: 12px;
+
+      margin-bottom: 18px;
+    }
+
+
+    .testimonial-avatar-fallback {
+      width: 48px;
+      height: 48px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 50%;
+
+      background: var(--primary-soft);
+      color: var(--primary-dark);
+
+      font-weight: 850;
+    }
+
+
+    .testimonial-person strong,
+    .testimonial-person span {
+      display: block;
+    }
+
+
+    .testimonial-person span {
+      color: var(--text-light);
+
+      font-size: .78rem;
+    }
+
+
+    .testimonial-text {
+      margin: 0;
+
+      color: var(--text-soft);
+
+      font-size: .98rem;
+      line-height: 1.7;
+    }
+
+
+    .testimonial-source {
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 5px;
+
+      margin-top: 17px;
+
+      color: var(--success);
+
+      font-size: .78rem;
+      font-weight: 750;
+    }
+
+
+    /* =========================================================
+       FAQ
+       ========================================================= */
+
+    .faq {
+      max-width: 850px;
+
+      margin: 0 auto;
+    }
+
+
+    .faq details {
+      overflow: hidden;
+
+      margin-bottom: 12px;
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+      border-radius: 15px;
+    }
+
+
+    .faq summary {
+      cursor: pointer;
+
+      list-style: none;
+
+      position: relative;
+
+      padding: 20px 55px 20px 21px;
+
+      font-weight: 780;
+    }
+
+
+    .faq summary::-webkit-details-marker {
+      display: none;
+    }
+
+
+    .faq summary::after {
+      content: "+";
+
+      position: absolute;
+
+      right: 22px;
+      top: 50%;
+
+      transform: translateY(-50%);
+
+      color: var(--primary);
+
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+
+    .faq details[open] summary::after {
+      content: "−";
+    }
+
+
+    .faq-answer {
+      padding: 0 21px 21px;
+
+      color: var(--text-soft);
+    }
+
+
+    .faq-answer p {
+      margin: 0;
+    }
+
+
+    /* =========================================================
+       HEALTH NOTE
+       ========================================================= */
+
+    .health-note {
+      max-width: 830px;
+
+      margin: 35px auto 0;
+
+      padding: 18px 21px;
+
+      background: rgba(255,255,255,.7);
+
+      border: 1px solid var(--border);
+      border-radius: 14px;
+
+      color: var(--text-light);
+
+      font-size: .82rem;
+      line-height: 1.55;
+    }
+
+
+    /* =========================================================
+       FINAL CTA
+       ========================================================= */
+
+    .final-cta {
+      padding: 90px 0;
+    }
+
+
+    .final-card {
+      overflow: hidden;
+
+      max-width: 980px;
+
+      margin: 0 auto;
+
+      padding: 65px 55px;
+
+      text-align: center;
+
+      color: #fff;
+
+      background:
+        radial-gradient(
+          circle at 15% 15%,
+          rgba(255,255,255,.14),
+          transparent 30%
+        ),
+        var(--primary);
+
+      border-radius: var(--radius-lg);
+    }
+
+
+    .final-card h2 {
+      max-width: 720px;
+
+      margin: 0 auto 16px;
+
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1.08;
+
+      letter-spacing: -.04em;
+    }
+
+
+    .final-card p {
+      max-width: 670px;
+
+      margin: 0 auto 27px;
+
+      color: rgba(255,255,255,.88);
+
+      font-size: 1.05rem;
+    }
+
+
+    .final-card .btn {
+      background: #fff;
+      color: var(--primary-dark);
+    }
+
+
+    /* =========================================================
+       FOOTER
+       ========================================================= */
+
+    footer {
+      padding: 38px 0 100px;
+
+      background: #fff;
+
+      border-top: 1px solid var(--border);
+    }
+
+
+    .footer-inner {
+      display: flex;
+
+      justify-content: space-between;
+      align-items: flex-start;
+
+      gap: 30px;
+    }
+
+
+    .footer-brand strong {
+      display: block;
+
+      margin-bottom: 6px;
+    }
+
+
+    .footer-brand p {
+      margin: 0;
+
+      color: var(--text-light);
+
+      font-size: .84rem;
+    }
+
+
+    .footer-links {
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 17px;
+    }
+
+
+    .footer-links a {
+      color: var(--text-soft);
+
+      text-decoration: none;
+
+      font-size: .84rem;
+    }
+
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+
+    /* =========================================================
+       MOBILE STICKY CTA
+       ========================================================= */
+
+    .mobile-sticky {
+      display: none;
+
+      position: fixed;
+      z-index: 90;
+
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      padding:
+        10px
+        15px
+        calc(10px + env(safe-area-inset-bottom));
+
+      background: rgba(255,255,255,.96);
+
+      border-top: 1px solid var(--border);
+
+      backdrop-filter: blur(12px);
+    }
+
+
+    .mobile-sticky .btn {
+      width: 100%;
+
+      min-height: 50px;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+       ========================================================= */
+
+    @media (max-width: 980px) {
+
+      .hero-grid,
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .hero-grid {
+        gap: 50px;
+      }
+
+
+      .hero-copy {
+        text-align: center;
+      }
+
+
+      .hero-lead {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+      .hero-actions,
+      .hero-trust {
+        justify-content: center;
+      }
+
+
+      .hero-photo-wrap {
+        width: min(100%, 480px);
+
+        margin: 0 auto;
+      }
+
+
+      .hero-floating-card {
+        left: 18px;
+      }
+
+
+      .about-grid {
+        max-width: 760px;
+
+        margin: 0 auto;
+      }
+
+
+      .about-photo {
+        max-width: 440px;
+
+        margin: 0 auto;
+      }
+
+
+      .about-copy {
+        text-align: center;
+      }
+
+
+      .steps {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+
+      .pricing-grid {
+        grid-template-columns: 1fr;
+
+        max-width: 650px;
+
+        margin: 0 auto;
+      }
+
+
+      .pricing-card.featured {
+        transform: none;
+      }
+
+
+      .plan-description {
+        min-height: auto;
+      }
+
+
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+
+        max-width: 650px;
+
+        margin: 0 auto;
+      }
+
+    }
+
+
+    @media (max-width: 720px) {
+
+      .container {
+        width: min(calc(100% - 28px), var(--container));
+      }
+
+
+      .section {
+        padding: 68px 0;
+      }
+
+
+      .site-header .header-cta {
+        display: none;
+      }
+
+
+      .header-inner {
+        min-height: 67px;
+      }
+
+
+      .hero {
+        padding: 52px 0 65px;
+      }
+
+
+      .hero h1 {
+        font-size: clamp(2.45rem, 12vw, 3.5rem);
+      }
+
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+
+      .hero-trust {
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        width: fit-content;
+
+        margin: 0 auto;
+      }
+
+
+      .hero-floating-card {
+        position: relative;
+
+        left: auto;
+        bottom: auto;
+
+        max-width: none;
+
+        margin: -20px 16px 0;
+      }
+
+
+      .pain-grid,
+      .steps,
+      .included-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+      .section-heading {
+        margin-bottom: 36px;
+      }
+
+
+      .final-card {
+        padding: 48px 23px;
+
+        border-radius: 24px;
+      }
+
+
+      .footer-inner {
+        flex-direction: column;
+      }
+
+
+      .mobile-sticky {
+        display: block;
+      }
+
+
+      footer {
+        padding-bottom: 110px;
+      }
+
+    }
+
+
+    @media (prefers-reduced-motion: reduce) {
+
+      html {
+        scroll-behavior: auto;
+      }
+
+
+      * {
+        transition: none !important;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-WZLSB55C"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden"
+    ></iframe>
+
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+  <!-- =========================================================
+       HEADER
+       Sem menu tradicional.
+       ========================================================= -->
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <a
+        href="https://amabilemarinho.com.br"
+        class="brand"
+        aria-label="Amábile Marinho"
+      >
+        Amábile <span>Marinho</span>
+      </a>
+
+
+      <a
+        href="#pacotes"
+        class="header-cta"
+        data-track="header_ver_atendimentos"
+      >
+        Ver atendimentos
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+
+    <section class="hero">
+
+      <div class="container hero-grid">
+
+
+        <div class="hero-copy">
+
+          <span class="eyebrow">
+            Atendimento individual online
+          </span>
+
+
+          <h1>
+            Consultoria de
+            <strong>Amamentação Online</strong>
+          </h1>
+
+
+          <p class="hero-lead">
+
+            Receba orientação individual para entender as dificuldades
+            que você está vivendo na amamentação e encontrar caminhos
+            mais tranquilos para você e seu bebê —
+            sem precisar sair de casa.
+
+          </p>
+
+
+          <div class="hero-actions">
+
+            <a
+              href="#pacotes"
+              class="btn btn-primary"
+              data-track="hero_escolher_atendimento"
+            >
+              Escolher meu atendimento
+            </a>
+
+
+            <a
+              href="#como-funciona"
+              class="btn btn-secondary"
+              data-track="hero_como_funciona"
+            >
+              Como funciona
+            </a>
+
+          </div>
+
+
+          <div class="hero-trust">
+
+            <span class="trust-item">
+              <span class="trust-check">✓</span>
+              Atendimento individual
+            </span>
+
+
+            <span class="trust-item">
+              <span class="trust-check">✓</span>
+              Online para todo o Brasil
+            </span>
+
+
+            <span class="trust-item">
+              <span class="trust-check">✓</span>
+              Orientação personalizada
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-photo-wrap">
+
+          <div class="hero-photo-card">
+
+            <img
+              src="/assets/amabile_gravacao.webp"
+              alt="Amábile Marinho"
+              class="hero-photo"
+              width="800"
+              height="1000"
+              loading="eager"
+            >
+
+          </div>
+
+
+          <div class="hero-floating-card">
+
+            <strong>
+              Você não precisa tentar descobrir tudo sozinha.
+            </strong>
+
+            <span>
+              O atendimento é feito por videochamada,
+              de forma individual e acolhedora.
+            </span>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         IDENTIFICAÇÃO
+         ========================================================= -->
+
+    <section class="section">
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            Talvez você esteja vivendo isso agora
+          </span>
+
+
+          <h2>
+            Quando a amamentação não está acontecendo
+            como você imaginava
+          </h2>
+
+
+          <p>
+
+            Cada mãe e cada bebê vivem uma experiência diferente.
+            A consultoria permite olhar para o seu momento
+            de forma individual.
+
+          </p>
+
+        </div>
+
+
+        <div class="pain-grid">
+
+
+          <div class="pain-card">
+
+            <div class="pain-icon">✓</div>
+
+            <p>
+              Seu bebê tem dificuldade para pegar
+              ou permanecer no peito.
+            </p>
+
+          </div>
+
+
+          <div class="pain-card">
+
+            <div class="pain-icon">✓</div>
+
+            <p>
+              Você sente dor ou desconforto
+              durante as mamadas.
+            </p>
+
+          </div>
+
+
+          <div class="pain-card">
+
+            <div class="pain-icon">✓</div>
+
+            <p>
+              Você não sabe se a pega e o posicionamento
+              estão adequados.
+            </p>
+
+          </div>
+
+
+          <div class="pain-card">
+
+            <div class="pain-icon">✓</div>
+
+            <p>
+              O bebê pega, larga o peito e parece ficar
+              irritado durante a mamada.
+            </p>
+
+          </div>
+
+
+          <div class="pain-card">
+
+            <div class="pain-icon">✓</div>
+
+            <p>
+              Você está insegura sobre a produção de leite
+              ou sobre como o bebê está mamando.
+            </p>
+
+          </div>
+
+
+          <div class="pain-card">
+
+            <div class="pain-icon">✓</div>
+
+            <p>
+              Você recebeu muitas orientações diferentes
+              e não sabe mais qual caminho seguir.
+            </p>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         COMO FUNCIONA
+         ========================================================= -->
+
+    <section
+      class="section section-soft"
+      id="como-funciona"
+    >
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            Simples e sem sair de casa
+          </span>
+
+
+          <h2>
+            Como funciona a consultoria online?
+          </h2>
+
+
+          <p>
+
+            Você escolhe a opção de atendimento,
+            fala conosco pelo WhatsApp para combinar o melhor horário
+            e recebe uma orientação individual por videochamada.
+
+          </p>
+
+        </div>
+
+
+        <div class="steps">
+
+
+          <article class="step">
+
+            <div class="step-number">
+              1
+            </div>
+
+            <h3>
+              Escolha seu atendimento
+            </h3>
+
+            <p>
+
+              Compare as opções e escolha aquela que combina
+              com o nível de acompanhamento que você deseja.
+
+            </p>
+
+          </article>
+
+
+          <article class="step">
+
+            <div class="step-number">
+              2
+            </div>
+
+            <h3>
+              Fale conosco pelo WhatsApp
+            </h3>
+
+            <p>
+
+              Depois de escolher seu atendimento,
+              você será direcionada ao WhatsApp para combinarmos
+              um horário adequado para você.
+
+            </p>
+
+          </article>
+
+
+          <article class="step">
+
+            <div class="step-number">
+              3
+            </div>
+
+            <h3>
+              Conversamos por vídeo
+            </h3>
+
+            <p>
+
+              Você conta o que está acontecendo e,
+              dentro das possibilidades do atendimento online,
+              observamos juntas como estão acontecendo as mamadas.
+
+            </p>
+
+          </article>
+
+
+          <article class="step">
+
+            <div class="step-number">
+              4
+            </div>
+
+            <h3>
+              Receba orientação individual
+            </h3>
+
+            <p>
+
+              A partir do que foi relatado e observado,
+              você recebe orientações e próximos passos
+              adequados ao seu momento.
+
+            </p>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         SOBRE AMÁBILE
+         ========================================================= -->
+
+    <section class="section">
+
+      <div class="container about-grid">
+
+
+        <div class="about-photo">
+
+          <img
+            src="/assets/amabile_gravacao.webp"
+            alt="Amábile Marinho"
+            width="800"
+            height="1000"
+            loading="lazy"
+          >
+
+        </div>
+
+
+        <div class="about-copy">
+
+          <span class="eyebrow">
+            Quem vai acompanhar você
+          </span>
+
+
+          <h2>
+            Olá, eu sou a Amábile.
+          </h2>
+
+
+          <p>
+
+            Meu objetivo neste atendimento é oferecer um espaço
+            acolhedor para entender o que você e seu bebê estão
+            vivendo durante a amamentação e orientar os próximos
+            passos de maneira individualizada.
+
+          </p>
+
+
+          <p>
+
+            Mais do que receber uma lista de informações genéricas,
+            você terá a oportunidade de conversar sobre a sua realidade,
+            suas dificuldades e as dúvidas que surgiram nesse momento.
+
+          </p>
+
+
+          <p>
+
+            A proposta é que você termine o atendimento com mais
+            clareza sobre o que está acontecendo e sobre os próximos
+            passos que podem ser adotados.
+
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         O QUE PODE SER ABORDADO
+         ========================================================= -->
+
+    <section class="section section-soft">
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            Atendimento individual
+          </span>
+
+
+          <h2>
+            O que podemos observar juntas durante a consulta
+          </h2>
+
+
+          <p>
+
+            O atendimento é direcionado às necessidades
+            apresentadas por você naquele momento.
+
+          </p>
+
+        </div>
+
+
+        <div class="included-grid">
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Como estão acontecendo as mamadas</span>
+          </div>
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Dificuldades relatadas pela mãe</span>
+          </div>
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Posicionamento durante a mamada</span>
+          </div>
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Aspectos relacionados à pega</span>
+          </div>
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Dor e desconfortos relatados</span>
+          </div>
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Rotina de mamadas</span>
+          </div>
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Dúvidas sobre produção de leite</span>
+          </div>
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Conforto durante a amamentação</span>
+          </div>
+
+
+          <div class="included-item">
+            <span>✓</span>
+            <span>Próximos passos após a consulta</span>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         PACOTES
+         ========================================================= -->
+
+    <section
+      class="section"
+      id="pacotes"
+    >
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            Escolha como deseja ser acompanhada
+          </span>
+
+
+          <h2>
+            Encontre o atendimento ideal para o seu momento
+          </h2>
+
+
+          <p>
+
+            Você pode começar com uma consulta individual
+            ou escolher uma opção com acompanhamento após o encontro.
+
+          </p>
+
+        </div>
+
+
+        <div class="pricing-grid">
+
+
+          <!-- =====================================================
+               PACOTE 1
+               ===================================================== -->
+
+          <article class="pricing-card">
+
+
+            <h3 class="plan-name">
+              Consulta Essencial
+            </h3>
+
+
+            <p class="plan-description">
+
+              Para quem precisa de uma orientação individual
+              sobre a dificuldade que está vivendo agora.
+
+            </p>
+
+
+            <div class="price">
+
+              <span class="price-currency">
+                R$
+              </span>
+
+              <span class="price-number">
+                347
+              </span>
+
+            </div>
+
+
+            <div class="price-note">
+              atendimento individual
+            </div>
+
+
+            <ul class="plan-features">
+
+              <li>
+                <span class="feature-check">✓</span>
+                Consulta online individual
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Aproximadamente 60–90 minutos
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Avaliação das dificuldades relatadas
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Orientações personalizadas
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Definição dos próximos passos
+              </li>
+
+            </ul>
+
+
+            <button
+              type="button"
+              class="btn btn-secondary plan-button js-whatsapp-package"
+              data-package-id="essencial"
+            >
+              Quero a Consulta Essencial
+            </button>
+
+
+            <div class="whatsapp-note">
+              Fale conosco e combine seu horário
+            </div>
+
+
+          </article>
+
+
+          <!-- =====================================================
+               PACOTE 2
+               ===================================================== -->
+
+          <article class="pricing-card featured">
+
+
+            <span class="badge">
+              Mais escolhido
+            </span>
+
+
+            <h3 class="plan-name">
+              Acompanhamento
+            </h3>
+
+
+            <p class="plan-description">
+
+              Para quem quer a consulta inicial e a segurança
+              de continuar acompanhada durante os primeiros ajustes.
+
+            </p>
+
+
+            <div class="price">
+
+              <span class="price-currency">
+                R$
+              </span>
+
+              <span class="price-number">
+                497
+              </span>
+
+            </div>
+
+
+            <div class="price-note">
+              consulta + acompanhamento
+            </div>
+
+
+            <ul class="plan-features">
+
+              <li>
+                <span class="feature-check">✓</span>
+                Tudo da Consulta Essencial
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Retorno online
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Acompanhamento pós-consulta
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Suporte pelo WhatsApp
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Ajustes conforme a evolução
+              </li>
+
+            </ul>
+
+
+            <button
+              type="button"
+              class="btn btn-primary plan-button js-whatsapp-package"
+              data-package-id="acompanhamento"
+            >
+              Quero este acompanhamento
+            </button>
+
+
+            <div class="whatsapp-note">
+              Fale conosco e combine seu horário
+            </div>
+
+
+          </article>
+
+
+          <!-- =====================================================
+               PACOTE 3
+               ===================================================== -->
+
+          <article class="pricing-card">
+
+
+            <h3 class="plan-name">
+              Acompanhamento Completo
+            </h3>
+
+
+            <p class="plan-description">
+
+              Para quem deseja permanecer acompanhada por mais tempo
+              durante os ajustes da amamentação.
+
+            </p>
+
+
+            <div class="price">
+
+              <span class="price-currency">
+                R$
+              </span>
+
+              <span class="price-number">
+                647
+              </span>
+
+            </div>
+
+
+            <div class="price-note">
+              acompanhamento ampliado
+            </div>
+
+
+            <ul class="plan-features">
+
+              <li>
+                <span class="feature-check">✓</span>
+                Tudo da Consulta Essencial
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Retorno online
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Acompanhamento ampliado
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Suporte pelo WhatsApp
+              </li>
+
+              <li>
+                <span class="feature-check">✓</span>
+                Revisão da evolução e das orientações
+              </li>
+
+            </ul>
+
+
+            <button
+              type="button"
+              class="btn btn-secondary plan-button js-whatsapp-package"
+              data-package-id="completo"
+            >
+              Quero o acompanhamento completo
+            </button>
+
+
+            <div class="whatsapp-note">
+              Fale conosco e combine seu horário
+            </div>
+
+
+          </article>
+
+
+        </div>
+
+
+        <p class="pricing-note">
+
+          Depois de escolher seu atendimento,
+          você será direcionada ao WhatsApp para tirar dúvidas
+          e combinar diretamente conosco o melhor horário.
+
+        </p>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         DEPOIMENTOS
+
+         A SEÇÃO ESTÁ OCULTA.
+
+         Quando tivermos os depoimentos reais,
+         retirar somente o atributo hidden.
+
+         Recomendo:
+         foto autorizada ou inicial +
+         nome/inicial +
+         transcrição real da mensagem.
+         ========================================================= -->
+
+    <section
+      class="section section-soft"
+      id="depoimentos"
+      hidden
+    >
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            Experiências reais
+          </span>
+
+
+          <h2>
+            O que outras mães dizem
+          </h2>
+
+
+          <p>
+
+            Relatos compartilhados por mulheres
+            que passaram pelo atendimento.
+
+          </p>
+
+        </div>
+
+
+        <div class="testimonials-grid">
+
+
+          <!-- DEPOIMENTO 1 -->
+
+          <article class="testimonial-card">
+
+            <div class="testimonial-head">
+
+              <div class="testimonial-avatar-fallback">
+                M
+              </div>
+
+              <div class="testimonial-person">
+
+                <strong>
+                  M.
+                </strong>
+
+                <span>
+                  Mãe atendida
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <p class="testimonial-text">
+
+              “INSERIR AQUI A TRANSCRIÇÃO EXATA
+              DA PRIMEIRA MENSAGEM REAL.”
+
+            </p>
+
+
+            <span class="testimonial-source">
+              ✓ Mensagem recebida no WhatsApp
+            </span>
+
+          </article>
+
+
+          <!-- DEPOIMENTO 2 -->
+
+          <article class="testimonial-card">
+
+            <div class="testimonial-head">
+
+              <div class="testimonial-avatar-fallback">
+                A
+              </div>
+
+              <div class="testimonial-person">
+
+                <strong>
+                  A.
+                </strong>
+
+                <span>
+                  Mãe atendida
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <p class="testimonial-text">
+
+              “INSERIR AQUI A TRANSCRIÇÃO EXATA
+              DA SEGUNDA MENSAGEM REAL.”
+
+            </p>
+
+
+            <span class="testimonial-source">
+              ✓ Mensagem recebida no WhatsApp
+            </span>
+
+          </article>
+
+
+          <!-- DEPOIMENTO 3 -->
+
+          <article class="testimonial-card">
+
+            <div class="testimonial-head">
+
+              <div class="testimonial-avatar-fallback">
+                J
+              </div>
+
+              <div class="testimonial-person">
+
+                <strong>
+                  J.
+                </strong>
+
+                <span>
+                  Mãe atendida
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <p class="testimonial-text">
+
+              “INSERIR AQUI A TRANSCRIÇÃO EXATA
+              DA TERCEIRA MENSAGEM REAL.”
+
+            </p>
+
+
+            <span class="testimonial-source">
+              ✓ Mensagem recebida no WhatsApp
+            </span>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         FAQ
+         ========================================================= -->
+
+    <section class="section">
+
+      <div class="container">
+
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            Dúvidas frequentes
+          </span>
+
+
+          <h2>
+            Antes de escolher seu atendimento
+          </h2>
+
+        </div>
+
+
+        <div class="faq">
+
+
+          <details>
+
+            <summary>
+              Como funciona uma consultoria de amamentação online?
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+
+                O atendimento acontece por videochamada.
+                Você explica o que está acontecendo e,
+                dentro das possibilidades do atendimento remoto,
+                são observados aspectos da mamada e discutidas
+                orientações relacionadas ao momento de você e do bebê.
+
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Quanto tempo dura a consulta?
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+
+                A consulta individual tem duração aproximada
+                de 60 a 90 minutos, podendo variar de acordo
+                com as necessidades do atendimento.
+
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Posso fazer a consulta de qualquer cidade?
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Sim. Como o atendimento é realizado online,
+                ele pode ser feito de qualquer lugar do Brasil,
+                desde que exista uma conexão adequada com a internet.
+
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Meu bebê precisa estar mamando durante a consulta?
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Sempre que possível, observar uma mamada pode ser útil.
+                As orientações sobre como se preparar para o encontro
+                podem ser combinadas previamente pelo WhatsApp.
+
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Qual é a diferença entre os três atendimentos?
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+
+                A Consulta Essencial é um encontro individual.
+                As opções de Acompanhamento acrescentam retorno
+                e suporte após a consulta, permitindo acompanhar
+                como você e seu bebê evoluem depois das primeiras
+                orientações.
+
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Como combinamos o horário do atendimento?
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Depois de escolher uma das opções de atendimento,
+                você será direcionada para o WhatsApp.
+                Por lá, combinamos diretamente com você
+                um horário adequado para o atendimento.
+
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Posso falar pelo WhatsApp antes de decidir?
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Sim. Ao clicar na opção de atendimento que mais chamou
+                sua atenção, você será direcionada ao WhatsApp.
+                Se ainda tiver alguma dúvida antes de contratar,
+                poderá conversar conosco por lá.
+
+              </p>
+
+            </div>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              A consultoria substitui avaliação médica ou pediátrica?
+            </summary>
+
+            <div class="faq-answer">
+
+              <p>
+
+                Não. A consultoria de amamentação não substitui
+                acompanhamento médico, pediátrico ou outros
+                atendimentos de saúde quando eles forem necessários.
+
+                Caso uma situação exija avaliação diferente daquela
+                possível em atendimento online, será importante
+                procurar o profissional ou serviço de saúde adequado.
+
+              </p>
+
+            </div>
+
+          </details>
+
+
+        </div>
+
+
+        <div class="health-note">
+
+          <strong>
+            Importante:
+          </strong>
+
+          este serviço oferece orientação relacionada à amamentação
+          dentro do escopo profissional da prestadora e das
+          possibilidades de um atendimento online.
+
+          Ele não substitui atendimento médico, pediátrico,
+          hospitalar ou presencial quando estes forem necessários.
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         CTA FINAL
+         ========================================================= -->
+
+    <section class="final-cta">
+
+      <div class="container">
+
+
+        <div class="final-card">
+
+
+          <h2>
+            Você não precisa tentar resolver todas essas dúvidas sozinha.
+          </h2>
+
+
+          <p>
+
+            Escolha a forma de acompanhamento que mais combina
+            com o momento que você e seu bebê estão vivendo
+            e fale conosco pelo WhatsApp.
+
+          </p>
+
+
+          <a
+            href="#pacotes"
+            class="btn"
+            data-track="final_escolher_atendimento"
+          >
+            Escolher meu atendimento
+          </a>
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+
+  <footer>
+
+    <div class="container footer-inner">
+
+
+      <div class="footer-brand">
+
+        <strong>
+          Amábile Marinho
+        </strong>
+
+        <p>
+          Conteúdo e orientação para gestação, parto e maternidade.
+        </p>
+
+      </div>
+
+
+      <nav
+        class="footer-links"
+        aria-label="Links institucionais"
+      >
+
+        <a href="/politica-de-privacidade">
+          Política de Privacidade
+        </a>
+
+
+        <a href="/termos-de-uso">
+          Termos de Uso
+        </a>
+
+
+        <a href="/contato">
+          Contato
+        </a>
+
+      </nav>
+
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================================================
+       CTA FIXO MOBILE
+       ========================================================= -->
+
+  <div class="mobile-sticky">
+
+    <a
+      href="#pacotes"
+      class="btn btn-primary"
+      data-track="mobile_sticky_ver_pacotes"
+    >
+      Ver opções de atendimento
+    </a>
+
+  </div>
+
+
+  <!-- =========================================================
+       JAVASCRIPT
+       ========================================================= -->
+
+  <script>
+
+    /* =========================================================
+       WHATSAPP
+
+       O número da Amábile ainda não foi informado.
+
+       Formato quando inserido:
+       55 + DDD + número
+       somente números.
+
+       Exemplo:
+       5567999999999
+       ========================================================= */
+
+    const WHATSAPP_NUMBER = 'wa.me/67998291425';
+
+
+    /* =========================================================
+       DADOS DOS PACOTES
+       ========================================================= */
+
+    const PACKAGE_DATA = {
+
+      essencial: {
+
+        name: 'Consulta Essencial',
+
+        price: 347
+
+      },
+
+
+      acompanhamento: {
+
+        name: 'Acompanhamento',
+
+        price: 497
+
+      },
+
+
+      completo: {
+
+        name: 'Acompanhamento Completo',
+
+        price: 647
+
+      }
+
+    };
+
+
+    /* =========================================================
+       DATALAYER
+       ========================================================= */
+
+    window.dataLayer =
+      window.dataLayer || [];
+
+
+    function pushEvent(
+      eventName,
+      data = {}
+    ) {
+
+      window.dataLayer.push({
+
+        event: eventName,
+
+        ...data
+
+      });
+
+    }
+
+
+    /* =========================================================
+       CLIQUE NOS PACOTES
+       ========================================================= */
+
+    document
+      .querySelectorAll('.js-whatsapp-package')
+      .forEach(button => {
+
+
+        button.addEventListener(
+          'click',
+          () => {
+
+
+            const packageId =
+              button.dataset.packageId;
+
+
+            const packageData =
+              PACKAGE_DATA[packageId];
+
+
+            if (!packageData) {
+
+              return;
+
+            }
+
+
+            /* -----------------------------------------------
+               Evento: pacote escolhido
+               ----------------------------------------------- */
+
+            pushEvent(
+              'package_select',
+              {
+
+                package_id:
+                  packageId,
+
+                package_name:
+                  packageData.name,
+
+                package_price:
+                  packageData.price,
+
+                currency:
+                  'BRL'
+
+              }
+            );
+
+
+            /* -----------------------------------------------
+               Guarda pacote escolhido durante a sessão
+               ----------------------------------------------- */
+
+            sessionStorage.setItem(
+              'selected_package',
+              packageId
+            );
+
+
+            /* -----------------------------------------------
+               Verifica número
+               ----------------------------------------------- */
+
+            if (!WHATSAPP_NUMBER) {
+
+              alert(
+                'O WhatsApp para atendimento ainda está sendo configurado.'
+              );
+
+              return;
+
+            }
+
+
+            /* -----------------------------------------------
+               Mensagem automática
+               ----------------------------------------------- */
+
+            const message =
+
+              `Olá! Vim pelo site da Amábile e gostaria de conversar sobre a consultoria de amamentação.\n\n` +
+
+              `Tenho interesse no atendimento:\n` +
+
+              `*${packageData.name} — R$ ${packageData.price}*\n\n` +
+
+              `Gostaria de saber sobre a disponibilidade e combinar um horário.`;
+
+
+            /* -----------------------------------------------
+               Evento: início do WhatsApp
+               ----------------------------------------------- */
+
+            pushEvent(
+              'whatsapp_start',
+              {
+
+                package_id:
+                  packageId,
+
+                package_name:
+                  packageData.name,
+
+                package_price:
+                  packageData.price,
+
+                currency:
+                  'BRL'
+
+              }
+            );
+
+
+            /* -----------------------------------------------
+               URL
+               ----------------------------------------------- */
+
+            const whatsappURL =
+
+              `https://wa.me/${WHATSAPP_NUMBER}` +
+
+              `?text=${encodeURIComponent(message)}`;
+
+
+            /* -----------------------------------------------
+               Abre WhatsApp
+               ----------------------------------------------- */
+
+            window.open(
+              whatsappURL,
+              '_blank',
+              'noopener,noreferrer'
+            );
+
+
+          }
+        );
+
+
+      });
+
+
+    /* =========================================================
+       RASTREAMENTO DOS CTAs INTERNOS
+       ========================================================= */
+
+    document
+      .querySelectorAll('[data-track]')
+      .forEach(element => {
+
+
+        element.addEventListener(
+          'click',
+          () => {
+
+
+            pushEvent(
+              'lp_cta_click',
+              {
+
+                cta_name:
+                  element.dataset.track
+
+              }
+            );
+
+
+          }
+        );
+
+
+      });
+
+
+    /* =========================================================
+       VISUALIZAÇÃO DA LP
+       ========================================================= */
+
+    pushEvent(
+      'consultoria_amamentacao_lp_view',
+      {
+
+        page_type:
+          'consultoria_amamentacao',
+
+        landing_intent:
+          'consultoria'
+
+      }
+    );
+
+
+  </script>
+
+
+</body>
+</html>
