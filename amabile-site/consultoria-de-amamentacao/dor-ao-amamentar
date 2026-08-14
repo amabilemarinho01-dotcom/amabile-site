@@ -3938,9 +3938,9 @@
 
             <p class="plan-description">
 
-              Para quem precisa de uma orientação individual
-              sobre a dor ou dificuldade
-              que está vivendo agora.
+              Para quem precisa entender o que está acontecendo
+              e receber orientação individual
+              para agir agora.
 
             </p>
 
@@ -4014,7 +4014,7 @@
                   ✓
                 </span>
 
-                Conversa sobre a dor e dificuldades relatadas
+                Avaliação da dor e das dificuldades relatadas
 
               </li>
 
@@ -4025,7 +4025,7 @@
                   ✓
                 </span>
 
-                Orientações individualizadas
+                Orientações personalizadas
 
               </li>
 
@@ -4036,7 +4036,7 @@
                   ✓
                 </span>
 
-                Organização dos próximos passos
+                Plano de próximos passos
 
               </li>
 
@@ -4096,9 +4096,8 @@
 
             <p class="plan-description">
 
-              Para quem deseja fazer a consulta
-              e continuar acompanhada
-              durante os primeiros ajustes.
+              Para quem quer colocar as orientações em prática
+              e ter ajuda durante os primeiros ajustes.
 
             </p>
 
@@ -4161,7 +4160,7 @@
                   ✓
                 </span>
 
-                Retorno online
+                1 retorno online
 
               </li>
 
@@ -4172,7 +4171,7 @@
                   ✓
                 </span>
 
-                Acompanhamento pós-consulta
+                7 dias de acompanhamento pelo WhatsApp
 
               </li>
 
@@ -4183,7 +4182,7 @@
                   ✓
                 </span>
 
-                Suporte pelo WhatsApp
+                Ajustes das orientações conforme a evolução
 
               </li>
 
@@ -4194,7 +4193,7 @@
                   ✓
                 </span>
 
-                Ajustes conforme a evolução
+                Revisão do que melhorou e do que ainda precisa de atenção
 
               </li>
 
@@ -4247,9 +4246,9 @@
 
             <p class="plan-description">
 
-              Para quem deseja permanecer acompanhada
-              por mais tempo durante os ajustes
-              da amamentação.
+              Para quem quer acompanhamento mais próximo
+              por um período maior durante
+              os ajustes da amamentação.
 
             </p>
 
@@ -4312,7 +4311,7 @@
                   ✓
                 </span>
 
-                Retorno online
+                2 retornos online
 
               </li>
 
@@ -4323,7 +4322,7 @@
                   ✓
                 </span>
 
-                Acompanhamento ampliado
+                21 dias de acompanhamento pelo WhatsApp
 
               </li>
 
@@ -4334,7 +4333,7 @@
                   ✓
                 </span>
 
-                Suporte pelo WhatsApp
+                Ajustes das orientações conforme cada etapa
 
               </li>
 
@@ -4345,7 +4344,18 @@
                   ✓
                 </span>
 
-                Revisão da evolução e das orientações
+                Revisões da evolução ao longo do período
+
+              </li>
+
+
+              <li>
+
+                <span class="feature-check">
+                  ✓
+                </span>
+
+                Acompanhamento até a consolidação dos próximos passos
 
               </li>
 
@@ -4805,12 +4815,55 @@
 
               <p>
 
-                A Consulta Essencial possui
+                A consulta inicial possui
                 duração aproximada de 60 a 90 minutos.
 
-                As opções de acompanhamento
-                incluem também recursos posteriores,
-                conforme o pacote escolhido.
+                No plano Acompanhamento,
+                você também recebe 1 retorno online
+                e 7 dias de acompanhamento pelo WhatsApp.
+
+                No Acompanhamento Completo,
+                são 2 retornos online
+                e 21 dias de acompanhamento pelo WhatsApp.
+
+              </p>
+
+
+            </div>
+
+
+          </details>
+
+
+
+          <details>
+
+
+            <summary>
+
+              Qual é a diferença entre os três atendimentos?
+
+            </summary>
+
+
+            <div class="faq-answer">
+
+
+              <p>
+
+                A Consulta Essencial é indicada para quem precisa
+                de uma avaliação individual, orientações personalizadas
+                e um plano de próximos passos em um único encontro.
+
+                O Acompanhamento inclui tudo da Consulta Essencial,
+                mais 1 retorno online e 7 dias de acompanhamento
+                pelo WhatsApp para revisar a evolução e ajustar
+                as orientações nos primeiros dias.
+
+                Já o Acompanhamento Completo inclui
+                2 retornos online e 21 dias de acompanhamento
+                pelo WhatsApp, permitindo revisões e ajustes
+                ao longo de um período maior.
 
               </p>
 
